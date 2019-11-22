@@ -1,0 +1,1130 @@
+Query         Bin_245_Bathyarchaeota
+Match_columns 202
+No_of_seqs    129 out of 1249
+Neff          8.19353
+Searched_HMMs 49365
+Date          Fri Nov  8 06:08:57 2019
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -o ../results/1842479.hhr -oa3m ../results/1842479.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1H2S_A SENSORY RHODOPSIN II, S 100.0 2.2E-38 4.4E-43  257.1  26.6  198    2-200     3-217 (225)
+  2 5ZIM_A Bacteriorhodopsin; prot 100.0   5E-38   1E-42  255.5  26.6  198    3-200     5-224 (228)
+  3 3AM6_C rhodopsin-2; seven tran 100.0 4.1E-38 8.3E-43  256.1  25.9  197    3-200     9-223 (229)
+  4 5AX0_A Rhodopsin I; PROTON TRA 100.0   9E-38 1.8E-42  256.5  26.4  198    2-200    18-237 (244)
+  5 5JJE_A sensory rhodopsin-2; se 100.0 1.4E-37 2.8E-42  256.0  26.6  197    3-200     3-216 (248)
+  6 4FBZ_A deltarhodopsin; 7 trans 100.0 2.2E-37 4.4E-42  253.7  26.6  198    3-200     8-228 (241)
+  7 6GYH_A Family A G protein-coup 100.0 4.1E-37 8.2E-42  251.4  26.4  199    3-202    10-229 (236)
+  8 4QI1_B Bacteriorhodopsin-I; Ba 100.0 3.5E-37   7E-42  255.6  26.1  198    3-200    16-236 (262)
+  9 2JAF_A HALORHODOPSIN; CHROMOPH 100.0 5.4E-37 1.1E-41  256.0  26.4  199    2-200    28-254 (274)
+ 10 4L35_A Cruxrhodopsin-3; protei 100.0 7.9E-37 1.6E-41  251.7  26.6  199    3-201     7-233 (250)
+ 11 1M0M_A BACTERIORHODOPSIN M1 IN 100.0   8E-37 1.6E-41  253.4  26.7  198    3-200    22-241 (262)
+ 12 1XIO_A ANABAENA SENSORY RHODOP 100.0 1.3E-36 2.5E-41  252.1  26.8  199    1-200     2-222 (261)
+ 13 5B0W_F Halorhodopsin; seven tr 100.0 1.4E-36 2.8E-41  255.5  26.7  201    2-202    33-270 (291)
+ 14 3WQJ_A Archaerhodopsin-2; 7 tr 100.0 1.5E-36   3E-41  251.4  26.3  198    3-200    19-239 (259)
+ 15 1C8S_A BACTERIORHODOPSIN MUTAN 100.0 4.4E-36   9E-41  239.1  25.0  183    3-194     5-196 (196)
+ 16 5JSI_A Nitrate/nitrite sensor  100.0 1.3E-35 2.5E-40  240.2  24.9  194    1-202     3-214 (220)
+ 17 5ZIH_A Sensory opsin A,Chrimso 100.0 1.4E-35 2.7E-40  254.2  25.8  194    3-200    91-308 (347)
+ 18 4JQ6_B Proteorhodopsin; retiny 100.0   2E-35 4.1E-40  241.3  24.9  195    2-202    10-227 (235)
+ 19 4XTL_A KR2; ion pump, membrane 100.0 3.5E-35 7.1E-40  246.6  24.5  201    2-202    27-269 (288)
+ 20 4KNF_E Blue-light absorbing pr 100.0   5E-35   1E-39  242.6  24.7  196    2-202    29-247 (261)
+ 21 4HYJ_B Rhodopsin; Seven-helica 100.0 6.5E-35 1.3E-39  241.4  25.3  199    1-200     9-237 (258)
+ 22 6EYU_C Bacteriorhodopsin; Reti 100.0 4.1E-35 8.4E-40  239.2  23.6  188    2-200    11-225 (232)
+ 23 6CSM_B GtACR1; rhodopsin, chan 100.0 1.9E-34 3.9E-39  241.0  24.8  196    3-200    28-247 (277)
+ 24 6JO0_A VirR; microbial type rh 100.0 2.9E-34 5.9E-39  234.2  25.1  187    3-200    18-230 (232)
+ 25 3DDL_B Xanthorhodopsin; rhodop 100.0 2.1E-34 4.2E-39  240.3  24.3  201    2-202    15-254 (273)
+ 26 5G28_A CHLORIDE PUMPING RHODOP 100.0 9.4E-34 1.9E-38  236.5  26.3  201    2-202    20-252 (275)
+ 27 6NWD_A Gll0198 protein; Proton 100.0 6.2E-34 1.3E-38  240.2  24.8  201    2-202    40-271 (298)
+ 28 5AZD_B Thermophilic rhodopsin; 100.0   2E-33 4.1E-38  233.8  25.1  201    2-202    14-247 (268)
+ 29 3UG9_A Archaeal-type opsin 1,  100.0 6.4E-32 1.3E-36  230.7  25.8  198    3-200    68-285 (333)
+ 30 1BCT_A BACTERIORHODOPSIN (FRAG  99.2   2E-13 4.1E-18   91.0   7.6   61  140-200     6-66  (69)
+ 31 1BHB_A BACTERIORHODOPSIN (PROT  98.4 1.6E-08 3.2E-13   67.7   7.5   57    3-59      9-70  (71)
+ 32 6IS6_A heliorhodopsin; alpha-h  97.6 0.00022 4.6E-09   59.2  18.6  169   30-198    72-254 (259)
+ 33 5ABB_Z PROTEIN TRANSLOCASE SUB  96.1   0.005   1E-07   40.8   7.0   50    2-51     10-63  (69)
+ 34 6OD7_I Portal protein; DNA-tra  28.5 1.3E+02  0.0026   28.9   4.0   35   35-76    133-167 (676)
+
+No 1
+>1H2S_A SENSORY RHODOPSIN II, SENSORY RHODOPSIN; MEMBRANE PROTEIN, MENBRANE PROTEIN COMPLEX; HET: RET, BOG; 1.93A {NATRONOMONAS PHARAONIS} SCOP: f.13.1.1; Related PDB entries: 1JGJ_A 
+Probab=100.00  E-value=2.2e-38  Score=257.15  Aligned_cols=198  Identities=22%  Similarity=0.344  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHhCCcceecCCCccccHHHHHHHHHHHH
+Q Bin_245_Bathya    2 LEMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFDGSGTLMVPSGELVYWTRWIFYAGSCS   77 (202)
+Q Consensus         2 ~~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~~~~~~~~~RY~~W~~TtP   77 (202)
+                      .++.++|++++.|.+++++|...+++.    ||.+.+.++++.+++++|+.|++|.+.... ++|++++.||+||++|||
+T Consensus         3 ~~~~~~w~~~~~m~~~~~~f~~~~~~~~~~~r~~~~~~~~i~~ia~~~Y~~m~~~~g~~~~-~~~~~~~~RYv~W~~TtP   81 (225)
+T 1H2S_A            3 GLTTLFWLGAIGMLVGTLAFAWAGRDAGSGERRYYVTLVGISGIAAVAYVVMALGVGWVPV-AERTVFAPRYIDWILTTP   81 (225)
+T ss_dssp             SHHHHHHHHHHHHHHHHHHHHHHTTTCCTTTHHHHHHHHHHHHHHHHHHHHHHTTCSEECC-TTSCEEHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHcCCCCCchHHHHHHHHHHHHHHHHHHHHHcCCCeeec-CceeecHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHhCccchHHHHHHHHHHHHHHHHHHHhC-------------CCHHH
+Q Bin_245_Bathya   78 LLMLEISTLMGKDKWMTVEIIASNIIVMLTGALASITEAASKWMFFVFSSIAFGYILYRLRE-------------GKTDK  144 (202)
+Q Consensus        78 lll~~l~~l~g~~~~~~~~~i~~~~~mi~~G~~~~~~~~~~~~~~~~~s~~~f~~~~~~l~~-------------~~~~~  144 (202)
+                      ++++.++.++|.++++....++.|.+|+.+|+.|+..+++.||.|+++|+++|+.+++.+.+             ++.++
+T Consensus        82 lll~~l~~l~~~~~~~~~~~i~~~~~mi~~g~~~~~~~~~~~~~~~~~s~~~~~~~~~~l~~~~~~~a~~~~~~~~~~~~  161 (225)
+T 1H2S_A           82 LIVYFLGLLAGLDSREFGIVITLNTVVMLAGFAGAMVPGIERYALFGMGAVAFLGLVYYLVGPMTESASQRSSGIKSLYV  161 (225)
+T ss_dssp             HHHHHHHHHHTCCHHHHHHHHHHHHHHHHHHHHHHHCCSTHHHHHHHHHHHHHHHHHHHHHTHHHHHHTTSCHHHHHHHH
+T ss_pred             HHHHHHHHHcCCCHHHHHHHHHHHHHHHHHHHHHHhCCcchHHHHHHHHHHHHHHHHHHHHhHHHHHHhcCChhHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  145 FLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       145 ~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                      .++.++.+.|..||++|++++.|.+.+|++.|+..++++|+++|++||++++..++
+T Consensus       162 ~l~~~~~v~W~~yPi~w~l~~~g~~~i~~~~~~~~~~~lD~~~K~~f~~~ll~~~~  217 (225)
+T 1H2S_A          162 RLRNLTVILWAIYPFIWLLGPPGVALLTPTVDVALIVYLDLVTKVGFGFIALDAAA  217 (225)
+T ss_dssp             HHHHHHHHHHTTHHHHHHHSTTTTCCSCHHHHHHHHHHHHCCCCCCHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHCccccCCCChhHHHHHHHHHHHhHHHHHHHHHHHHHH
+
+
+No 2
+>5ZIM_A Bacteriorhodopsin; proton pump, membrane protein, PROTON; HET: RET, L2P; 1.25A {Halobacterium salinarum}; Related PDB entries: 6RPH_A 4HWL_A 3VI0_A 6GA7_A 1R84_A 1KG9_A 1KGB_A 1KME_A 1KME_B 6RMK_A 1KG8_A 4X31_A 6RQP_A 6RNJ_A 5ZIL_A 4X32_A 5ZIN_A 1E0P_A 1S51_A 1S51_B 1F4Z_A 5J7A_A 1S52_A 1F50_A 1S52_B 1S53_A 1S53_B 1S54_A 1S54_B 4Y9H_A 3T45_C 3T45_A 3T45_B 6RQO_A 1C3W_A
+Probab=100.00  E-value=5e-38  Score=255.54  Aligned_cols=198  Identities=28%  Similarity=0.511  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHcccc-----chHHHHHHHHHHHHHHHHHHHHhCCcceecC---CCccccHHHHHHHHH
+Q Bin_245_Bathya    3 EMIIFIVGIAIFSGSSFMFLILKNRN-----QRMATINTIVSFVTVASYMLMFDGSGTLMVP---SGELVYWTRWIFYAG   74 (202)
+Q Consensus         3 ~~~~~w~~~~~~~~~~~~f~~~~~~~-----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~---~~~~~~~~RY~~W~~   74 (202)
+                      +..++|+++++|.+++++|...+++.     |+.+.++.+++.+++++|+.|++|.+...++   ++|++++.||+||++
+T Consensus         5 ~~~~~~~~~~~~~~~~~~f~~~~~~~~~~~~r~~~~l~~~i~~va~~~Y~~ma~~~g~~~~~~~~~~~~v~~~RYv~W~i   84 (228)
+T 5ZIM_A            5 EWIWLALGTALMGLGTLYFLVKGMGVSDPDAKKFYAITTLVPAIAFTMYLSMLLGYGLTMVPFGGEQNPIYWARYADWLF   84 (228)
+T ss_dssp             THHHHHHHHHHHHHHHHHHHHHHTTCCCHHHHHHHHHHHHHHHHHHHHHHHHHTTTTEEEEEETTEEEEEETHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHhcCCCChhhHHHHHHHHHHHHHHHHHHHHHHcCCCceeeccCCCCCcchHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHhCcc-chHHHHHHHHHHHHHHHHHHHhC-------------C
+Q Bin_245_Bathya   75 SCSLLMLEISTLMGKDKWMTVEIIASNIIVMLTGALASITEA-ASKWMFFVFSSIAFGYILYRLRE-------------G  140 (202)
+Q Consensus        75 TtPlll~~l~~l~g~~~~~~~~~i~~~~~mi~~G~~~~~~~~-~~~~~~~~~s~~~f~~~~~~l~~-------------~  140 (202)
+                      |||++++.++.++|.++++...+++.|..|+.+|+.|+..++ +.||.|+++|+++|+.+++.+.+             +
+T Consensus        85 ttPlll~~l~~l~~~~~~~~~~~~~~~~~mi~~g~~g~~~~~~~~~w~~~~~s~~~~~~v~~~l~~~~~~~~~~~~~~~~  164 (228)
+T 5ZIM_A           85 TTPLLLLDLALLVDADQGTILALVGADGIMIGTGLVGALTKVYSYRFVWWAISTAAMLYILYVLFFGFTSKAESMRPEVA  164 (228)
+T ss_dssp             HHHHHHHHHHHHTTCCHHHHHHHHHHHHHHHHHHHHHHHCSSHHHHHHHHHHHHHHHHHHHHHHHHSCTTSSSSCCHHHH
+T ss_pred             HHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHHHHHHHHcccchHHHHHHHHHHHHHHHHHHHHHHhHHHHHHhCCHHHH
+
+
+Q ss_pred             CHHHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  141 KTDKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       141 ~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                      +.++.++.++++.|+.||++|.++++|.+.+|++.|++.|+++|+++|++|+++++..|+
+T Consensus       165 ~~~~~l~~~~~i~W~~YPi~w~l~~~g~~~i~~~~~~i~y~ilDi~~K~~f~~~l~~~~~  224 (228)
+T 5ZIM_A          165 STFKVLRNVTVVLWSAYPVVWLIGSEGAGIVPLNIETLLFMVLDVSAKVGFGLILLRSRA  224 (228)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHSTTTTCCSCHHHHHHHHHHHHCCCCCCHHHHHHTSGG
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHccCCCCCCChhHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 3
+>3AM6_C rhodopsin-2; seven trans-membrane, Transport Protein; HET: CLR, RET; 3.2A {Acetabularia acetabulum}; Related PDB entries: 3AM6_A 3AM6_D 3AM6_B
+Probab=100.00  E-value=4.1e-38  Score=256.09  Aligned_cols=197  Identities=21%  Similarity=0.396  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHhCCcceecCCCccccHHHHHHHHHHHHH
+Q Bin_245_Bathya    3 EMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFDGSGTLMVPSGELVYWTRWIFYAGSCSL   78 (202)
+Q Consensus         3 ~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~~~~~~~~~RY~~W~~TtPl   78 (202)
+                      ++.++|+++++|++++++|..++++.    |+.+.++.+++.+++++|+.|++|.+....+++|++++.||+||++|||+
+T Consensus         9 g~~~~w~~~~~~~~~~~~f~~~~~~~~~~~r~~~~l~~~i~~ia~~~Y~~ma~~~~~~~~~~~r~v~~~RY~~W~ittPl   88 (229)
+T 3AM6_C            9 GMIAQWIVFAIMAAAAIAFGVAVHFRPSELKSAYYINIAICTIAATAYYAMAVNYQDLTMNGERQVVYARYIDWVLTTPL   88 (229)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHGGGCC--CHHHHHHHHHHHHHHHHHHHHHHHTTTSCCBSSSBBCCTHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHcCCCcchHHHHHHHHHHHHHHHHHHHHHHhcccccccCCceeehHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHhCc-cchHHHHHHHHHHHHHHHHHHHhC-------------CCHHH
+Q Bin_245_Bathya   79 LMLEISTLMGKDKWMTVEIIASNIIVMLTGALASITE-AASKWMFFVFSSIAFGYILYRLRE-------------GKTDK  144 (202)
+Q Consensus        79 ll~~l~~l~g~~~~~~~~~i~~~~~mi~~G~~~~~~~-~~~~~~~~~~s~~~f~~~~~~l~~-------------~~~~~  144 (202)
+                      +++.++.++|.+++.+..+++.|.+|+.+|++|+..+ ++.||.|+++|+++|+.++|.+..             ++.++
+T Consensus        89 ll~~l~~l~~~~~~~~~~~v~~~~~mi~~g~~~~~~~~~~~~w~~~~~s~~~~~~~~~~l~~~~~~~a~~~~~~~~~~~~  168 (229)
+T 3AM6_C           89 LLLDLIVMTKMGGVMISWVIGADIFMIVFGILGAFEDEHKFKWVYFIAGCVMQAVLTYGMYNATWKDDLKKSPEYHSSYV  168 (229)
+T ss_dssp             HHHHHHTTSCCCHHHHHHHHHHHHHHHHHHHHHHTCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHSCC--CCHHHHHHHH
+T ss_pred             HHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHhcCccchHHHHHHHHHHHHHHHHHHHHHHhHHHHhhcChhhHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  145 FLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       145 ~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                      .++..+.+.|..||++|.+++ |.+.+|++.|++.|+++|+++|++||++++..++
+T Consensus       169 ~l~~~~~v~W~~YPi~w~l~~-~~~~is~~~~~~~~~ilDi~~K~~fg~~l~~~~~  223 (229)
+T 3AM6_C          169 SLLVFLSILWVFYPVVWAFGS-GSGVLSVDNEAILMGILDVLAKPLFGMGCLIAHE  223 (229)
+T ss_dssp             HHHHHHHHHHTHHHHHHCCCC-CCSSSCHHHHHHHHHHHHHCCCCCHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHcc-CCCCCChHHHHHHHHHHHHhhhHHHHHHHHHHHH
+
+
+No 4
+>5AX0_A Rhodopsin I; PROTON TRANSPORT, MEMBRANE PROTEIN, RETINAL; HET: C14, RET, OLB, D12, D10, R16; 1.521A {Acetabularia acetabulum}; Related PDB entries: 5AWZ_A 5AX1_A
+Probab=100.00  E-value=9e-38  Score=256.53  Aligned_cols=198  Identities=18%  Similarity=0.347  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHhCCcceec-----CCCccccHHHHHHH
+Q Bin_245_Bathya    2 LEMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFDGSGTLMV-----PSGELVYWTRWIFY   72 (202)
+Q Consensus         2 ~~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~-----~~~~~~~~~RY~~W   72 (202)
+                      .++.++|+++++|.+++++|...++|.    |+.+.++.+++.+++++|+.|++|.+....     +++|++++.||+||
+T Consensus        18 ~g~~~lw~~~~~~~~~~~~f~~~~~~~~~~~R~~~~l~~~i~~va~~~Y~~ma~~~g~~~~~~~~~~~~r~v~~~RY~~W   97 (244)
+T 5AX0_A           18 LGTDAQWVVFAVMALAAIVFSIAVQFRPLPLRLTYYVNIAICTIAATAYYAMAVNGGDNKPTAGTGADERQVIYARYIDW   97 (244)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHTTSCHHHHHHHHHHHHHHHHHHHHHHHHHHHGGGCCCEESCGGGCEECCCHHHHHH
+T ss_pred             chHHHHHHHHHHHHHHHHHHHHHhcCCCCcchHHHHHHHHHHHHHHHHHHHHHhcCCCCCCCCCCCCCceeeeHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHhCccchHHHHHHHHHHHHHHHHHHHhC-------------
+Q Bin_245_Bathya   73 AGSCSLLMLEISTLMGKDKWMTVEIIASNIIVMLTGALASITEAASKWMFFVFSSIAFGYILYRLRE-------------  139 (202)
+Q Consensus        73 ~~TtPlll~~l~~l~g~~~~~~~~~i~~~~~mi~~G~~~~~~~~~~~~~~~~~s~~~f~~~~~~l~~-------------  139 (202)
+                      ++|||++++.++.++|.+++....+++.|.+|+++|+.|+..+++.||.|+++|+++|+.+.|.+..             
+T Consensus        98 ~vttPlll~~l~~l~~~~~~~~~~~v~~~~~mi~~G~~g~~~~~~~~w~~~~~s~~~~~~v~~~l~~~~~~~a~~~~~~~  177 (244)
+T 5AX0_A           98 VFTTPLLLLDLVLLTNMPATMIAWIMGADIAMIAFGIIGAFTVGSYKWFYFVVGCIMLAVLAWGMINPIFKEELQKHKEY  177 (244)
+T ss_dssp             HHHHHHHHHHHHTTBCCCHHHHHHHHHHHHHHHHHHHHHHHCCSTTHHHHHHHHHHHHHHHHHHHHHHHHCGGGBSCGGG
+T ss_pred             HHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHHHHHHHHcCcchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcCccc
+
+
+Q ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  140 GKTDKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       140 ~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                      ++.++.++.++++.|..||++|++++.| +.+|++.|++.|+++|+++|++|+++++..|+
+T Consensus       178 ~~~~~~l~~~~~v~W~~YPi~w~l~~~g-~~is~~~~~i~y~ilDi~~K~~f~~~ll~~~~  237 (244)
+T 5AX0_A          178 TGAYTTLLIYLIVLWVIYPIVWGLGAGG-HIIGVDVEIIAMGILDLLAKPLYAIGVLITVE  237 (244)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHCCCCCT-CCSCHHHHHHHHHHHHHCCCCCHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHcCcc-cCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 5
+>5JJE_A sensory rhodopsin-2; sensory rhodopsin II, transducer, membrane; HET: LFA, RET, BOG; 1.9A {Natronomonas pharaonis} SCOP: f.13.1.1; Related PDB entries: 2F93_A 5JJJ_A 2F95_A 5JJF_A 5JJN_C 5JJN_A 2KSY_A 4GYC_A 3QDC_A 1H68_A 1GUE_A 1GU8_A 3QAP_A
+Probab=100.00  E-value=1.4e-37  Score=256.04  Aligned_cols=197  Identities=22%  Similarity=0.353  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHhCCcceecCCCccccHHHHHHHHHHHHH
+Q Bin_245_Bathya    3 EMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFDGSGTLMVPSGELVYWTRWIFYAGSCSL   78 (202)
+Q Consensus         3 ~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~~~~~~~~~RY~~W~~TtPl   78 (202)
+                      .+.++|+++++|.+++++|...+++.    |+++.+.++++.+++++|+.|++|.+.... ++|++++.||+||++|||+
+T Consensus         3 ~~~~lw~~~~~m~~~~~~f~~~~~~~~~~~r~~~~~~~~i~~va~~~Y~~ma~g~g~~~~-~gr~v~~~RYv~W~iTtPl   81 (248)
+T 5JJE_A            3 LTTLFWLGAIGMLVGTLAFAWAGRDAGSGERRYYVTLVGISGIAAVAYVVMALGVGWVPV-AERTVFAPRYIDWILTTPL   81 (248)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTTSCCTTTHHHHHHHHHHHHHHHHHHHHHHTTCSEEEE-TTEEEEHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHcCCCCCcHHHHHHHHHHHHHHHHHHHHHHcCCCeeec-CcccccHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHhCccchHHHHHHHHHHHHHHHHHHHhC-------------CCHHHH
+Q Bin_245_Bathya   79 LMLEISTLMGKDKWMTVEIIASNIIVMLTGALASITEAASKWMFFVFSSIAFGYILYRLRE-------------GKTDKF  145 (202)
+Q Consensus        79 ll~~l~~l~g~~~~~~~~~i~~~~~mi~~G~~~~~~~~~~~~~~~~~s~~~f~~~~~~l~~-------------~~~~~~  145 (202)
+                      +++.++.++|.+++++...++.|.+|+.+|+.|+..++..||.|+++|+++|+.+++.+..             ++.+++
+T Consensus        82 ll~~l~~lag~~~~~~~~~i~~~~~mi~~g~~~~~~~~~~~~~~~~~s~~~f~~i~~~l~~~~~~~a~~~~~~~~~~~~~  161 (248)
+T 5JJE_A           82 IVYFLGLLAGLDSREFGIVITLNTVVMLAGFAGAMVPGIERYALFGMGAVAFLGLVYYLVGPMTESASQRSSGIKSLYVR  161 (248)
+T ss_dssp             HHHHHHHHHTCCHHHHHHHHHHHHHHHHHHHHHHTCCSTTHHHHHHHHHHHHHHHHHHHHTHHHHHHTTSCHHHHHHHHH
+T ss_pred             HHHHHHHHcCCCHHHHHHHHHHHHHHHHHHHHHHhCCcchHHHHHHHHHHHHHHHHHHHHhHHHHHHhcCChHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  146 LVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       146 l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                      ++.++++.|..||++|.+++.|.+.+|++.|+..++++|+++|++|+++++...+
+T Consensus       162 l~~~~~v~W~~YPi~w~l~~~g~~~is~~~~~~~~~ilDi~~K~~fg~~ll~~~~  216 (248)
+T 5JJE_A          162 LRNLTVILWAIYPFIWLLGPPGVALLTPTVDVALIVYLDLVTKVGFGFIALDAAA  216 (248)
+T ss_dssp             HHHHHHHHHTTHHHHHHHSTTTTCCSCHHHHHHHHHHHHCCCCCCHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHCCcccCCCChHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 6
+>4FBZ_A deltarhodopsin; 7 transmembrane helices, light-driven proton; HET: L2P, RET, 22B, SO4, BNG, SQL; 2.7A {Haloterrigena thermotolerans} SCOP: f.13.1.0
+Probab=100.00  E-value=2.2e-37  Score=253.69  Aligned_cols=198  Identities=25%  Similarity=0.446  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHcccc-----chHHHHHHHHHHHHHHHHHHHHhCCcceec---CCCccccHHHHHHHHH
+Q Bin_245_Bathya    3 EMIIFIVGIAIFSGSSFMFLILKNRN-----QRMATINTIVSFVTVASYMLMFDGSGTLMV---PSGELVYWTRWIFYAG   74 (202)
+Q Consensus         3 ~~~~~w~~~~~~~~~~~~f~~~~~~~-----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~---~~~~~~~~~RY~~W~~   74 (202)
+                      ++.++|+++++|.+++++|...++|.     |+.+.++.+++.+++++|+.|++|.+....   +++|++++.||+||++
+T Consensus         8 g~~~~w~~~~~m~~~~l~f~~~~~~~~~~~~r~~~~l~~~i~~va~~~Y~~ma~~~g~~~~~~~~~~~~v~~~RYv~W~i   87 (241)
+T 4FBZ_A            8 ESIWLWIGTIGMTLGTLYFVGRGRGVRDRKMQEFYIITTFITTIAAAMYFAMATGFGVTEVVVGDEALTIYWARYADWLF   87 (241)
+T ss_dssp             THHHHHHHHHHHHHHHHHHHHHTTTCCSTTHHHHHHHHHHHHHHHHHHHHHHHTTTTCEEEECSSCEEEECTHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHhcCCCChhhHHHHHHHHHHHHHHHHHHHHHHcCCCceEEecCCcceeeeHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHhCccc-hHHHHHHHHHHHHHHHHHHHhC-------------C
+Q Bin_245_Bathya   75 SCSLLMLEISTLMGKDKWMTVEIIASNIIVMLTGALASITEAA-SKWMFFVFSSIAFGYILYRLRE-------------G  140 (202)
+Q Consensus        75 TtPlll~~l~~l~g~~~~~~~~~i~~~~~mi~~G~~~~~~~~~-~~~~~~~~s~~~f~~~~~~l~~-------------~  140 (202)
+                      |+|++++.++.++|.+++....+++.|.+|+.+|+.|+..++. .||.++++|+++|+.+++.+.+             +
+T Consensus        88 TtPlll~~l~~l~~~~~~~~~~~i~~~~~mi~~G~~~~~~~~~~~~~~~~~~s~~~~~~~~~~l~~~~~~~~~~~~~~~~  167 (241)
+T 4FBZ_A           88 TTPLLLLDLGLLAGANRNTIATLIGLDVFMIGTGMIAAFAATPGTRIAWWGISTGALLALLYVLVGTLSKDARGQSPEVA  167 (241)
+T ss_dssp             HHHHHHHHHHHHHTCCHHHHHHHHHHHHHHHHHHHHHHHCSSHHHHHHHHHHHHHHHHHHHHHCCCCCHHHHTTSCHHHH
+T ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHHcCChhhHHHHHHHHHHHHHHHHHHHHHHHHHHHccCCHHHH
+
+
+Q ss_pred             CHHHHHHHHHHHHHHHHHHHHHHChhc-CCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  141 KTDKFLVTFTTIFWSMFPVAWILSPAG-FGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       141 ~~~~~l~~~~~v~W~~YPi~w~l~~~g-~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                      +.+++++.++++.|..||++|.+++.| .+.+|.+.|++.++++|+++|++|+.+++..++
+T Consensus       168 ~~~~~l~~~~~~~W~~YPi~w~l~~~g~~~~i~~~~~~~~~~ilDv~~K~~f~~~l~~~~~  228 (241)
+T 4FBZ_A          168 SLFGRLRNLVIVLWLLYPVVWILGTEGTFGILPLYWETAAFMVLDLSAKVGFGVVLLRSRS  228 (241)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHSGGGSSCCSCHHHHHHHHHHHHHCCCCCHHHHHSSCHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHCCcccCCCCChHHHHHHHHHHHHHHHHhHHHHHHHhHH
+
+
+No 7
+>6GYH_A Family A G protein-coupled receptor-like; RETINAL, MICROBIAL-TYPE RHODOPSIN, LIGHT-DRIVEN PROTON; HET: RET, CLR, OLB; 2.0A {Coccomyxa subellipsoidea C-169}
+Probab=100.00  E-value=4.1e-37  Score=251.44  Aligned_cols=199  Identities=19%  Similarity=0.372  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHhCCcceec----CCCccccHHHHHHHHH
+Q Bin_245_Bathya    3 EMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFDGSGTLMV----PSGELVYWTRWIFYAG   74 (202)
+Q Consensus         3 ~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~----~~~~~~~~~RY~~W~~   74 (202)
+                      ++.++|+++++|++++++|..+++|+    |+.+.++.+++.+++++|+.|++|.+....    +++|++++.||+||++
+T Consensus        10 g~~~lw~~~~~~~~~~l~f~~~~~~~~~~~r~~~~l~~~i~~va~~~Y~~ma~~~g~~~~~~~~~~~r~v~~~RY~~W~i   89 (236)
+T 6GYH_A           10 GLVMYWVTFGLMAFSALAFAVMTFTRPLNKRSHGYITLAIVTIAAIAYYAMAASGGKALVSNPDGNLRDIYYARYIDWFF   89 (236)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHSCGGGCHHHHHHHHHHHHHHHHHHHHHTTCSCEEEECTTSCEEEECHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHhcCCCcccchHHHHHHHHHHHHHHHHHHHHhcCCceeeeCCCCCceeeeHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHhCccchHHHHHHHHHHHHHHHHHHHhC-------------CC
+Q Bin_245_Bathya   75 SCSLLMLEISTLMGKDKWMTVEIIASNIIVMLTGALASITEAASKWMFFVFSSIAFGYILYRLRE-------------GK  141 (202)
+Q Consensus        75 TtPlll~~l~~l~g~~~~~~~~~i~~~~~mi~~G~~~~~~~~~~~~~~~~~s~~~f~~~~~~l~~-------------~~  141 (202)
+                      |+|++++.++.++|.+++....+++.|.+|+.+|+.|+..+++.||.|+++|+++|+.+++.+.+             ++
+T Consensus        90 t~Plll~~l~~l~~~~~~~~~~~i~~~~~mi~~g~~g~~~~~~~~w~~~~~s~~~~~~i~~~l~~~~~~~~~~~~~~~~~  169 (236)
+T 6GYH_A           90 TTPLLLLDIILLTGIPIGVTLWIVLADVAMIMLGLFGALSTNSYRWGYYGVSCAFFFVVLWGLFFPGAKGARARGGQVPG  169 (236)
+T ss_dssp             HHHHHHHHHHTTTTCCHHHHHHHHHHHHHHHHHHHHHHHCCSTTHHHHHHHHHHHHHHHHHHCCCCCHHHHHHHCTTHHH
+T ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHhHHHHHHcCCcchHHHHHHHHHHHHHHHHHHhchhHHHHHHcCCchHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhccC
+Q Bin_245_Bathya  142 TDKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQVE  202 (202)
+Q Consensus       142 ~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~~~  202 (202)
+                      .++.++.++++.|..||++|.+++ |.+.+|++.|+++|+++|+++|++||++++..++.|
+T Consensus       170 ~~~~l~~~~~v~W~~Ypi~w~l~~-g~~~is~~~e~i~~~ilDi~~K~~fg~~l~~~~~~~  229 (236)
+T 6GYH_A          170 LYFGLAGYLALLWFGYPIVWGLAE-GSDYISVTAEAASYAGLDIAAKVVFGWAVMLSHPLI  229 (236)
+T ss_dssp             HHHHHHHHHHHHHTHHHHHHCCCC-CTCCSCHHHHHHHHHHHHCCCCCCHHHHHHTTC---
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHhc-CCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHcHHH
+
+
+No 8
+>4QI1_B Bacteriorhodopsin-I; Bacteriorhodopsin, proton pump, Membrane, MEMBRANE; HET: MPG, RET; 1.85A {Haloquadratum walsbyi} SCOP: f.13.1.0; Related PDB entries: 5KKH_B 5ITC_C 5ITC_A 5ITC_B 5ITE_C 5ITE_A 5ITE_B 5KKH_C 5KKH_A 4QI1_A 4QID_A 4QID_B 4WAV_A 4WAV_B 4QI1_C
+Probab=100.00  E-value=3.5e-37  Score=255.61  Aligned_cols=198  Identities=24%  Similarity=0.435  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHcccc-----chHHHHHHHHHHHHHHHHHHHHhCCcceec----CCCccccHHHHHHHH
+Q Bin_245_Bathya    3 EMIIFIVGIAIFSGSSFMFLILKNRN-----QRMATINTIVSFVTVASYMLMFDGSGTLMV----PSGELVYWTRWIFYA   73 (202)
+Q Consensus         3 ~~~~~w~~~~~~~~~~~~f~~~~~~~-----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~----~~~~~~~~~RY~~W~   73 (202)
+                      ++.++|+++++|++++++|...+++.     |+++.++.+++.+++++|+.|++|.|....    +++|++++.||+||+
+T Consensus        16 ~~~~l~~~~~~m~~~~~~f~~~~~~~~~~~~r~~~~l~~~i~~va~~~Y~~ma~g~g~~~v~~~~g~~r~v~~~RYidW~   95 (262)
+T 4QI1_B           16 EGIWLALGTIGMLLGMLYFIADGLDVQDPRQKEFYVITILIPAIAAASYLSMFFGFGLTEVSLANGRVVDVYWARYADWL   95 (262)
+T ss_dssp             THHHHHHHHHHHHHHHHHHHHHHTTCCCHHHHHHHHHHHHHHHHHHHHHHHHHTTTTCEEEECTTSCEEEECTHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHhcCCCChhHHHHHHHHHHHHHHHHHHHHHHHcCCCceeeeccCCceeeeehHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHhCcc-chHHHHHHHHHHHHHHHHHHHhC-------------
+Q Bin_245_Bathya   74 GSCSLLMLEISTLMGKDKWMTVEIIASNIIVMLTGALASITEA-ASKWMFFVFSSIAFGYILYRLRE-------------  139 (202)
+Q Consensus        74 ~TtPlll~~l~~l~g~~~~~~~~~i~~~~~mi~~G~~~~~~~~-~~~~~~~~~s~~~f~~~~~~l~~-------------  139 (202)
+                      +|||++++.++.++|.+++.+..+++.|.+|+++|++|+..++ +.||.++.+|+++|+.+.|.+.+             
+T Consensus        96 iTtPlll~~l~~la~~~~~~~~~~i~~~~~mi~~G~~g~~~~~~~~~w~~~~i~~~~~~~~~~~l~~~~~~~~~~~~~~~  175 (262)
+T 4QI1_B           96 FTTPLLLLDIGLLAGASQRDIGALVGIDAFMIVTGLVATLTKVVVARYAFWTISTISMVFLLYYLVAVFGEAVSDADEDT  175 (262)
+T ss_dssp             HHHHHHHHHHHHHHTCCHHHHHHHHHHHHHHHHHHHHHHHCSCHHHHHHHHHHHHHHHHHHHHHCCCCCHHHHTTSCHHH
+T ss_pred             HHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHHccchhhHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHH
+
+
+Q ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  140 GKTDKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       140 ~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                      ++.++.++.++++.|..||++|.+++.|.+.+|++.|++.|+++|+++|++||.+++..++
+T Consensus       176 ~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~is~~~e~i~y~ilDil~K~~fg~~l~~~~~  236 (262)
+T 4QI1_B          176 RSTFNALRNIILVTWAIYPVAWLVGTEGLALTGLYGETLLFMVLDLVAKVGFGFILLRSRA  236 (262)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHSTTTTCSSCHHHHHHHHHHHHHCCCCCHHHHHHTCGG
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHCcccccccCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 9
+>2JAF_A HALORHODOPSIN; CHROMOPHORE, CHLORIDE PUMP, ION TRANSPORT; HET: PLM, RET, BOG; 1.7A {Halobacterium salinarum (strain ATCC 29341 / DSM 671 / R1)} SCOP: f.13.1.1; Related PDB entries: 2JAG_A 5AHY_A 5AHZ_A 5G36_A 1E12_A
+Probab=100.00  E-value=5.4e-37  Score=255.99  Aligned_cols=199  Identities=22%  Similarity=0.386  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHccc-c----chHHHHHHHHHHHHHHHHHHHHhCCcceecC---------CCccccHH
+Q Bin_245_Bathya    2 LEMIIFIVGIAIFSGSSFMFLILKNR-N----QRMATINTIVSFVTVASYMLMFDGSGTLMVP---------SGELVYWT   67 (202)
+Q Consensus         2 ~~~~~~w~~~~~~~~~~~~f~~~~~~-~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~---------~~~~~~~~   67 (202)
+                      .++.++|+++++|.+++++|...+++ .    |+.+.++.+++.+++++|+.|++|.|....+         ++|++++.
+T Consensus        28 ~~~~~lw~~~~~~~~~~l~f~~~~~~~~~~~~R~~~~l~~~i~~va~~~Y~~ma~g~g~~~v~~~~~~~~~~~~r~v~~~  107 (274)
+T 2JAF_A           28 LLSSSLWVNVALAGIAILVFVYMGRTIRPGRPRLIWGATLMIPLVSISSYLGLLSGLTVGMIEMPAGHALAGEMVRSQWG  107 (274)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHTTTCCTTHHHHHHHHHHHHHHHHHHHHHHHHHTTTCEEEECCTTSTTTTSEEEECHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhcCCCCCCccHHHHHHHHHHHHHHHHHHHHHCCCcceeEecCCCCccCCceeeccHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHhCccc--hHHHHHHHHHHHHHHHHHHHhC------
+Q Bin_245_Bathya   68 RWIFYAGSCSLLMLEISTLMGKDKWMTVEIIASNIIVMLTGALASITEAA--SKWMFFVFSSIAFGYILYRLRE------  139 (202)
+Q Consensus        68 RY~~W~~TtPlll~~l~~l~g~~~~~~~~~i~~~~~mi~~G~~~~~~~~~--~~~~~~~~s~~~f~~~~~~l~~------  139 (202)
+                      ||+||++|||++++.++.++|.+++....+++.|.+|+++|++|+..++.  .||.|+++|+++|+.++|.+.+      
+T Consensus       108 RYv~W~iTtPlll~~l~~lag~~~~~~~~~v~~~~~mi~~G~~g~~~~~~~~~~w~~f~~s~~~~~~v~~~l~~~~~~~a  187 (274)
+T 2JAF_A          108 RYLTWALSTPMILLALGLLADVDLGSLFTVIAADIGMCVTGLAAAMTTSALLFRWAFYAISCAFFVVVLSALVTDWAASA  187 (274)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHTCCHHHHHHHHHHHHHHHHHHHHHHHCCSCHHHHHHHHHHHHHHHHHHHHHHHTHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHhHHHHHhcCCchhhHHHHHHHHHHHHHHHHHHHHhHHHHHc
+
+
+Q ss_pred             -----CCHHHHHHHHHHHHHHHHHHHHHHChhcCCCC-CHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  140 -----GKTDKFLVTFTTIFWSMFPVAWILSPAGFGIL-NAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       140 -----~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i-~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                           ++.++.++.++++.|+.||++|++++.|.+.+ +.+.|++.|+++|+++|++|+++++..++
+T Consensus       188 ~~~~~~~~~~~l~~~~~v~W~~YPi~w~l~~~G~~li~s~~~e~i~y~ilDi~~K~~fg~~ll~~~~  254 (274)
+T 2JAF_A          188 SSAGTAEIFDTLRVLVVVLWLGYPIVWAVGVEGLALVQSVGATSWAYSVLDVFAKYVFAFILLRWVA  254 (274)
+T ss_dssp             HHHTCHHHHHHHHHHHHHHHHHHHHHHHHSTTTTCSSCCHHHHHHHHHHHHCCCCCCHHHHHHHHHH
+T ss_pred             CChhHHHHHHHHHHHHHHHHHHHHHHHHHcccccccccCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 10
+>4L35_A Cruxrhodopsin-3; protein-bacterioruberin complex, seven transmembrane alpha; HET: 22B, RET; 2.1A {Haloarcula vallismortis} SCOP: f.13.1.0; Related PDB entries: 4JR8_A 4PXK_A 
+Probab=100.00  E-value=7.9e-37  Score=251.71  Aligned_cols=199  Identities=22%  Similarity=0.426  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHcccc-----chHHHHHHHHHHHHHHHHHHHHhCCcceec---CCCccccHHHHHHHHH
+Q Bin_245_Bathya    3 EMIIFIVGIAIFSGSSFMFLILKNRN-----QRMATINTIVSFVTVASYMLMFDGSGTLMV---PSGELVYWTRWIFYAG   74 (202)
+Q Consensus         3 ~~~~~w~~~~~~~~~~~~f~~~~~~~-----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~---~~~~~~~~~RY~~W~~   74 (202)
+                      ++.++|+++++|++++++|...+++.     |+.+.++.+++++++++|+.|++|.+....   +++|++++.||+||++
+T Consensus         7 ~~~~lw~~~~~m~~~~l~f~~~~~~~~~~~~~~~~~~~~~i~~va~~~Y~~ma~~~g~~~~~~~~~~r~v~~~RYl~W~i   86 (250)
+T 4L35_A            7 EAIWLWLGTAGMFLGMLYFIARGWGETDSRRQKFYIATILITAIAFVNYLAMALGFGLTIVEIAGEQRPIYWARYSDWLF   86 (250)
+T ss_dssp             SHHHHHHHHHHHHHHHHHHHHHHTTCCCHHHHHHHHHHHHHHHHHHHHHHHHHTTTTEEEEEETTEEEEEETHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHcCCCchHHhHHHHHHHHHHHHHHHHHHHHHcCCCeEEEeecCCceeeeHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHhCcc-------chHHHHHHHHHHHHHHHHHHHhC--------
+Q Bin_245_Bathya   75 SCSLLMLEISTLMGKDKWMTVEIIASNIIVMLTGALASITEA-------ASKWMFFVFSSIAFGYILYRLRE--------  139 (202)
+Q Consensus        75 TtPlll~~l~~l~g~~~~~~~~~i~~~~~mi~~G~~~~~~~~-------~~~~~~~~~s~~~f~~~~~~l~~--------  139 (202)
+                      |+|++++.++.++|.+++.+..+++.|.+|+++|++|+.+++       +.||.|+.+|+++|+.++|.+.+        
+T Consensus        87 t~Plll~~l~~l~~~~~~~~~~~i~~~~~mi~~g~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~~l~~~~~~~~~~  166 (250)
+T 4L35_A           87 TTPLLLYDLGLLAGADRNTISSLVSLDVLMIGTGLVATLSAGSGVLSAGAERLVWWGISTAFLLVLLYFLFSSLSGRVAD  166 (250)
+T ss_dssp             HHHHHHHHHHHHHTCCHHHHHHHHHHHHHHHHHHHHHHHCCCCSSSCHHHHHHHHHHHHHHHHHHHHHHHHHTTHHHHHT
+T ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHHccCCCccCcchHHHHHHHHHHHHHHHHHHHHHHHHHHHHhc
+
+
+Q ss_pred             -----CCHHHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhcc
+Q Bin_245_Bathya  140 -----GKTDKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQV  201 (202)
+Q Consensus       140 -----~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~~  201 (202)
+                           ++.++.++.++++.|..||++|+++++|.+.+|++.|++.|+++|+++|++||.+++..++.
+T Consensus       167 ~~~~~~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~is~~~~~i~~~ilDi~~K~~f~~~l~~~~~~  233 (250)
+T 4L35_A          167 LPSDTRSTFKTLRNLVTVVWLVYPVWWLVGTEGIGLVGIGIETAGFMVIDLVAKVGFGIILLRSHGV  233 (250)
+T ss_dssp             SCHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTTTCSSCHHHHHHHHHHHHHCCCCCHHHHHTSCHHH
+T ss_pred             CChhHHHHHHHHHHHHHHHHHHHHHHHHHCccccCcCChHHHHHHHHHHHHHHHHHHHHHHHHhccc
+
+
+No 11
+>1M0M_A BACTERIORHODOPSIN M1 INTERMEDIATE AT 1.43; ION PUMP, MEMBRANE PROTEIN, RETINAL; HET: SQU, RET, LI1; 1.43A {Halobacterium salinarum} SCOP: f.13.1.1; Related PDB entries: 4XXJ_C 4XXJ_A 4XXJ_B 4HWL_B 1M0K_A 1M0L_A 5VN7_A 5VN7_B 2ZFE_A 4HYX_A 4HYX_B 4FPD_A 6G7I_A 2ZZL_A 6G7J_A 6G7K_A 6G7L_A 5VN9_A 5VN9_B 3VHZ_A 6GAF_A 6GAG_A 1R2N_A 6GAH_A 6GAI_A 2I21_A 1S8J_A 2NTU_A 2I1X_A 1S8L_A 3COC_A 4OV0_A 2WJK_A 3COC_B 1PY6_A 1PY6_B 1O0A_A 1P8U_A 1VJM_A 2WJL_A 3COD_A 3COD_B 1UCQ_A 3UTX_A 1C8R_A 3UTX_B 5BR5_A 1JV6_A 3UTV_A 3HAN_A 3UTW_A 1JV7_A 1P8H_A 1TN5_A 3HAO_A 1TN5_B 6GA2_A 3HAO_B 6GA3_A 1MGY_A 1P8I_A 6GA4_A 3HAP_A 2NTW_A 6GA5_A 1PXR_A 1TN0_A 6GA1_A 6GA6_A 3HAQ_A 1PXR_B 1TN0_B 3UTY_A 1Q5I_A 3UTY_B 6GA8_A 1Q5I_B 6GA9_A 3HAR_A 5B34_A 6GAA_A 6GAB_A 1Q5J_A 5B35_A 6GAC_A 3HAS_A 1Q5J_B 5BR2_A 6GAD_A 2I20_A 1PXS_A 6GAE_A 1PXS_B 5H2P_A 1X0K_1 4MD2_A 1IW6_A 5B6V_A 5B6W_A 1BRX_A 5B6X_A 2BRD_A 5B6Y_A 1BM1_A 1BRD_A 1AT9_A 5B6Z_A 1IXF_A 1QHJ_A 3NS0_A 5A44_A 6G7H_A 1AP9_A 5A45_A 1QKO_A 3MBV_A 1QKP_A 2AT9_A 1FBB_A 1X0S_A 4MD1_A 3NSB_A 1CWQ_A 5H2H_A 1CWQ_B 1FBK_A 5H2I_A 5H2J_A 5H2K_A 1IW9_A 5H2L_A 1X0I_1 1DZE_A 5H2M_A 1QM8_A 5H2N_A 5H2O_A 1BRR_C 1BRR_A 1BRR_B 1XJI_A
+Probab=100.00  E-value=8e-37  Score=253.45  Aligned_cols=198  Identities=28%  Similarity=0.511  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHcccc-----chHHHHHHHHHHHHHHHHHHHHhCCcceecC---CCccccHHHHHHHHH
+Q Bin_245_Bathya    3 EMIIFIVGIAIFSGSSFMFLILKNRN-----QRMATINTIVSFVTVASYMLMFDGSGTLMVP---SGELVYWTRWIFYAG   74 (202)
+Q Consensus         3 ~~~~~w~~~~~~~~~~~~f~~~~~~~-----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~---~~~~~~~~RY~~W~~   74 (202)
+                      ...++|+++++|++++++|...++|.     |++++++.+++.+++++|+.|++|.+....+   ++|++++.||+||++
+T Consensus        22 ~~~~~~~~~~~~~~~~~~f~~~~~~~~~~~~r~~~~l~~~i~~vaa~~Y~~ma~g~g~~~~~~~~~~~~v~~~RYvdW~i  101 (262)
+T 1M0M_A           22 EWIWLALGTALMGLGTLYFLVKGMGVSDPDAKKFYAITTLVPAIAFTMYLSMLLGYGLTMVPFGGEQNPIYWARYADWLF  101 (262)
+T ss_dssp             THHHHHHHHHHHHHHHHHHHHHTTTCCCHHHHHHHHHHHHHHHHHHHHHHHHHHTTTCEEEEETTEEEEECTHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHcCCCChhhHHHHHHHHHHHHHHHHHHHHHHcCCCceeeccCCCcCcchHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHhCcc-chHHHHHHHHHHHHHHHHHHHhC-------------C
+Q Bin_245_Bathya   75 SCSLLMLEISTLMGKDKWMTVEIIASNIIVMLTGALASITEA-ASKWMFFVFSSIAFGYILYRLRE-------------G  140 (202)
+Q Consensus        75 TtPlll~~l~~l~g~~~~~~~~~i~~~~~mi~~G~~~~~~~~-~~~~~~~~~s~~~f~~~~~~l~~-------------~  140 (202)
+                      |+|++++.++.++|.+++....+++.|.+|+.+|++|+..++ +.||.|+++|+++|+.++|.+.+             +
+T Consensus       102 TtPlll~~l~~lag~~~~~~~~~v~~~~~mi~~g~~g~~~~~~~~~w~~f~~s~~~~~~v~~~l~~~~~~~a~~~~~~~~  181 (262)
+T 1M0M_A          102 TTPLLLLDLALLVDADQGTILALVGADGIMIGTGLVGALTKVYSYRFVWWAISTAAMLYILYVLFFGFTSKAESMRPEVA  181 (262)
+T ss_dssp             HHHHHHHHHHHHTTCCHHHHHHHHHHHHHHHHHHHHHHHCSSHHHHHHHHHHHHHHHHHHHHHHHHCC-----CCCHHHH
+T ss_pred             HHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHHHHHHHhcCCchhHHHHHHHHHHHHHHHHHHHHHhHHHHHHhCCHHHH
+
+
+Q ss_pred             CHHHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  141 KTDKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       141 ~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                      +.++.++.++++.|..||++|.++++|.+.+|++.|++.|+++|+++|++|+++++..++
+T Consensus       182 ~~~~~l~~~~~i~W~~YPi~~~l~~~g~g~is~~~~~i~y~ilDi~~K~~fg~~l~~~~~  241 (262)
+T 1M0M_A          182 STFKVLRNVTVVLWSAYPVVWLIGSEGAGIVPLNIETLLFMVLDVSAKVGFGLILLRSRA  241 (262)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHSTTTTCCSCHHHHHHHHHHHHHCCCCCHHHHHHHSGG
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHcccCCCCCChHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 12
+>1XIO_A ANABAENA SENSORY RHODOPSIN; signaling protein, photoreceptor; HET: PEE, RET; 2.0A {Nostoc sp. PCC 7120} SCOP: f.13.1.1; Related PDB entries: 2M3G_C 2M3G_A 2M3G_B 5UK6_C 5UK6_A 5UK6_B 4TL3_A 4TL3_B
+Probab=100.00  E-value=1.3e-36  Score=252.14  Aligned_cols=199  Identities=21%  Similarity=0.421  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             ChHHHHHHHHHHHHHHHHHHHHHHcccc---ch-HHHHHHHHHHHHHHHHHHHHhCCcceecCCCccccHHHHHHHHHHH
+Q Bin_245_Bathya    1 MLEMIIFIVGIAIFSGSSFMFLILKNRN---QR-MATINTIVSFVTVASYMLMFDGSGTLMVPSGELVYWTRWIFYAGSC   76 (202)
+Q Consensus         1 ~~~~~~~w~~~~~~~~~~~~f~~~~~~~---kr-~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~~~~~~~~~RY~~W~~Tt   76 (202)
+                      +.++.++|+++++|.+++++|+.++++.   || .+.++.+++.+++++|+.|++|.|.. .+++|++++.||+||++|+
+T Consensus         2 ~~~s~~lw~~~~~m~~~~~~f~~~~~~~~~~~~~~~~l~~~i~~iaa~~Y~~m~~~~g~~-~~~gr~v~~~RYv~W~iTt   80 (261)
+T 1XIO_A            2 NLESLLHWIYVAGMTIGALHFWSLSRNPRGVPQYEYLVAMFIPIWSGLAYMAMAIDQGKV-EAAGQIAHYARYIDWMVTT   80 (261)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHHTSCTTCCHHHHHHHHHHHHHHHHHHHHHHHC----------CTTHHHHHHHHHHH
+T ss_pred             chHHHHHHHHHHHHHHHHHHHHHHcCCCCCCcHHHHHHHHHHHHHHHHHHHHHHhccCCc-ccCceeehHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhCC----CHHHHHHHHHHHHHHHHHHHHHHhCccc-hHHHHHHHHHHHHHHHHHHHhC------------
+Q Bin_245_Bathya   77 SLLMLEISTLMGK----DKWMTVEIIASNIIVMLTGALASITEAA-SKWMFFVFSSIAFGYILYRLRE------------  139 (202)
+Q Consensus        77 Plll~~l~~l~g~----~~~~~~~~i~~~~~mi~~G~~~~~~~~~-~~~~~~~~s~~~f~~~~~~l~~------------  139 (202)
+                      |++++.++.++|.    +++.+..+++.|.+|+.+|+.|+..+++ .||.|+++|+++|+.+++.+..            
+T Consensus        81 Plll~~l~~l~g~~~~~~~~~i~~~v~~~~~mi~~G~~g~~~~~~~~kw~~~~~s~~~~~~~~~~l~~~~~~~a~~~~~~  160 (261)
+T 1XIO_A           81 PLLLLSLSWTAMQFIKKDWTLIGFLMSTQIVVITSGLIADLSERDWVRYLWYICGVCAFLIILWGIWNPLRAKTRTQSSE  160 (261)
+T ss_dssp             HHHHHHHHHHHTTTSCCCHHHHHHHHHHHHHHHHHHHHHHHCSSHHHHHHHHHHHHHHHHHHHHHHHTHHHHHHTTSCHH
+T ss_pred             HHHHHHHHHHhccccCCCHHHHHHHHHHHHHHHHHHHHHHhcCcchhHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHH
+
+
+Q ss_pred             -CCHHHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  140 -GKTDKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       140 -~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                       ++.++.++.++++.|+.||++|++++.|.+.+|.+.|+++|+++|+++|++|+.+++..++
+T Consensus       161 ~~~~~~~l~~~~~v~W~~YPivw~l~~~g~~~is~~~~~i~~~ilDv~aK~~f~~~ll~~~~  222 (261)
+T 1XIO_A          161 LANLYDKLVTYFTVLWIGYPIVWIIGPSGFGWINQTIDTFLFCLLPFFSKVGFSFLDLHGLR  222 (261)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHSTTTTCSSCHHHHHHHHHHHHHCCCCCHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+
+
+No 13
+>5B0W_F Halorhodopsin; seven trans-membrane helices, retinylidene protein; HET: 22B, L3P, RET, BNG; 1.7A {Natronomonas pharaonis DSM 2160} SCOP: f.13.1.0; Related PDB entries: 5ETZ_B 3QBL_A 3A7K_A 3QBI_A 3QBL_D 3A7K_D 3QBI_D 3QBL_B 3A7K_B 3QBI_B 3VVK_C 3VVK_B 3VVK_A 4QRY_C 3VVK_D 4QRY_B 3VVK_F 4QRY_G 3VVK_E 4QRY_A 4QRY_F 4QRY_E 3QBG_A 3QBG_D 3QBG_B 3ABW_A 5B0W_B 3ABW_D 5B0W_G 3ABW_B 5B0W_A 3QBK_A 5B0W_D 3QBK_D 3QBK_B 5B0W_E 5ETZ_A 5ETZ_D
+Probab=100.00  E-value=1.4e-36  Score=255.48  Aligned_cols=201  Identities=23%  Similarity=0.422  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHcccc-----chHHHHHHHHHHHHHHHHHHHHhCCccee-------------------
+Q Bin_245_Bathya    2 LEMIIFIVGIAIFSGSSFMFLILKNRN-----QRMATINTIVSFVTVASYMLMFDGSGTLM-------------------   57 (202)
+Q Consensus         2 ~~~~~~w~~~~~~~~~~~~f~~~~~~~-----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~-------------------   57 (202)
+                      .++.++|+++++|.+++++|..++++.     |+.+.++.+++.+++++|+.|++|.|.+.                   
+T Consensus        33 ~~~~~lw~~~~~~~~~~~~f~~l~r~~~~~~~R~~~~l~~~i~~iaa~~Y~~ma~~~G~~~~~~~~~~~~~~~~~~~~~~  112 (291)
+T 5B0W_F           33 LLASSLYINIALAGLSILLFVFMTRGLDDPRAKLIAVSTILVPVVSIASYTGLASGLTISVLEMPAGHFAEGSSVMLGGE  112 (291)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHTTCCCHHHHHHHHHHHHHHHHHHHHHHHHHHTTTCEEECCCTTCTTTTCBCCBTTB
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHcCCCChHhHHHHHHHHHHHHHHHHHHHHHHCCCCceeeeCCccccccCCeeecCCc
+
+
+Q ss_pred             cCCCccccHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHhCc--cchHHHHHHHHHHHHHHHHH
+Q Bin_245_Bathya   58 VPSGELVYWTRWIFYAGSCSLLMLEISTLMGKDKWMTVEIIASNIIVMLTGALASITE--AASKWMFFVFSSIAFGYILY  135 (202)
+Q Consensus        58 ~~~~~~~~~~RY~~W~~TtPlll~~l~~l~g~~~~~~~~~i~~~~~mi~~G~~~~~~~--~~~~~~~~~~s~~~f~~~~~  135 (202)
+                      .+++|++++.||+||++|+|++++.++.++|.+++.+..+++.|.+|+.+|+.|+..+  .+.||.|+++|+++|+.++|
+T Consensus       113 ~~~~r~v~~~RYv~W~iTtPlll~~l~ll~~~~~~~~~~~i~~~~~mi~~G~~g~~~~~~~~~~w~~f~is~~~f~~i~~  192 (291)
+T 5B0W_F          113 EVDGVVTMWGRYLTWALSTPMILLALGLLAGSNATKLFTAITFDIAMCVTGLAAALTTSSHLMRWFWYAISCACFIVVLY  192 (291)
+T ss_dssp             CCBSEEECTHHHHHHHHHHHHHHHHHHHHHTCCHHHHHHHHHHHHHHHHHHHHHHHCCSCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             ccCCeeecHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHHcCCChhhHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHhC-----------CCHHHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhccC
+Q Bin_245_Bathya  136 RLRE-----------GKTDKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQVE  202 (202)
+Q Consensus       136 ~l~~-----------~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~~~  202 (202)
+                      .+.+           ++.++.++.++++.|..||++|++++.|.+.++.+.|++.|+++|+++|++||++++..++..
+T Consensus       193 ~l~~~~~~~a~~~~~~~~~~~l~~~~~v~W~~YPivw~l~~~G~~~is~~~e~i~y~ilDi~~K~~fg~~l~~~~~~~  270 (291)
+T 5B0W_F          193 ILLVEWAQDAKAAGTADIFSTLKLLTVVMWLGYPIVWALGVEGVAVLPVGYTSWAYSALDIVAKYIFAFLLLNYLTSN  270 (291)
+T ss_dssp             CCCCCHHHHHHHHTCHHHHHHHHHHHHHHHHHHHHHHHHBTTTTCSBCHHHHHHHHHHHHCCCCCCHHHHHHHHHTTC
+T ss_pred             HHHHHHHHHHHHhccHHHHHHHHHHHHHHHHHHHHHHHHCcCCccCCChhHHHHHHHHHHHHHHHHHHHHHHHHHHcc
+
+
+No 14
+>3WQJ_A Archaerhodopsin-2; 7 trans-membrane helices, light-driven proton; HET: L2P, RET, L3P, 22B, L4P, SQL; 1.8A {Halobacterium}; Related PDB entries: 2Z55_E 2Z55_A 2EI4_A 2Z55_D 2Z55_B 1VGO_A 1VGO_B 1UAZ_B 1UAZ_A
+Probab=100.00  E-value=1.5e-36  Score=251.42  Aligned_cols=198  Identities=24%  Similarity=0.483  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHcccc-----chHHHHHHHHHHHHHHHHHHHHhCCcceec----CCCccccHHHHHHHH
+Q Bin_245_Bathya    3 EMIIFIVGIAIFSGSSFMFLILKNRN-----QRMATINTIVSFVTVASYMLMFDGSGTLMV----PSGELVYWTRWIFYA   73 (202)
+Q Consensus         3 ~~~~~w~~~~~~~~~~~~f~~~~~~~-----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~----~~~~~~~~~RY~~W~   73 (202)
+                      ...++|+++++|.+++++|...+++.     |+.+.++.+++.+++++|+.|++|.+....    +.+|++++.||+||+
+T Consensus        19 ~~~w~~~~~~~~~~~~~~f~~~~~~~~~~~~r~~~~l~~~i~~vaa~~Y~~ma~g~g~~~~~~~~~~~r~v~~~RYi~W~   98 (259)
+T 3WQJ_A           19 ETLWLGIGTLLMLIGTFYFIARGWGVTDKEAREYYAITILVPGIASAAYLAMFFGIGVTEVELASGTVLDIYYARYADWL   98 (259)
+T ss_dssp             THHHHHHHHHHHHHHHHHHHHHHTTCCCHHHHHHHHHHHHHHHHHHHHHHHHHHSTTCEEEECTTSCEEEECTHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHhcCCCCHHHHHHHHHHHHHHHHHHHHHHHHHcCCCceeEecCCCCeeecchHHHhHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHhCccc-hHHHHHHHHHHHHHHHHHHHhC-------------
+Q Bin_245_Bathya   74 GSCSLLMLEISTLMGKDKWMTVEIIASNIIVMLTGALASITEAA-SKWMFFVFSSIAFGYILYRLRE-------------  139 (202)
+Q Consensus        74 ~TtPlll~~l~~l~g~~~~~~~~~i~~~~~mi~~G~~~~~~~~~-~~~~~~~~s~~~f~~~~~~l~~-------------  139 (202)
+                      +|||++++.++.++|.+++++..+++.|++|+++|+.|+.++++ .||.|+.+|+++|+.+++.+.+             
+T Consensus        99 iTtPlll~~l~lla~~~~~~~~~~v~~~~~mi~~G~~g~~~~~~~~~~~~~~~s~~~f~~i~~~l~~~~~~~a~~~~~~~  178 (259)
+T 3WQJ_A           99 FTTPLLLLDLALLAKVDRVTIGTLIGVDALMIVTGLIGALSKTPLARYTWWLFSTIAFLFVLYYLLTSLRSAAAKRSEEV  178 (259)
+T ss_dssp             HHHHHHHHHHHHHHTCCHHHHHHHHHHHHHHHHHHHHHHHCSSHHHHHHHHHHHHHHHHHHHHHCCCCCHHHHTTSCHHH
+T ss_pred             HHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHHCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcCCHHH
+
+
+Q ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  140 GKTDKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       140 ~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                      ++.++.++.++++.|..||++|.++++|.+.+|++.|+++|+++|+++|++|+++++..++
+T Consensus       179 ~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~is~~~~~i~~~ilDi~~K~~fg~~l~~~~~  239 (259)
+T 3WQJ_A          179 RSTFNTLTALVAVLWTAYPILWIVGTEGAGVVGLGIETLAFMVLDVTAKVGFGFVLLRSRA  239 (259)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHSTTTTCCSCHHHHHHHHHHHHHCCCCCHHHHHHTCTT
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHCcCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 15
+>1C8S_A BACTERIORHODOPSIN MUTANT/LIPID COMPLEX; ION PUMP, MEMBRANE PROTEIN, RETINAL; HET: SQU, RET, LI1; 2.0A {Halobacterium salinarum} SCOP: f.13.1.1; Related PDB entries: 1L0M_A
+Probab=100.00  E-value=4.4e-36  Score=239.07  Aligned_cols=183  Identities=28%  Similarity=0.561  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHcccc-----chHHHHHHHHHHHHHHHHHHHHhCCcceecC---CCccccHHHHHHHHH
+Q Bin_245_Bathya    3 EMIIFIVGIAIFSGSSFMFLILKNRN-----QRMATINTIVSFVTVASYMLMFDGSGTLMVP---SGELVYWTRWIFYAG   74 (202)
+Q Consensus         3 ~~~~~w~~~~~~~~~~~~f~~~~~~~-----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~---~~~~~~~~RY~~W~~   74 (202)
+                      +..++|+++++|++++++|...+++.     |+.+.++.++|.+++++|+.|++|.+....+   ++|++++.||+||++
+T Consensus         5 ~~~~~~~~~~~~~~~~~~f~~~~~~~~~~~~r~~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~~~~~~~~v~~~RY~~W~i   84 (196)
+T 1C8S_A            5 EWIWLALGTALMGLGTLYFLVKGMGVSDPDAKKFYAITTLVPAIAFTMYLSMLLGYGLTMVPFGGEQNPIYWARYADWLF   84 (196)
+T ss_dssp             THHHHHHHHHHHHHHHHHHHHHHTTCCSHHHHHHHHHHHHHHHHHHHHHHHHHTTSSCBCCEETTEECCBCHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHcCCCChhhHHHHHHHHHHHHHHHHHHHHHHcCCCceecccCCCCCcchHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHhCcc-chHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHH
+Q Bin_245_Bathya   75 SCSLLMLEISTLMGKDKWMTVEIIASNIIVMLTGALASITEA-ASKWMFFVFSSIAFGYILYRLREGKTDKFLVTFTTIF  153 (202)
+Q Consensus        75 TtPlll~~l~~l~g~~~~~~~~~i~~~~~mi~~G~~~~~~~~-~~~~~~~~~s~~~f~~~~~~l~~~~~~~~l~~~~~v~  153 (202)
+                      |||+++++++.++|.++++...+++.|..|+.+|+.|+..++ +.||.|+++|+++|+.++|++.         ..+++.
+T Consensus        85 t~Plll~~l~~l~~~~~~~~~~~~~~~~~mi~~g~~~~~~~~~~~~~~~~~~s~~~~~~i~~~l~---------~~~~~~  155 (196)
+T 1C8S_A           85 TTPLLLLNLALLVDADQGTILALVGADGIMIGTGLVGALTKVYSYRFVWWAISTAAMLYILYVLF---------NVTVVL  155 (196)
+T ss_dssp             HHHHHHHHHHHHTTCCHHHHHHHHHHHHHHHHHHHHHHHCSSHHHHHHHHHHHHHHHHHHHHHCC---------CHHHHH
+T ss_pred             HHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHHHHHHHhcCCchHHHHHHHHHHHHHHHHHHHHH---------HHHHHH
+
+
+Q ss_pred             HHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHH
+Q Bin_245_Bathya  154 WSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYH  194 (202)
+Q Consensus       154 W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~  194 (202)
+                      |+.||++|.++++|.+.+|++.|++.++++|+++|++||++
+T Consensus       156 W~~YPi~w~l~~~g~~~i~~~~~~~~~~~lD~~~K~~fg~~  196 (196)
+T 1C8S_A          156 WSAYPVVWLIGSEGAGIVPLNIETLLFMVLDVSAKVGFGLI  196 (196)
+T ss_dssp             HHHHHHHHHHSTTTTCCSCHHHHHHHHHHHHHCCCCCHHHC
+T ss_pred             HHHHHHHHHHccCCCCCCChhHHHHHHHHHHHHhHHhHhcC
+
+
+No 16
+>5JSI_A Nitrate/nitrite sensor protein NarQ (E.C.2.7.13.3); membrane protein, iodide, UNKNOWN FUNCTION; HET: LYR, LFA, OLC, IOD; 2.0A {Candidatus Actinomarina minuta} SCOP: f.13.1.0; Related PDB entries: 5JSI_B 
+Probab=100.00  E-value=1.3e-35  Score=240.21  Aligned_cols=194  Identities=15%  Similarity=0.225  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             ChHHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHhCCcceecCCCccccHHHHHHHHHHH
+Q Bin_245_Bathya    1 MLEMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFDGSGTLMVPSGELVYWTRWIFYAGSC   76 (202)
+Q Consensus         1 ~~~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~~~~~~~~~RY~~W~~Tt   76 (202)
+                      ..++.++|+++++|.+++++|...++|.    |+.+.++++++.+++++|+.|+.|.+     +++++++.||+||++||
+T Consensus         3 ~~~~~~~wv~~~~~~~~~~~f~~~~~~~~~~~r~~~~l~~~i~~vaa~~Y~~m~~~~~-----~g~~~~~~RYidW~vTt   77 (220)
+T 5JSI_A            3 ELTYRLFMVATVGMLAGTVFLLASSREVKPEHRRGVYISALVCGIAWYHYQKMGASWE-----SGSYDTGLRYVDWVLTV   77 (220)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHGGGSCGGGCHHHHHHHHHHHHHHHHHHHHHHHHH-----HSSCCTHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHcCCCChHhcHHHHHHHHHHHHHHHHHHHHHhhcc-----cCCCCcHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhCCC---HHHHHHHHHHHHHHHHHHHHHHhCc--cchHHHHHHHHHHHHHHHHHHHhC---------CCH
+Q Bin_245_Bathya   77 SLLMLEISTLMGKD---KWMTVEIIASNIIVMLTGALASITE--AASKWMFFVFSSIAFGYILYRLRE---------GKT  142 (202)
+Q Consensus        77 Plll~~l~~l~g~~---~~~~~~~i~~~~~mi~~G~~~~~~~--~~~~~~~~~~s~~~f~~~~~~l~~---------~~~  142 (202)
+                      |++++.++.++|.+   ++....+++.|.+|+.+|+.|+..+  ++.||.++++|+++|+.+.+.+.+         ++.
+T Consensus        78 Plll~~l~~l~~~~~~~~~~~~~~~~~~~~mi~~G~~~~~~~~~~~~~w~~~~~s~~~~~~l~~~l~~~~~~~~~~~~~~  157 (220)
+T 5JSI_A           78 PLMFVEVLAVTRKGAAYNEAVRNWGIAATVMIGAGYYGETSAAGSNEYWTGFVIAMATYVWLMRNLQAEGEGLKGDQAVA  157 (220)
+T ss_dssp             HHHHHHHHHHHCCHHHHHHHHHHHHHHHHHHHHHHHHHHTSCTTSHHHHHHHHHHHHHHHHHHHHHHHTTTTCCHHHHHH
+T ss_pred             HHHHHHHHHHHcCchhhHHHHHHHHHHHHHHHHHHHHHHHhcCCCcchHHHHHHHHHHHHHHHHHHHHhhcCCCHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhccC
+Q Bin_245_Bathya  143 DKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQVE  202 (202)
+Q Consensus       143 ~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~~~  202 (202)
+                      +++++.++.+.|..||++|++++.|.   +++.|++.|+++|+++|++||++++..++.+
+T Consensus       158 ~~~l~~~~~~~W~~YPi~w~l~~~g~---~~~~~~~~~~ilDv~~K~~fg~~l~~~~~~~  214 (220)
+T 5JSI_A          158 FENIKNLILVGWIIYPLGYIAPVVGD---FDAIREVLYTIADIINXVGLGVLVLQMARVQ  214 (220)
+T ss_dssp             HHHHHHHHHHHTTHHHHHHHHHHHSC---CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhhhcCC---hHHHHHHHHHHHHHHcHHhHHHHHHHHHHhh
+
+
+No 17
+>5ZIH_A Sensory opsin A,Chrimson; membrane protein, rhodopsin, ion channel; HET: OLC, LYR; 2.6A {Chlamydomonas reinhardtii}; Related PDB entries: 5ZIH_B 
+Probab=100.00  E-value=1.4e-35  Score=254.24  Aligned_cols=194  Identities=16%  Similarity=0.298  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHH---HHHHHHHHHHHHHHHhCCcceecCCCccccHHHHHHHHHH
+Q Bin_245_Bathya    3 EMIIFIVGIAIFSGSSFMFLILKNRN----QRMATIN---TIVSFVTVASYMLMFDGSGTLMVPSGELVYWTRWIFYAGS   75 (202)
+Q Consensus         3 ~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~---~~i~~ia~~~Y~~m~~~~g~~~~~~~~~~~~~RY~~W~~T   75 (202)
+                      ++.++|+++++|+++++.|.+.++|.    |+.+.++   ++++++++++|+.|+.+.+    +++|++++.||+||++|
+T Consensus        91 ~~~~lwv~f~~m~~~~l~f~~~~~r~~~~~r~~~~l~~~~~~I~~ia~~sY~~ma~~~~----~~gr~v~~~RYvdWliT  166 (347)
+T 5ZIH_A           91 AQVCQWIAFSIAIALLTFYGFSAWKATCGWEEVYVCCVEVLFVTLEIFKEFSSPATVYL----STGNHAYCLRYFEWLLS  166 (347)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHCC-----CTTHHHHHHHHHHHHHHHHHHHHTTSTTTSEEB----TTSCEECHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHccCCCCchhHHHHHHHHHHHHHHHHHHHHHHHHcCc----CCCccccHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHhCCCH---HHHHHHHHHHHHHHHHHHHHHhCccchHHHHHHHHHHHHHHHHHHHhC-------------
+Q Bin_245_Bathya   76 CSLLMLEISTLMGKDK---WMTVEIIASNIIVMLTGALASITEAASKWMFFVFSSIAFGYILYRLRE-------------  139 (202)
+Q Consensus        76 tPlll~~l~~l~g~~~---~~~~~~i~~~~~mi~~G~~~~~~~~~~~~~~~~~s~~~f~~~~~~l~~-------------  139 (202)
+                      ||++++.++.++|.++   +.+..+++.|++|+++|+.|+...++.||.|+++|+++|+.+++.+.+             
+T Consensus       167 tPLLL~~L~lLag~~~~~~~~~~~lv~~d~lMI~~G~~gal~~~~~kw~~f~is~~~~l~l~~~l~~~~~~a~~~~~~~~  246 (347)
+T 5ZIH_A          167 CPVILIKLSNLSGLKNDYSKRTMGLIVSCVGMIVFGMAAGLATDWLKWLLYIVSCIYGGYMYFQAAKCYVEANHSVPKGH  246 (347)
+T ss_dssp             HHHHHHHHTTCSSCCCSCCHHHHHHHHHHHHHHHHHHHHHHCCTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSCTTH
+T ss_pred             HHHHHHHHHHHhCCCCcchHHHHHHHHHHHHHHHHHHHHHHccchHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCchH
+
+
+Q ss_pred             -CCHHHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  140 -GKTDKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       140 -~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                       ++.++.++.++++.|..||++|++++.|.+.+|.+.++++|+++|+++|++||++++..++
+T Consensus       247 ~~~~~~~L~~l~~v~W~lYPIvw~L~~eG~~~is~~~e~i~y~ilDilsKv~fg~ll~~~~~  308 (347)
+T 5ZIH_A          247 CRMVVKLMAYAYFASWGSYPILWAVGPEGLLKLSPYANSIGHSICDIIAXEFWTFLAHHLRI  308 (347)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHSTTTTSCSCHHHHHHHHHHHHCCCCCCHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHCcccCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 18
+>4JQ6_B Proteorhodopsin; retinylidene protein, ion transport, PROTON; HET: LI1, RET; 2.31A {uncultured bacterium} SCOP: f.13.1.0; Related PDB entries: 4JQ6_C 4JQ6_A 
+Probab=100.00  E-value=2e-35  Score=241.27  Aligned_cols=195  Identities=18%  Similarity=0.278  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHhCCcceecCCCccccHHHHHHHHHHHH
+Q Bin_245_Bathya    2 LEMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFDGSGTLMVPSGELVYWTRWIFYAGSCS   77 (202)
+Q Consensus         2 ~~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~~~~~~~~~RY~~W~~TtP   77 (202)
+                      .++.++|+++++|.+++++|+..++|+    |+.+.++.+++.+++++|+.|..+...    ++++.++.||+||++|||
+T Consensus        10 ~~~~~lw~~~~~~~~~~~~~~~~~~~~~~~~r~~~~l~~~i~~va~~~Y~~m~~~~~~----~g~~~~~~RYv~W~vTtP   85 (235)
+T 4JQ6_B           10 YVGISFWLAAAIMLASTVFFFVERSDVPVKWKTSLTVAGLVTGVAFWHYLYMRGVWIY----AGETPTVFRYIDWLITVP   85 (235)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHTTTSCGGGHHHHHHHHHHHHHHHHHHHHHHHCCCC----CCSCCHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHcCCCChhhHHHHHHHHHHHHHHHHHHHHHhccccc----CCCCCchHHHHHHHhHHH
+
+
+Q ss_pred             HHHHHHHHHhCC----CHHHHHHHHHHHHHHHHHHHHHHhCccchHHHHHHHHHHHHHHHHHHHhC--------------
+Q Bin_245_Bathya   78 LLMLEISTLMGK----DKWMTVEIIASNIIVMLTGALASITEAASKWMFFVFSSIAFGYILYRLRE--------------  139 (202)
+Q Consensus        78 lll~~l~~l~g~----~~~~~~~~i~~~~~mi~~G~~~~~~~~~~~~~~~~~s~~~f~~~~~~l~~--------------  139 (202)
+                      ++++.++.++|.    +++....+++.|++|+.+|+.|+..++. ||.|+.+|+++|+.+++++..              
+T Consensus        86 lll~~l~~la~~~~~~~~~~~~~~~~~~~~mi~~g~~g~~~~~~-~~~~~~~s~~~f~~~~~~l~~~~~~~a~~~~~~~~  164 (235)
+T 4JQ6_B           86 LQIIEFYLIIAAVTAISSAVFWKLLIASLVMLIGGFIGEAGLGD-VVVWWIVGMIAWLYIIYEIFLGETAKANAGSGNAA  164 (235)
+T ss_dssp             HHHHHHHHHHHC------CHHHHHHHHHHHHHHHHHHHHHTSSC-HHHHHHHHHHHHHHHHHHHHTC-----------CH
+T ss_pred             HHHHHHHHHHHHHcccCHHHHHHHHHHHHHHHHHHhHHHhccch-HHHHHHHHHHHHHHHHHHHHhHHHHHHhhcCCCHH
+
+
+Q ss_pred             -CCHHHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhccC
+Q Bin_245_Bathya  140 -GKTDKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQVE  202 (202)
+Q Consensus       140 -~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~~~  202 (202)
+                       ++.+++++.++++.|+.||++|++++.|.. +|++.|++.|+++|+++|++||++++..++-+
+T Consensus       165 ~~~~~~~l~~~~~~~W~~YPi~w~l~~~g~~-is~~~~~~~~~ilDi~~K~~f~~~l~~~~~~~  227 (235)
+T 4JQ6_B          165 SQQAFNTIKWIVTVGWAIYPIGYAWGYFGDG-LNEDALNIVYNLADLINKAAFGLAIWAAAMKD  227 (235)
+T ss_dssp             HHHHHHHHHHCCCCCHHHHHHHHHHHHSSSS-CCHHHHHHHHHHHHCCCCCCHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHhhccCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHhh
+
+
+No 19
+>4XTL_A KR2; ion pump, membrane protein; HET: LFA, GOL, LYR; 1.45A {Dokdonia eikasta}; Related PDB entries: 3X3B_A 3X3C_A 4XTN_B 4XTN_I 4XTN_G 6RF4_C 4XTN_J 6RF4_E 4XTN_A 6RF4_A 4XTN_D 6RF4_D 4XTN_F 6RF4_B 4XTN_E 6RF5_A 4XTO_C 6RF6_A 4XTO_E 4XTO_A 4XTO_D 6RF7_A 4XTO_B 6RF9_A 6RFA_A 6RF0_C 6RF0_E 6RF0_A 6RFB_A 6RF0_D 6RF0_B 5JRF_A 6RF1_C 6RF3_C 6RF1_E 6RF3_E 6RFC_A 6RF1_A 6RF3_A 6RF1_D 6RF3_D 6RF1_B 6RF3_B 4XTN_C 4XTN_H 6REW_C 6REW_E 6REW_A 6REW_D 6REW_B 6REX_C 6REX_E 6REX_A 6REX_D 6REZ_C 6REX_B 6REZ_E 6REZ_A 6REZ_D 6REZ_B
+Probab=100.00  E-value=3.5e-35  Score=246.64  Aligned_cols=201  Identities=15%  Similarity=0.195  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHhCCcceec----------CCCcccc--
+Q Bin_245_Bathya    2 LEMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFDGSGTLMV----------PSGELVY--   65 (202)
+Q Consensus         2 ~~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~----------~~~~~~~--   65 (202)
+                      .++.++|+++++|++++++|+..++|.    |+.+.++++++.+++++|+.|++|.+....          +++++.+  
+T Consensus        27 ~~~~~l~~~~~~m~~~~l~f~~~~~~~~~~~R~~~~l~~~i~~iA~~~Y~~ma~~~g~~~~~~~~~g~~~~~~~~~~~~~  106 (288)
+T 4XTL_A           27 FTSHILTLGYAVMLAGLLYFILTIKNVDKKFQMSNILSAVVMVSAFLLLYAQAQNWTSSFTFNEEVGRYFLDPSGDLFNN  106 (288)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTGGGSCGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHEEEETTTTEEEECTTSCCCCT
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHcCCCchhhHHHHHHHHHHHHHHHHHHHHHhhhhhcccccccccceeccCCCcccch
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHhCCCHHHHH----HHHHHHHHHHHHHHHHHhCc---cchHHHHHHHHHHHHHHHHHHHh
+Q Bin_245_Bathya   66 WTRWIFYAGSCSLLMLEISTLMGKDKWMTV----EIIASNIIVMLTGALASITE---AASKWMFFVFSSIAFGYILYRLR  138 (202)
+Q Consensus        66 ~~RY~~W~~TtPlll~~l~~l~g~~~~~~~----~~i~~~~~mi~~G~~~~~~~---~~~~~~~~~~s~~~f~~~~~~l~  138 (202)
+                      +.||+||++|||++++.++.++|.+++...    .+++.|++|+.+|++|+..+   ++.||.|+.+|+++|+.+++.+.
+T Consensus       107 ~~RYvdW~iTtPlll~~L~ll~~~~~~~~~~~~~~~v~~~~~Mi~~G~~g~~~~~~~~~~~w~~~~is~~~~~~il~~l~  186 (288)
+T 4XTL_A          107 GYRYLNWLIDVPMLLFQILFVVSLTTSKFSSVRNQFWFSGAMMIITGYIGQFYEVSNLTAFLVWGAISSAFFFHILWVMK  186 (288)
+T ss_dssp             HHHHHHHHHHHHHHHHHGGGTSCCSSSCHHHHHHHHHHHHHHHHHHHHHHHHTTTTCHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHcCCchhhhhHHHHHHHHHHHHHHHHHHHHHccccchhHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             C-------------CCHHHHHHHHHHHHHHHHHHHHHH----ChhcCC--CCCHHHHHHHHHHHHHHHHHHHHHHHHHhh
+Q Bin_245_Bathya  139 E-------------GKTDKFLVTFTTIFWSMFPVAWIL----SPAGFG--ILNAAWTALGYLVLDVITKIYFGYHTTMHY  199 (202)
+Q Consensus       139 ~-------------~~~~~~l~~~~~v~W~~YPi~w~l----~~~g~~--~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r  199 (202)
+                      +             ++.+++++.++++.|+.||++|++    ++.|++  .++.+.|++.|+++|+++|++||++++..+
+T Consensus       187 ~~~~~~~~~~~~~~~~~~~~l~~~~~v~W~~YPi~w~l~~~~g~~g~~~~~is~~~~~i~y~ilDi~~K~~fg~~ll~~~  266 (288)
+T 4XTL_A          187 KVINEGKEGISPAGQKILSNIWILFLISWTLYPGAYLMPYLTGVDGFLYSEDGVMARQLVYTIADVSSXVIYGVLLGNLA  266 (288)
+T ss_dssp             HHHHHHHTTSCHHHHHHHHHHHHHHHHHHHHHHHHHHGGGTTCTTSTTSSHHHHHHHHHHHHHHHCCCCCCHHHHHHHHH
+T ss_pred             HHHHHHhcCCCHHHHHHHHHHHHHHHHHHHHHHHHHHhHHhhCCCCcccCccchHHHHHHHHHHHHHcHHHHHHHHHHHH
+
+
+Q ss_pred             ccC
+Q Bin_245_Bathya  200 QVE  202 (202)
+Q Consensus       200 ~~~  202 (202)
+                      +.+
+T Consensus       267 ~~~  269 (288)
+T 4XTL_A          267 ITL  269 (288)
+T ss_dssp             HHH
+T ss_pred             HHh
+
+
+No 20
+>4KNF_E Blue-light absorbing proteorhodopsin; Membrane, Proton transport, ion transport; HET: RET; 2.6A {gamma proteobacterium 'Hot 75m4'} SCOP: f.13.1.0, l.1.1.1; Related PDB entries: 2L6X_A 4KNF_C 4KNF_A 4KNF_D 4KNF_B 4KLY_C 4KLY_E 4KLY_A 4KLY_D 4KLY_B
+Probab=100.00  E-value=5e-35  Score=242.59  Aligned_cols=196  Identities=15%  Similarity=0.209  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHhCCcceecCCCccccHHHHHHHHHHHH
+Q Bin_245_Bathya    2 LEMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFDGSGTLMVPSGELVYWTRWIFYAGSCS   77 (202)
+Q Consensus         2 ~~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~~~~~~~~~RY~~W~~TtP   77 (202)
+                      .++.++|+++++|++++++|...++|.    |+.+.++++++.+++++|+.|+++....   ++++ .+.||+||++|||
+T Consensus        29 ~~~~~~w~~~~~m~~~~~~f~~~~~~~~~~~R~~~~l~~~i~~iaa~~Y~~m~~~~~~~---~~~~-~~~RYv~W~iTtP  104 (261)
+T 4KNF_E           29 TVGVSFWLVTAGMLAATVFFFVERDQVSAKWKTSLTVSGLITGIAFWHYLYMRGVWIDT---GDTP-TVFRYINWLLTVP  104 (261)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHGGGGSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHT---CSCC-HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhcCCCcchHHHHHHHHHHHHHHHHHHHHHHcccccC---CCCC-cHHHHHHHHhHHH
+
+
+Q ss_pred             HHHHHHHHHhCC----CHHHHHHHHHHHHHHHHHHHHHHhCccchHHHHHHHHHHHHHHHHHHHhC--------------
+Q Bin_245_Bathya   78 LLMLEISTLMGK----DKWMTVEIIASNIIVMLTGALASITEAASKWMFFVFSSIAFGYILYRLRE--------------  139 (202)
+Q Consensus        78 lll~~l~~l~g~----~~~~~~~~i~~~~~mi~~G~~~~~~~~~~~~~~~~~s~~~f~~~~~~l~~--------------  139 (202)
+                      ++++.++.++|.    +++....+++.|.+|+++|+.|+.+++ .||.++++|+++|++++|.+.+              
+T Consensus       105 lll~~l~~l~~~~~~~~~~~~~~~i~~~~~mi~~G~~g~~~~~-~~w~~~~~s~~~f~~ll~~l~~~~~~~~a~~~~~~~  183 (261)
+T 4KNF_E          105 LLVVEFYLILAACTSVAASLFKKLLAGSLVMLGAGFAGEAGLA-PVLPAFIIGMAGWLYMIYELYMGEGKAAVSTASPAV  183 (261)
+T ss_dssp             HHHHHHHHHHHTTCSCHHHHHHHHHHHHHHHHHHHHHHHHTSS-CHHHHHHHHHHHHHHHHHHHHTSGGGGCCCCSCHHH
+T ss_pred             HHHHHHHHHHHhcccccHHHHHHHHHHHHHHHHHHHHHHhccc-chHHHHHHHHHHHHHHHHHHHhhhHHHHHHcCCHHH
+
+
+Q ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHCh-hcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhccC
+Q Bin_245_Bathya  140 GKTDKFLVTFTTIFWSMFPVAWILSP-AGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQVE  202 (202)
+Q Consensus       140 ~~~~~~l~~~~~v~W~~YPi~w~l~~-~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~~~  202 (202)
+                      ++.++.++.++++.|+.||++|++++ .|.+.++++.|+++|+++|+++|++||++++..++.+
+T Consensus       184 ~~~~~~l~~~~~i~W~~YPivw~l~~~~g~~~i~~~~~~~~y~ilDi~aK~~fg~~l~~~~~~~  247 (261)
+T 4KNF_E          184 NSAYNAMMMIIVVGWAIYPAGYAAGYLMGGEGVYASNLNLIYNLADFVNKILFGLIIWNVAVKE  247 (261)
+T ss_dssp             HHHHHHHHHCCCCCTTHHHHHHHHHHSSCC--CCHHHHHHHHHHHHCCCCCCHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhccCCCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 21
+>4HYJ_B Rhodopsin; Seven-helical transmembrane protein, Proton pump; HET: LFA, RET; 2.3A {Exiguobacterium sibiricum} SCOP: f.13.1.0; Related PDB entries: 4HYJ_A
+Probab=100.00  E-value=6.5e-35  Score=241.42  Aligned_cols=199  Identities=21%  Similarity=0.353  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             ChHHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHhCCcceecC---CCccccHHHHHHHH
+Q Bin_245_Bathya    1 MLEMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFDGSGTLMVP---SGELVYWTRWIFYA   73 (202)
+Q Consensus         1 ~~~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~---~~~~~~~~RY~~W~   73 (202)
+                      +.++.++|+++++|++++++|...+++.    |+++.++.+++.+++++|+.|+.|.+....+   ++++. +.||+||+
+T Consensus         9 ~~~~~~lwv~~~~~~~~~l~f~~~~~~~~~~~R~~~~l~~~i~~vaal~Y~~ma~~~g~~~~~~~~~~~~~-~~RY~dW~   87 (258)
+T 4HYJ_B            9 LATQYMFWVGFVGMAAGTLYFLVERNSLAPEYRSTATVAALVTFVAAIHYYFMKDAVGTSGLLSEIDGFPT-EIRYIDWL   87 (258)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHTTSCGGGHHHHHHHHHHHHHHHHHHHHHTC--------------CH-HHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHcCCChhhHHHHHHHHHHHHHHHHHHHHHHhcccccccccccCCCcc-hhHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHhCC----CHHHHHHHHHHHHHHHHHHHHHHhCcc------chHHHHHHHHHHHHHHHHHHHhC----
+Q Bin_245_Bathya   74 GSCSLLMLEISTLMGK----DKWMTVEIIASNIIVMLTGALASITEA------ASKWMFFVFSSIAFGYILYRLRE----  139 (202)
+Q Consensus        74 ~TtPlll~~l~~l~g~----~~~~~~~~i~~~~~mi~~G~~~~~~~~------~~~~~~~~~s~~~f~~~~~~l~~----  139 (202)
+                      +|||++++.++.++|.    +++.+..+++.|.+|+++|+.|+.+++      +.||.++++|+++|+.++|.+..    
+T Consensus        88 iTtPlll~~l~~l~~~~~~~~~~~~~~~v~~~~~mi~~G~~g~~~~~~~~~~~~~~~~~~~~s~~~f~~v~~~l~~~~~~  167 (258)
+T 4HYJ_B           88 VTTPLLLVKFPLLLGLKGRLGRPLLTKLVIADVIMIVGGYIGESSINIAGGFTQLGLWSYLIGCFAWIYIIYLLFTNVTK  167 (258)
+T ss_dssp             HHHHHHHHHHHHHHHCBTTBTHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSCCHHHHHHHHHHHHHHHHHHHHCCCCCHH
+T ss_pred             HHHHHHHHHHHHHhccccccCHHHHHHHHHHHHHHHHHHHHHHHhhcccCCCchHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ---------CCHHHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  140 ---------GKTDKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       140 ---------~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                               ++.++.++.++++.|..||++|.+++.+.+..++..+++.++++|+++|++||++++..++
+T Consensus       168 ~~~~~~~~~~~~~~~l~~~~~v~W~~YPi~w~l~~~~~g~~~~~~~~i~~~ilDi~aK~~fg~~l~~~~~  237 (258)
+T 4HYJ_B          168 AAENKPAPIRDALLKMRLFILIGWAIYPIGYAVTLFAPGVEIQLVRELIYNFADLTNKVGFGLIAFFAVK  237 (258)
+T ss_dssp             HGGGSCHHHHHHHHHHHHCCCCCTTHHHHHHHHHHHSCSHHHHHHHHHHHHHHHHCCCCCHHHHHHHHHH
+T ss_pred             HHhCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCCcchHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 22
+>6EYU_C Bacteriorhodopsin; Retinal protein, proton transport, MEMBRANE; HET: LFA, MUN, RET; 2.5A {Nanosalina sp. (strain J07AB43)}; Related PDB entries: 6EYU_A 6EYU_B
+Probab=100.00  E-value=4.1e-35  Score=239.17  Aligned_cols=188  Identities=19%  Similarity=0.319  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             hHHHHHHHHHHH-HHHHHHHHHHHcccc---chHHHHHHHHHHHHHHHHHHHHhCCcceecCCCccccHHHHHHHHHHHH
+Q Bin_245_Bathya    2 LEMIIFIVGIAI-FSGSSFMFLILKNRN---QRMATINTIVSFVTVASYMLMFDGSGTLMVPSGELVYWTRWIFYAGSCS   77 (202)
+Q Consensus         2 ~~~~~~w~~~~~-~~~~~~~f~~~~~~~---kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~~~~~~~~~RY~~W~~TtP   77 (202)
+                      .++.++|+++++ |.+++++|..+++|+   |+.+.++.+++.+++++|+.|+++        ++++++.||+||++|+|
+T Consensus        11 ~g~~~lw~~~~~~~~~~~~~f~~~~~~~~~~r~~~~l~~~i~~ia~~~Y~~m~~~--------~~~~~~~RYv~W~iTtP   82 (232)
+T 6EYU_C           11 FGSQPFILAYIITAMISGLLFLYLPRKLDVPQKFGIIHFFIVVWSGLMYTNFLNQ--------SFLSDYAWYMDWMVSTP   82 (232)
+T ss_dssp             CTTHHHHHHHHHHHHHHHHHHHHHHHHHTSCHHHHHHHHHHHHHHHHHHHHHHSC--------CTTGGGHHHHHHHHHHH
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHhcCCCCCcHHHHHHHHHHHHHHHHHHHHHcc--------ccchHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHhCCCHHH-----HHHHHHHHHHHHHHHHHHHhCccchHHHHHHHHHHHHHHHHHHHhC-------------
+Q Bin_245_Bathya   78 LLMLEISTLMGKDKWM-----TVEIIASNIIVMLTGALASITEAASKWMFFVFSSIAFGYILYRLRE-------------  139 (202)
+Q Consensus        78 lll~~l~~l~g~~~~~-----~~~~i~~~~~mi~~G~~~~~~~~~~~~~~~~~s~~~f~~~~~~l~~-------------  139 (202)
+                      +++++++.++|.++++     ...+++.|++|+++|++|+..+   ||.|+.+|+++|+.++|.+.+             
+T Consensus        83 lll~~l~~la~~~~~~~~~~~~~~~~~~~~~mi~~G~~g~~~~---~w~~~~~s~~~~l~v~~~l~~~~~~~a~~~~~~~  159 (232)
+T 6EYU_C           83 LILLALGLTAFHGADTKRYDLLGALLGAEFTLVITGLLAQAQG---SITPYYVGVLLLLGVVYLLAKPFREIAEESSDGL  159 (232)
+T ss_dssp             HHHHHHHHHHHTTCSCCCHHHHHHHHHHHHHHHHHHHHHHHHT---CSHHHHHHHHHHHHHHHHHHTHHHHHHHHSCHHH
+T ss_pred             HHHHHHHHHHhcCCCcchHHHHHHHHHHHHHHHHHHHHHHhcc---ccHHHHHHHHHHHHHHHHHHhHHHHHHhcCCHHH
+
+
+Q ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHC-----hhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  140 GKTDKFLVTFTTIFWSMFPVAWILS-----PAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       140 ~~~~~~l~~~~~v~W~~YPi~w~l~-----~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                      ++.+++++.++.+.|..||++|.++     ++|.+.+|++.|++.++++|+++|++||++++..++
+T Consensus       160 ~~~~~~l~~~~~i~W~~YPi~w~l~~~~~~~~g~~~is~~~~~i~~~ilDv~~K~~fg~~ll~~~~  225 (232)
+T 6EYU_C          160 ARAYKILAGYIGIFFLSYPTVWYISGIDALPGSLNILDPTQTSIALVVLPFFCKQVYGFLDMYLIH  225 (232)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHBCCSSSCCSCCCBCHHHHHHHHHHHHHCCCCCHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhccccCCCccccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 23
+>6CSM_B GtACR1; rhodopsin, channelrhodopsin, anion channel, optogenetics; HET: OLA, RET; 2.9A {Guillardia theta CCMP2712}; Related PDB entries: 6EDQ_A 6EDQ_B 6CSM_C 6CSM_A 6CSM_D 
+Probab=100.00  E-value=1.9e-34  Score=240.98  Aligned_cols=196  Identities=19%  Similarity=0.324  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHccccchHHHHHHHHHHHHHHHHHHHHhCCcceecCCCccccHHHHHHHHHHHHHHHHH
+Q Bin_245_Bathya    3 EMIIFIVGIAIFSGSSFMFLILKNRNQRMATINTIVSFVTVASYMLMFDGSGTLMVPSGELVYWTRWIFYAGSCSLLMLE   82 (202)
+Q Consensus         3 ~~~~~w~~~~~~~~~~~~f~~~~~~~kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~~~~~~~~~RY~~W~~TtPlll~~   82 (202)
+                      ++.++|..+++|.+....+...|+++++..  +.+++.+++++|+.|++|.+....+++|++++.||+||++|+|++++.
+T Consensus        28 gs~~l~~v~~i~~~~~~~~~~~r~~~~~~~--~~~i~~iaai~Y~~ma~~~g~~~~~~~r~v~~~RYi~W~iTtPlll~~  105 (277)
+T 6CSM_B           28 GIKYVQLVMAVVSACQVFFMVTRAPKVPWE--AIYLPTTEMITYSLAFTGNGYIRVANGKYLPWARMASWLCTCPIMLGL  105 (277)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTCSSCCTH--HHHHHHHHHHHHHHHHTTCCEEEBTTSCEEEHHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHhcCCCCChH--HHHHHHHHHHHHHHHHhCCceEeeeCcccchhHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHhCCCHHH---HHHHHHHHHHHHHHHHHHHhCc-cchHHHHHHHHHHHHHHHH-------HHHhC------------
+Q Bin_245_Bathya   83 ISTLMGKDKWM---TVEIIASNIIVMLTGALASITE-AASKWMFFVFSSIAFGYIL-------YRLRE------------  139 (202)
+Q Consensus        83 l~~l~g~~~~~---~~~~i~~~~~mi~~G~~~~~~~-~~~~~~~~~~s~~~f~~~~-------~~l~~------------  139 (202)
+                      ++.++|.+++.   ...+++.|.+|+.+|++|+... +..||.|+++|+++|+.++       +.+.+            
+T Consensus       106 l~lla~~~~~~~~~~~~~v~~~~~mi~~G~~ga~~~~~~~kw~~f~is~~~f~~v~~~l~~~~~~l~~~~~~~a~~~~~~  185 (277)
+T 6CSM_B          106 VSNMALVKYKSIPLNPMMIAASSICTVFGITASVVLDPLHVWLYCFISSIFFIFEMVVAFAIFAITIHDFQTIGSPMSLK  185 (277)
+T ss_dssp             HHTTCCCEETTEECHHHHHHHHHHHHHHHHHHTTCSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCCHHHHH
+T ss_pred             HHHHhcCCcCccChHHHHHHHHHHHHHHHHHHHHcCChhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcccCCHH
+
+
+Q ss_pred             -CCHHHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  140 -GKTDKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       140 -~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                       ++.++.++.++++.|..||++|.++++|.+.++++.|+++|+++|+++|++|+.+++..++
+T Consensus       186 ~~~~~~~l~~~~~v~W~~YPi~w~l~~~G~~~is~~~e~i~y~ilDi~~K~~fg~~l~~~~~  247 (277)
+T 6CSM_B          186 VVERLKLMRIVFYVSWMAYPILWSFSSTGACIMSENTSSVLYLLGDALCKNTYGILLWATTW  247 (277)
+T ss_dssp             HHHHHHHHHHHHHHHHTHHHHHHHHSTTTTCCSCHHHHHHHHHHHHCCCCCCHHHHHHCCCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHccCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 24
+>6JO0_A VirR; microbial type rhodopsin from virus; HET: DD9, D12, RET, HEX, OLB, D10, OCT; 1.651A {Phaeocystis globosa virus 12T}
+Probab=100.00  E-value=2.9e-34  Score=234.22  Aligned_cols=187  Identities=16%  Similarity=0.250  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHhCCcceecCCCccccHHHHHHHHHHHHH
+Q Bin_245_Bathya    3 EMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFDGSGTLMVPSGELVYWTRWIFYAGSCSL   78 (202)
+Q Consensus         3 ~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~~~~~~~~~RY~~W~~TtPl   78 (202)
+                      +..++|+++++|.++++.+...++|.    |+.+.++.+++.+++++|+.|++|.+.  .+++|++++.||+||++|||+
+T Consensus        18 ~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~r~~~~l~~~i~~vaa~~Y~~m~~~~~~--~~~~~~v~~~RY~dW~iTtPl   95 (232)
+T 6JO0_A           18 MIFSFLIQIITLIIGIFAQFIKVPRHKYILKDALLLENIVQFIEAIFYLWFIYFYKE--NVDKIDIAKYRYYDWFLTTPT   95 (232)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTCCCCGGGHHHHHHHHHHHHHHHHHHHHHHCCCCCCCS--CTTTSCCHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHCCCCCcccHHHHHHHHHHHHHHHHHHHHHHHhccc--cCCCccccHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHh--CCCHH---------------HHHHHHHHHHHHHHHHHHHHhCccchHHHHHHHHHHHHHHHHHHH----
+Q Bin_245_Bathya   79 LMLEISTLM--GKDKW---------------MTVEIIASNIIVMLTGALASITEAASKWMFFVFSSIAFGYILYRL----  137 (202)
+Q Consensus        79 ll~~l~~l~--g~~~~---------------~~~~~i~~~~~mi~~G~~~~~~~~~~~~~~~~~s~~~f~~~~~~l----  137 (202)
+                      +++.++.++  |.+..               ++..+++.|.+|+++|++|+..++ .||.++++|+++|+.+++.+    
+T Consensus        96 ll~~l~~l~~~~~~~~~~~~~~~~~~~~~~~~i~~~v~~~~~mi~~G~~g~~~~~-~~~~~~~is~~~f~~v~~~l~~~~  174 (232)
+T 6JO0_A           96 MILSVIIYFHYNNSSKKIYYNMITFFKQDFRKILELWFYNFNMLIIGYLQEINII-SILLSTLIGFYFFGLLFYKMFKYY  174 (232)
+T ss_dssp             HHHHHHHHHHHHHCSSCCCSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTSS-CHHHHHHHHHHHHHHHHHHHCCCC
+T ss_pred             HHHHHHHHHhccCCCCccccchhhhccccHHHHHHHHHHHHHHHHHHHHHHhhhh-HHHHHHHHHHHHHHHHHHHHHHHh
+
+
+Q ss_pred             hCCCHHHH-HHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  138 REGKTDKF-LVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       138 ~~~~~~~~-l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                      ++++.++. ++.++++.|+.||++|++++.        .|++.|+++|+++|++||++++..+.
+T Consensus       175 ~~~~~~~~~l~~~~~~~W~~YPi~w~l~~~--------~~~i~y~ilDi~~K~~fg~~l~~~~~  230 (232)
+T 6JO0_A          175 VVQNKKNYLLFFLMFFIWGLYGIAALFNYK--------FKNAFYNILDIFSKNFFGLFLAYLVF  230 (232)
+T ss_dssp             CTTCGGGHHHHHHHHHHHHHHHHHTTSCHH--------HHHHHHHHHHCCCCCHHHHHHHHHHH
+T ss_pred             hhhHHHHHHHHHHHHHHHHHHHHHHHHcHH--------HHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 25
+>3DDL_B Xanthorhodopsin; rhodopsin, carotenoid, ion pump, light-harvesting; HET: SXN, RET, PX4, UNL, PCW; 1.9A {Salinibacter ruber} SCOP: f.13.1.0; Related PDB entries: 3DDL_A
+Probab=100.00  E-value=2.1e-34  Score=240.28  Aligned_cols=201  Identities=18%  Similarity=0.272  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHhCCcceec------CCCccc--cHHHH
+Q Bin_245_Bathya    2 LEMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFDGSGTLMV------PSGELV--YWTRW   69 (202)
+Q Consensus         2 ~~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~------~~~~~~--~~~RY   69 (202)
+                      +++.++|+++++|+++++.|...++|.    |+.+.++++++.+++++|+.|++|.+....      +++++.  .+.||
+T Consensus        15 ~~~~~~w~~~~~m~~~~l~f~~~~~~~~~~~R~~~~l~~~i~~vaa~~Y~~m~~~~~~~~~~~~~~~~~~~~~~~~~~RY   94 (273)
+T 3DDL_B           15 LVFNMFSFTVATMTASFVFFVLARNNVAPKYRISMMVSALVVFIAGYHYFRITSSWEAAYALQNGMYQPTGELFNDAYRY   94 (273)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHGGGSCGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHTEEECSSSEEECSCCCCCHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhcCCChhhHHHHHHHHHHHHHHHHHHHHHHccchhhhhccCccccCCCcCcccHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhCCCHHH----HHHHHHHHHHHHHHHHHHHhCcc----chHHHHHHHHHHHHHHHHHHHhC--
+Q Bin_245_Bathya   70 IFYAGSCSLLMLEISTLMGKDKWM----TVEIIASNIIVMLTGALASITEA----ASKWMFFVFSSIAFGYILYRLRE--  139 (202)
+Q Consensus        70 ~~W~~TtPlll~~l~~l~g~~~~~----~~~~i~~~~~mi~~G~~~~~~~~----~~~~~~~~~s~~~f~~~~~~l~~--  139 (202)
+                      +||++|||++++.++.++|.+++.    +..+++.|++|+.+|++|+...+    +.||.|+.+|+++|+.++|.+..  
+T Consensus        95 vdW~iTtPlll~~l~~l~~~~~~~~~~~~~~~v~~~~~mi~~G~~g~~~~~~~~~~~~~~w~~~s~~~f~~v~~~l~~~~  174 (273)
+T 3DDL_B           95 VDWLLTVPLLTVELVLVMGLPKNERGPLAAKLGFLAALMIVLGYPGEVSENAALFGTRGLWGFLSTIPFVWILYILFTQL  174 (273)
+T ss_dssp             HHHHHHHHHHHHHHHHHSCCCHHHHHHHHHHHHHHHHHHHHHHHHHHTCSCCCSSSHHHHHHHHHHHHHHHHHHCCCCCT
+T ss_pred             HHHHHHHHHHHHHHHHHhCCCcccchHHHHHHHHHHHHHHHHhHHHHhccchhccchhHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             -----------CCHHHHHHHHHHHHHHHHHHHHHHChh---cCCCC---CHHHHHHHHHHHHHHHHHHHHHHHHHhhccC
+Q Bin_245_Bathya  140 -----------GKTDKFLVTFTTIFWSMFPVAWILSPA---GFGIL---NAAWTALGYLVLDVITKIYFGYHTTMHYQVE  202 (202)
+Q Consensus       140 -----------~~~~~~l~~~~~v~W~~YPi~w~l~~~---g~~~i---~~~~~~~~~~ilDi~~K~~f~~~l~~~r~~~  202 (202)
+                                 ++.++.++.++++.|+.||++|++++.   |.+..   +.+.|+++|+++|+++|++||++++..++.+
+T Consensus       175 ~~~~~~~~~~~~~~~~~l~~~~~v~W~~YPi~w~l~~~~~~g~~~~~~~~~~~~~i~y~ilDv~~K~~fg~~l~~~~~~~  254 (273)
+T 3DDL_B          175 GDTIQRQSSRVSTLLGNARLLLLATWGFYPIAYMIPMAFPEAFPSNTPGTIVALQVGYTIADVLAKAGYGVLIYNIAKAK  254 (273)
+T ss_dssp             HHHHHTSCHHHHHHHHHHHHHHHHHHHHHHHHHHTTCC-------CCHHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHH
+T ss_pred             HHHHHhCCHHHHHHHHHHHHHHHHHHHHHhHHHhccccCCccCCCCCCCcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+
+
+No 26
+>5G28_A CHLORIDE PUMPING RHODOPSIN; SIGNALING PROTEIN; HET: OLA, RET; 1.57A {NONLABENS MARINUS S1-08} SCOP: f.13.1.0; Related PDB entries: 6ABA_A 6AB9_A 5B2N_A 5G2C_A 5G2D_A 5ZTK_A 5ZTL_A 5FJG_A 5G2A_A 5G54_A
+Probab=100.00  E-value=9.4e-34  Score=236.51  Aligned_cols=201  Identities=12%  Similarity=0.143  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHhCCcceec--------CCCccccHHHH
+Q Bin_245_Bathya    2 LEMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFDGSGTLMV--------PSGELVYWTRW   69 (202)
+Q Consensus         2 ~~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~--------~~~~~~~~~RY   69 (202)
+                      ....++|+++++|.++++.+...++|.    |+.+.++.+++.+++++|+.|++|.+....        .+++.....||
+T Consensus        20 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~R~~~~l~~~i~~va~~~Y~~ma~~~g~~~~~~~~~~~~~~~~~~~~~RY   99 (275)
+T 5G28_A           20 FIDHLLTMGVGVHFAALIFFLVVSQFVAPKYRIATALSCIVMVSAGLILNSQAVMWTDAYAYVDGSYQLQDLTFSNGYRY   99 (275)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHGGGSCTTTHHHHHHHHHHHHHHHHHHHHHHHHHHHHEEEETTEEEECSSCCCSHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHccCCChhhHHHHHHHHHHHHHHHHHHHHHHhccccceeeeCCccccCCcccCcHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhCC----CHHHHHHHHHHHHHHHHHHHHHHhCcc---chHHHHHHHHHHHHHHHHHHHhC---
+Q Bin_245_Bathya   70 IFYAGSCSLLMLEISTLMGK----DKWMTVEIIASNIIVMLTGALASITEA---ASKWMFFVFSSIAFGYILYRLRE---  139 (202)
+Q Consensus        70 ~~W~~TtPlll~~l~~l~g~----~~~~~~~~i~~~~~mi~~G~~~~~~~~---~~~~~~~~~s~~~f~~~~~~l~~---  139 (202)
+                      +||++|||++++.++.++|.    +++....+++.|.+|+++|++|+..++   +.||.|+++|+++|+.+++.+..   
+T Consensus       100 v~W~vTtPlll~~l~~l~~~~~~~~~~~~~~~i~~~~~mi~~g~~~~~~~~~~~~~~~~~~~~s~~~f~~~~~~l~~~~~  179 (275)
+T 5G28_A          100 VNWMATIPCLLLQLLIVLNLKGKELFSTATWLILAAWGMIITGYVGQLYEVDDIAQLMIWGAVSTAFFVVMNWIVGTKIF  179 (275)
+T ss_dssp             HHHHHHHHHHHHHHHHHTTCCHHHHHHHHHHHHHHHHHHHHHHHHHHTTTTTCHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHccCCcchHHHHHHHHHHHHHHHHHHHHHHHccCChhhHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ----------CCHHHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhccC
+Q Bin_245_Bathya  140 ----------GKTDKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQVE  202 (202)
+Q Consensus       140 ----------~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~~~  202 (202)
+                                ++.++.++.++++.|..||++|.+++.|++.++.+.|++.|+++|+++|++|+++++..++.+
+T Consensus       180 ~~~~~~~~~~~~~~~~l~~~~~~~W~~YPi~w~l~~~g~~~is~~~~~i~~~ilDi~~K~~fg~~ll~~~~~~  252 (275)
+T 5G28_A          180 KNRATMLGGTDSTITKVFWLMMFAWTLYPIAYLVPAFMNNADGVVLRQLLFTIADISSKVIYGLMITYIAIQQ  252 (275)
+T ss_dssp             HHGGGCCTTHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCSHHHHHHHHHHHHHHHCCCCCCHHHHHHHHHHHH
+T ss_pred             HHHHhccCCchHHHHHHHHHHHHHHHHHHHHHHhchhcCCCCcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 27
+>6NWD_A Gll0198 protein; Proton pump, Photoreceptor, TRANSPORT PROTEIN; HET: D12, PX4, D10, RET; 2.0A {Gloeobacter violaceus (strain ATCC 29082 / PCC 7421)}
+Probab=100.00  E-value=6.2e-34  Score=240.18  Aligned_cols=201  Identities=20%  Similarity=0.326  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHhCCcceecCC--------CccccHHHH
+Q Bin_245_Bathya    2 LEMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFDGSGTLMVPS--------GELVYWTRW   69 (202)
+Q Consensus         2 ~~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~~--------~~~~~~~RY   69 (202)
+                      .....+|+++++|.++++.|+..+++.    |+.+.++++++.+++++|+.|++|.+.....+        ++++++.||
+T Consensus        40 ~~~~~f~~~~~~m~~~~l~f~~~~~~~~~~~R~~~~l~~~I~~vaa~~Y~~ma~~~g~~~~~~~g~~~~~~~~~~~~~RY  119 (298)
+T 6NWD_A           40 LVYNAFSFAIAAMFASALFFFSAQALVGQRYRLALLVSAIVVSIAGYHYFRIFNSWDAAYVLENGVYSLTSEKFNDAYRY  119 (298)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHGGGSCGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHEEEETTEEEECSSCCCTHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhccCChhHHHHHHHHHHHHHHHHHHHHHHHccccceeeccCCeeecCCcccchHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhCCC----HHHHHHHHHHHHHHHHHHHHHHhCcc-chHHHHHHHHHHHHHHHHHHHhC-----
+Q Bin_245_Bathya   70 IFYAGSCSLLMLEISTLMGKD----KWMTVEIIASNIIVMLTGALASITEA-ASKWMFFVFSSIAFGYILYRLRE-----  139 (202)
+Q Consensus        70 ~~W~~TtPlll~~l~~l~g~~----~~~~~~~i~~~~~mi~~G~~~~~~~~-~~~~~~~~~s~~~f~~~~~~l~~-----  139 (202)
+                      +||++|||++++.++.++|.+    ++.+..+++.|++|+++|+.|+..++ +.||.|+.+|+++|+.++|.+..     
+T Consensus       120 vdW~iTtPLll~~l~~l~g~~~~~~~~~~~~~v~~~~~miv~G~~ga~~~~~~~~~~w~~is~~~f~~vl~~l~~~~~~~  199 (298)
+T 6NWD_A          120 VDWLLTVPLLLVETVAVLTLPAKEARPLLIKLTVASVLMIATGYPGEISDDITTRIIWGTVSTIPFAYILYVLWVELSRS  199 (298)
+T ss_dssp             HHHHHHHHHHHHHHHHHHTCCHHHHHHHHHHHHHHHHHHHHHHHHHHSCSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHCCChhhcHHHHHHHHHHHHHHHHhchhHHcCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             --------CCHHHHHHHHHHHHHHHHHHHHHHChhcCC-CCCHHHHHHHHHHHHHHHHHHHHHHHHHhhccC
+Q Bin_245_Bathya  140 --------GKTDKFLVTFTTIFWSMFPVAWILSPAGFG-ILNAAWTALGYLVLDVITKIYFGYHTTMHYQVE  202 (202)
+Q Consensus       140 --------~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~-~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~~~  202 (202)
+                              ++.++.++.++++.|..||++|++++.|.+ ..+++.|++.|+++|+++|++||++++..++.+
+T Consensus       200 ~~~~~~~~~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~~~~~~~~~i~y~ilDi~aK~~fg~~ll~~~~~~  271 (298)
+T 6NWD_A          200 LVRQPAAVQTLVRNMRWLLLLSWGVYPIAYLLPMLGVSGTSAAVGVQVGYTIADVLAKPVFGLLVFAIALVK  271 (298)
+T ss_dssp             TTTCCHHHHHHHHHHHHHHHHHHHHHHHHHHGGGSSSCHHHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHH
+T ss_pred             HhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHccCCCCcchHHHHHHHHHHHHhhHHHHHHHHHHHHHHh
+
+
+No 28
+>5AZD_B Thermophilic rhodopsin; Membrane protein, Retinal, Ion pump; HET: LYR; 2.8A {Thermus thermophilus JL-18} SCOP: f.13.1.0; Related PDB entries: 5AZD_C 5AZD_A 5AZD_D 
+Probab=100.00  E-value=2e-33  Score=233.79  Aligned_cols=201  Identities=17%  Similarity=0.282  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHhCCcceec--------CCCccccHHHH
+Q Bin_245_Bathya    2 LEMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFDGSGTLMV--------PSGELVYWTRW   69 (202)
+Q Consensus         2 ~~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~--------~~~~~~~~~RY   69 (202)
+                      .+...+|++++.|+++++.++..+++.    |+.++++.+++.+++++|+.|+++......        +++|++++.||
+T Consensus        14 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~R~~~~l~~~i~~vaa~~Y~~ma~~~~~~~~~~~g~~~~~~~~~~~~~RY   93 (268)
+T 5AZD_B           14 LVFNMLSLTIAGMLAAFVFFLLARSYVAPRYHIALYLSALIVFIAGYHYLRIFESWVGAYQLQDGVYVPTGKPFNDFYRY   93 (268)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHGGGGSCGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHEEEETTEEEECSSCCCCTTTH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhccCCchhHHHHHHHHHHHHHHHHHHHHHHhhcccccccCCCeeecCCCccccHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhCC----CHHHHHHHHHHHHHHHHHHHHHHhCcc-chHHHHHHHHHHHHHHHHHHHhC-----
+Q Bin_245_Bathya   70 IFYAGSCSLLMLEISTLMGK----DKWMTVEIIASNIIVMLTGALASITEA-ASKWMFFVFSSIAFGYILYRLRE-----  139 (202)
+Q Consensus        70 ~~W~~TtPlll~~l~~l~g~----~~~~~~~~i~~~~~mi~~G~~~~~~~~-~~~~~~~~~s~~~f~~~~~~l~~-----  139 (202)
+                      +||++|||++++.++.++|.    +++.+..+++.|++|+.+|++|+..++ ..||.|+.+|+++|+.++|.+..     
+T Consensus        94 v~W~iTtPlll~~l~~l~g~~~~~~~~~~~~~i~~~~~mi~~g~~g~~~~~~~~~~~w~~~s~~~f~~v~~~l~~~~~~~  173 (268)
+T 5AZD_B           94 ADWLLTVPLLLLELILVLGLTAARTWNLSIKLVVASVLMLALGYVGEVNTEPGPRTLWGALSSIPFFYILYVLWVELGQA  173 (268)
+T ss_dssp             HHHHHHHHHHHHHHHHHTTCCHHHHHHHHHHHHHHHHHHHHHHHHHHHCCSHHHHHHHHHHHHHHHHHHHHCCCCCHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHcccccccHHHHHHHHHHHHHHHHHHHHHHhcCCCcchHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ----------CCHHHHHHHHHHHHHHHHHHHHHHChhc-CCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhccC
+Q Bin_245_Bathya  140 ----------GKTDKFLVTFTTIFWSMFPVAWILSPAG-FGILNAAWTALGYLVLDVITKIYFGYHTTMHYQVE  202 (202)
+Q Consensus       140 ----------~~~~~~l~~~~~v~W~~YPi~w~l~~~g-~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~~~  202 (202)
+                                ++.++.++.++++.|+.||++|++++.| .+.++++.|++.|+++|+++|++||.+++..++.+
+T Consensus       174 ~~~~~~~~~~~~~~~~l~~~~~v~W~~YPivw~l~~~~~~g~i~~~~~~i~y~ilDv~~K~~fg~~ll~~~~~~  247 (268)
+T 5AZD_B          174 IREAKFGPRVLELLGATRLVLLMSWGFYPIAYALGTWLPGGAAQEVAIQIGYSLADLIAXPIYGLLVFAIARAK  247 (268)
+T ss_dssp             HHHHTCCHHHHHHHHHHHHHHHHHHTHHHHHHHHHHHSCCCHHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHH
+T ss_pred             HHHhhcCHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCCCchHHHHHHHHHHHHHhcHHHHHHHHHHHHHHh
+
+
+No 29
+>3UG9_A Archaeal-type opsin 1, Archaeal-type opsin; microbialrhodopsin, seven-transmembrane, light-gated cation channel; HET: OLA, RET; 2.3A {Chlamydomonas reinhardtii}; Related PDB entries: 6CSO_A 6EIG_A 6EIG_B 6EID_A 6EID_B 4YZI_A 6CSN_A
+Probab=100.00  E-value=6.4e-32  Score=230.72  Aligned_cols=198  Identities=19%  Similarity=0.355  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHcccc---chHHHHHHHHHHHHHHHHHHHHhCCcceecCCCccccHHHHHHHHHHHHHH
+Q Bin_245_Bathya    3 EMIIFIVGIAIFSGSSFMFLILKNRN---QRMATINTIVSFVTVASYMLMFDGSGTLMVPSGELVYWTRWIFYAGSCSLL   79 (202)
+Q Consensus         3 ~~~~~w~~~~~~~~~~~~f~~~~~~~---kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~~~~~~~~~RY~~W~~TtPll   79 (202)
+                      .+.++|+++++++++++++.+...|.   +|..+........+.++|+.|++|.+....+++|++++.||+||++|||++
+T Consensus        68 ~~~~lW~~~~vs~l~~~i~~~~~~~~~~~~~~~y~~~~~~i~~i~aYf~ma~g~g~~~~~~~r~v~~~RYvdWllT~PLL  147 (333)
+T 3UG9_A           68 ANILQWITFALSALCLMFYGYQTWKSTCGWEEIYVATIEMIKFIIEYFHEFDEPAVIYSSNGNKTVWLRYAEWLLTCPVI  147 (333)
+T ss_dssp             HHHHHHHHHHHHHHHHHHC--------CCHHHHHHHHHHHHHHHHHHHHTTSTTTSEECTTSCEECHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhhccCChHHHHHHHHHHHHHHHHHHHHhcCCceeecCCceeehHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHhCCC---HHHHHHHHHHHHHHHHHHHHHHhCccchHHHHHHHHHHHHHHHHHHHhC--------------CCH
+Q Bin_245_Bathya   80 MLEISTLMGKD---KWMTVEIIASNIIVMLTGALASITEAASKWMFFVFSSIAFGYILYRLRE--------------GKT  142 (202)
+Q Consensus        80 l~~l~~l~g~~---~~~~~~~i~~~~~mi~~G~~~~~~~~~~~~~~~~~s~~~f~~~~~~l~~--------------~~~  142 (202)
+                      +++++.++|.+   ++....++++|.+|+++|+.|+..+++.||.|+++|++..++.++.-.+              ++.
+T Consensus       148 L~~L~ll~g~~~~~~~~~~~lv~a~~~MI~~G~~ga~~~~~~kw~~f~is~~yil~~l~~~~~~~~~~~~~~~~~~~~~~  227 (333)
+T 3UG9_A          148 LIHLSNLTGLANDYNKRTMGLLVSDIGTIVWGTTAALSKGYVRVIFFLMGLCYGIYTFFNAAKVYIEAYHTVPKGRCRQV  227 (333)
+T ss_dssp             HHHHTTTTSCCCCCCHHHHHHHHHHHHHHHHHHHHHHSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCSSHHHHH
+T ss_pred             HHHHHHHhCCCccccHHHHHHHHHHHHHHHHHHHHHHcccchHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCChHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  143 DKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       143 ~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                      ++.++.++++.|+.||++|++++.|.+.++.+.++++|+++|+++|++||++++..|+
+T Consensus       228 ~~~l~~l~~v~W~iYPI~wlL~~~g~~~is~~~~~i~y~iaDiiaK~~fG~ll~~~r~  285 (333)
+T 3UG9_A          228 VTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRV  285 (333)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHSTTTTCSSCHHHHHHHHHHHHCCCCCCHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHCccCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 30
+>1BCT_A BACTERIORHODOPSIN (FRAGMENT 163-231) (NMR, 14; PHOTORECEPTOR; NMR {Halobacterium salinarum} SCOP: j.35.1.1
+Probab=99.21  E-value=2e-13  Score=90.95  Aligned_cols=61  Identities=33%  Similarity=0.583  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHChhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Q Bin_245_Bathya  140 GKTDKFLVTFTTIFWSMFPVAWILSPAGFGILNAAWTALGYLVLDVITKIYFGYHTTMHYQ  200 (202)
+Q Consensus       140 ~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~~i~~~~~~~~~~ilDi~~K~~f~~~l~~~r~  200 (202)
+                      ++.++.++.++.+.|..||++|+++.+|.+.++++.|++.|+++|+++|++|+++++..++
+T Consensus         6 ~~~~~~l~~~~~~~W~~YPi~w~lg~~g~~~i~~~~~~i~y~ilDv~~K~~fg~~~~~~~~   66 (69)
+T 1BCT_A            6 ASTFKVLRNVTVVLWSAYPVVWLIGSEGAGIVPLNIETLLFMVLDVSAKVGFGLILLRSRA   66 (69)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHTTTTTTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHccCCCCCCChhHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 31
+>1BHB_A BACTERIORHODOPSIN (PROTEOLYTIC FRAGMENT 1 -; PHOTORECEPTOR; NMR {Halobacterium salinarum} SCOP: j.35.1.1; Related PDB entries: 1BHA_A
+Probab=98.37  E-value=1.6e-08  Score=67.67  Aligned_cols=57  Identities=28%  Similarity=0.482  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHccc-c----chHHHHHHHHHHHHHHHHHHHHhCCcceecC
+Q Bin_245_Bathya    3 EMIIFIVGIAIFSGSSFMFLILKNR-N----QRMATINTIVSFVTVASYMLMFDGSGTLMVP   59 (202)
+Q Consensus         3 ~~~~~w~~~~~~~~~~~~f~~~~~~-~----kr~~~l~~~i~~ia~~~Y~~m~~~~g~~~~~   59 (202)
+                      ++.++|+++++|.+++++|..+.+| +    |++|.+...|+++++++|+.|++|.|.+..+
+T Consensus         9 g~~~lw~~~~~m~~~~l~f~~~~~~~~~~~~r~~~~~~~~I~~iaa~aY~~MA~g~G~~~v~   70 (71)
+T 1BHB_A            9 EWIWLALGTALMGLGTLYFLVKGMGVSDPDAKKFYAITTLVPAIAFTMYLSMLLGYGLTMVP   70 (71)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHCC--CCCHHHHHHHHSHHHHHHHHHHHHHHHHTSSSCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHhcCCCChhhHHHHHHHHHHHHHHHHHHHHHHcCCCccccc
+
+
+No 32
+>6IS6_A heliorhodopsin; alpha-helical, MEMBRANE PROTEIN; HET: OLC, RET; 2.4A {Thermoplasmatales archaeon E-plasma}
+Probab=97.61  E-value=0.00022  Score=59.24  Aligned_cols=169  Identities=14%  Similarity=0.203  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHhCC-cceecCCCccccHHHHHHHHHHHHHHHHHHHHHhCC-CHHHHHHHHHHHHHHHHH
+Q Bin_245_Bathya   30 RMATINTIVSFVTVASYMLMFDGS-GTLMVPSGELVYWTRWIFYAGSCSLLMLEISTLMGK-DKWMTVEIIASNIIVMLT  107 (202)
+Q Consensus        30 r~~~l~~~i~~ia~~~Y~~m~~~~-g~~~~~~~~~~~~~RY~~W~~TtPlll~~l~~l~g~-~~~~~~~~i~~~~~mi~~  107 (202)
+                      +...+.+.-.++++++++..++.. .....+-.+...+.|++|+.+|.|+|+..++.+.|. |...+..+.+.+..|+..
+T Consensus        72 ~i~~~va~Fl~lSA~~H~l~a~~~~~~Y~~~L~~g~N~~RWiEYsiSAsiMiv~Ia~l~Gi~D~~~Lv~i~~lna~m~lf  151 (259)
+T 6IS6_A           72 EIGPLVAMFLFISATAHILIATVLYYRYVQNLKNHMNPYRWFEYSISASFMIVIIAMLTTIYDLGTLLALFTLTAVMNLM  151 (259)
+T ss_dssp             EHHHHHHHHHHHHHHHHHHHHTTTHHHHHHHHHTTCCHHHHHHHHHHHHHHHHHHHHTTTCCBHHHHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHhcchHHHHHHHHcCCCchHHHHHHHHHHHHHHHHHHHcccchHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhCccchH-------HHHHHHHHHHHHHHHHHHhC----CCHHHHHHHHHHHHHHHHHHHHHHChhcCC-CCCHHH
+Q Bin_245_Bathya  108 GALASITEAASK-------WMFFVFSSIAFGYILYRLRE----GKTDKFLVTFTTIFWSMFPVAWILSPAGFG-ILNAAW  175 (202)
+Q Consensus       108 G~~~~~~~~~~~-------~~~~~~s~~~f~~~~~~l~~----~~~~~~l~~~~~v~W~~YPi~w~l~~~g~~-~i~~~~  175 (202)
+                      |+..+..+++.+       +.-...+.+.++.+......    ...-..+....++.+..|++.-.+.....+ .-+...
+T Consensus       152 G~l~E~~~~~~~~~~w~~~~~G~~~GivPWivi~~~~~~~~~~P~fVy~i~~~~filf~~Fav~~~lq~~~~g~w~dy~~  231 (259)
+T 6IS6_A          152 GLMMELHNQTTQNTNWTSYIIGCIAGFVPWIVIFIPLISAESVPDFVIYIFISIAIFFNCFAINMYLQYKKIGKWKNYLH  231 (259)
+T ss_dssp             HHHHHHHTTTCSSCCCHHHHHHHHHHHHHHHHHHHHHHHSSCCCHHHHHHHHHHHHHHHHHHHHHHHHHHTCSGGGSHHH
+T ss_pred             HHHHHHhcCCCCCCchHHHHHHHHHHHHHHHHHHHHHhcccCCChHHHHHHHHHHHHHHHHHHHHHHHHhhccchHhhHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHh
+Q Bin_245_Bathya  176 TALGYLVLDVITKIYFGYHTTMH  198 (202)
+Q Consensus       176 ~~~~~~ilDi~~K~~f~~~l~~~  198 (202)
+                      .|-.|.+++..+|...+-.++..
+T Consensus       232 gE~~YiiLSl~aKs~LaW~vf~g  254 (259)
+T 6IS6_A          232 GEKVYIILSLVAKSALAWQVFAG  254 (259)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHCCC
+T ss_pred             HhhHHHHHHHHHHHHHHHHHHHH
+
+
+No 33
+>5ABB_Z PROTEIN TRANSLOCASE SUBUNIT SECY, PROTEIN; TRANSLATION, RIBOSOME, MEMBRANE PROTEIN, TRANSLOCON; 8.0A {ESCHERICHIA COLI}
+Probab=96.07  E-value=0.005  Score=40.82  Aligned_cols=50  Identities=20%  Similarity=0.300  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHcccc----chHHHHHHHHHHHHHHHHHHHHh
+Q Bin_245_Bathya    2 LEMIIFIVGIAIFSGSSFMFLILKNRN----QRMATINTIVSFVTVASYMLMFD   51 (202)
+Q Consensus         2 ~~~~~~w~~~~~~~~~~~~f~~~~~~~----kr~~~l~~~i~~ia~~~Y~~m~~   51 (202)
+                      ++...+|++.+.|.++++.|+..+++.    |....++++++++++.+|+.|..
+T Consensus        10 ~v~~~f~~~~~am~A~~vff~~~r~~V~~~yR~a~~~s~vV~~iA~~hY~~~~~   63 (69)
+T 5ABB_Z           10 YTGVSFWLVTAALLASTVFFFVERDRVSAKWKTSLTVSGLVTGIAFWHYMYMRG   63 (69)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHTTTSSCCSCCCCSSSCHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhhhcCHHhHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 34
+>6OD7_I Portal protein; DNA-translocation, portal, DNA-packaging, dodecamer, VIRAL;{Human herpesvirus 1  strain KOS}; Related PDB entries: 6OD7_E 6OD7_C 6OD7_H 6OD7_J 6OD7_B 6OD7_D 6OD7_L 6OD7_G 6OD7_K 6OD7_A 6OD7_F
+Probab=28.48  E-value=1.3e+02  Score=28.90  Aligned_cols=35  Identities=11%  Similarity=0.151  Sum_probs=0.0  Template_Neff=4.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHhCCcceecCCCccccHHHHHHHHHHH
+Q Bin_245_Bathya   35 NTIVSFVTVASYMLMFDGSGTLMVPSGELVYWTRWIFYAGSC   76 (202)
+Q Consensus        35 ~~~i~~ia~~~Y~~m~~~~g~~~~~~~~~~~~~RY~~W~~Tt   76 (202)
+                      ..+..++..+.+.....+       ...+..+.||+||+.|+
+T Consensus       133 ~tL~~~v~~~i~~~~~~~-------~~~~~sy~rYVDWi~~l  167 (676)
+T 6OD7_I          133 TTLLDFAHGLVACFAPGG-------PSGPSSFPKYIDWLTCL  167 (676)
+T ss_dssp             HHHHHTHHHHHHHHHHHS-------SSSSCCHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHhcCC-------CCCCCcHHHHHHHHHhC
+
+
