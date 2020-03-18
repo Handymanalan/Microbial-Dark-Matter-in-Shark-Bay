@@ -1,0 +1,21 @@
+bwa mem -t 8 contigs_2000.fa S1_R1.fastq S1_R2.fastq > S1.sam
+bwa mem -t 8 contigs_2000.fa S2_R1.fastq S2_R2.fastq > S2.sam
+bwa mem -t 8 contigs_2000.fa S3_R1.fastq S3_R2.fastq > S3.sam
+bwa mem -t 8 contigs_2000.fa S4_R1.fastq S4_R2.fastq > S4.sam
+bwa mem -t 8 contigs_2000.fa S5_R1.fastq S5_R2.fastq > S5.sam
+bwa mem -t 8 contigs_2000.fa S6_R1.fastq S6_R2.fastq > S6.sam
+bwa mem -t 8 contigs_2000.fa S7_R1.fastq S7_R2.fastq > S7.sam
+bwa mem -t 8 contigs_2000.fa S8_R1.fastq S8_R2.fastq > S8.sam
+bwa mem -t 8 contigs_2000.fa S9_R1.fastq S9_R2.fastq > S9.sam
+bwa mem -t 8 contigs_2000.fa S10_R1.fastq S10_R2.fastq > S10.sam
+
+samtools view -bS S1.sam > S1.bam
+samtools view -bS S2.sam > S2.bam
+samtools view -bS S3.sam > S3.bam
+samtools view -bS S4.sam > S4.bam
+samtools view -bS S5.sam > S5.bam
+samtools view -bS S6.sam > S6.bam
+samtools view -bS S7.sam > S7.bam
+samtools view -bS S8.sam > S8.bam
+samtools view -bS S9.sam > S9.bam
+samtools view -bS S10.sam > S10.bam

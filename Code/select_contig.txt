@@ -1,0 +1,1 @@
+perl select_contig.pl -m 2000 $DIR/2019/contigs.fa contigs_2000.fa

@@ -1,0 +1,1 @@
+Fasta_to_Scaffolds2Bin.sh -e fasta -i $DIR_MaxBin_MAGs > scaffold2binMaxBin.tsv

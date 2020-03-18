@@ -1,0 +1,1 @@
+concoct --composition_file contigs_2000.fa --coverage_file depth_concoct.txt

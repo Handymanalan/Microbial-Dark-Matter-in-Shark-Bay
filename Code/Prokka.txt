@@ -1,0 +1,1 @@
+for file in *.fa; do tag=${file%.fa}; prokka --prefix "$tag" --cpus 8 --outdir "$tag"_prokka --force --metagenome "$file"; done

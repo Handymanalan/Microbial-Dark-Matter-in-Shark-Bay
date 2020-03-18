@@ -1,0 +1,1 @@
+java -jar $TRIMMOMATIC_ROOT/trimmomatic-0.38.jar PE -phred33  R1.fastq R2.fastq R1_P.fastq R1_U.fastq  R2_P.fastq R2_U.fastq SLIDINGWINDOW:4:21 MINLEN:50 -threads $NCPUS

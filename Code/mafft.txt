@@ -1,0 +1,16 @@
+mafft-linsi --thread 4 rpL2.merged.faa > rpL2.merged.mafft.faa
+mafft-linsi --thread 4 rpL3.merged.faa > rpL3.merged.mafft.faa
+mafft-linsi --thread 4 rpL4.merged.faa > rpL4.merged.mafft.faa
+mafft-linsi --thread 4 rpL5.merged.faa > rpL5.merged.mafft.faa
+mafft-linsi --thread 4 rpL6.merged.faa > rpL6.merged.mafft.faa
+mafft-linsi --thread 4 rpL14.merged.faa > rpL14.merged.mafft.faa
+mafft-linsi --thread 4 rpL15.merged.faa > rpL15.merged.mafft.faa
+mafft-linsi --thread 4 rpL18.merged.faa > rpL18.merged.mafft.faa
+mafft-linsi --thread 4 rpL22.merged.faa > rpL22.merged.mafft.faa
+mafft-linsi --thread 4 rpL24.merged.faa > rpL24.merged.mafft.faa
+
+mafft-linsi --thread 4 rpS3.merged.faa > rpS3.merged.mafft.faa
+mafft-linsi --thread 4 rpS8.merged.faa > rpS8.merged.mafft.faa
+mafft-linsi --thread 4 rpS10.merged.faa > rpS10.merged.mafft.faa
+mafft-linsi --thread 4 rpS17.merged.faa > rpS17.merged.mafft.faa
+mafft-linsi --thread 4 rpS19.merged.faa > rpS19.merged.mafft.faa

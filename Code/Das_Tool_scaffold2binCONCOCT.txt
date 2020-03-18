@@ -1,0 +1,1 @@
+perl -pe 's/,/\tCONCOCT.bin./g' clustering_gt1000.csv > concoct_scaffolds2bin.tsv

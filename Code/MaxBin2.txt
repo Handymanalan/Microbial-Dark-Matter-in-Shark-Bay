@@ -1,0 +1,1 @@
+run_MaxBin.pl -contig contigs_2000.fa -abund depth_maxbin.txt -out Maxbin -thread 4

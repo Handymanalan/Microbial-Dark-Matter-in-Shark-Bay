@@ -1,0 +1,1 @@
+gtdbtk classify_wf --cpus 12 -x fa --genome_dir $DIR --out_dir $DIR_Output

@@ -1,0 +1,10 @@
+samtools sort S1.bam -o S1sorted.bam
+samtools sort S2.bam -o S2sorted.bam
+samtools sort S3.bam -o S3sorted.bam
+samtools sort S4.bam -o S4sorted.bam
+samtools sort S5.bam -o S5sorted.bam
+samtools sort S6.bam -o S6sorted.bam
+samtools sort S7.bam -o S7sorted.bam
+samtools sort S8.bam -o S8sorted.bam
+samtools sort S9.bam -o S9sorted.bam
+samtools sort S10.bam -o S10sorted.bam

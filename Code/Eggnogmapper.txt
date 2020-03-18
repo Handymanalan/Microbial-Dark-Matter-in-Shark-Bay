@@ -1,0 +1,1 @@
+for file in MAGs*.faa; do tag=${file%.faa}; emapper.py -m diamond --usemem --cpu 16 -i "$tag".faa -o "$tag"; done

@@ -1,0 +1,8 @@
+#depth file for MetaBAT
+jgi_summarize_bam_contig_depths --outputDepth depth.txt --pairedContigs paired.txt *.bam
+
+#depth file for CONCOCT and Canopy
+awk 'NR > 1 {for(x=1;x<=NF;x++) if(x == 1 || (x >= 4 && x % 2 == 0)) printf "%s", $x (x == NF || x == (NF-1) ? "\n":"\t")}' depth.txt > depth_concoct.txt
+
+#depth file for MaxBin
+cut -f1,3 depth.txt | tail -n+2 > depth_maxbin.txt

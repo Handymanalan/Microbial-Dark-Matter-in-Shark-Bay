@@ -1,0 +1,1 @@
+metabat2 -i contigs_2000.fa -a depth.txt -o $DIR/Output_DIR

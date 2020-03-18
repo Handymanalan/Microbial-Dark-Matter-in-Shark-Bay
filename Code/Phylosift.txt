@@ -1,0 +1,17 @@
+#Array Job
+
+BIN_DIR=$DIR
+
+cd ${BIN_DIR}
+
+BINS=("0" "MAG_1.fa" "MAG_2.fa" "MAG_3.fa")
+
+sleep $[($RANDOM % 240) + 1]
+
+((START_NUMBER = (${PBS_ARRAY_INDEX} - 1 ) * 5 + 1))
+((END_NUMBER = ${START_NUMBER} + 4))
+
+	for i in `(seq $START_NUMBER $END_NUMBER)`
+	do
+	phylosift all --threads 4 --keep_search --updated --custom ${BIN_DIR}/rp16_markers.txt --output ${BINS[i]%.fna} ${BINS[i]}
+	done

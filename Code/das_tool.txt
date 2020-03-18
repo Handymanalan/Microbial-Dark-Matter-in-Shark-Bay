@@ -1,0 +1,1 @@
+./DAS_Tool -i $DIR/scaffold2binMetaBat.tsv,$DIR/scaffold2binMaxBin.tsv,$DIR/scaffold2binConcoct.tsv -l metabat,maxbin,concoct, -c $DIR/contigs_2000.fa --write_bins 1 -o $DIR/DASTool --search_engine blast

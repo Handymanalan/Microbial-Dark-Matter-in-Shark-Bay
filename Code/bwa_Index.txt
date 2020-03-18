@@ -1,0 +1,1 @@
+bwa index contigs_2000.fa

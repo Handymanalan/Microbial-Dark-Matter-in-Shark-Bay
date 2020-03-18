@@ -1,0 +1,1 @@
+extract_fasta_bins.py contigs_2000.fa clustering_gt1000.csv --output_path $DIR

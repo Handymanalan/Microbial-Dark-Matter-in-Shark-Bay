@@ -1,0 +1,1 @@
+megahit -1 Assem_R1.fastq -2 Assem_R2.fastq --k-min 27 --k-step 10 -t 24 -o megahit

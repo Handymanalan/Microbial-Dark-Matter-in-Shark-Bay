@@ -1,0 +1,1 @@
+fastqc Smooth*.fastq --outdir=$DIR

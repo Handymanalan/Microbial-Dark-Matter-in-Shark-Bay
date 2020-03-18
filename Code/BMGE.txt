@@ -1,0 +1,17 @@
+java -jar $DIR_BMGE/BMGE.jar -i rpL2.merged.mafft.faa -t AA -m BLOSUM30 -g 0.5 -of rpL2.merged.mafft.bmge.faa
+java -jar $DIR_BMGE/BMGE.jar -i rpL3.merged.mafft.faa -t AA -m BLOSUM30 -g 0.5 -of rpL3.merged.mafft.bmge.faa
+java -jar $DIR_BMGE/BMGE.jar -i rpL4.merged.mafft.faa -t AA -m BLOSUM30 -g 0.5 -of rpL4.merged.mafft.bmge.faa
+java -jar $DIR_BMGE/BMGE.jar -i rpL5.merged.mafft.faa -t AA -m BLOSUM30 -g 0.5 -of rpL5.merged.mafft.bmge.faa
+java -jar $DIR_BMGE/BMGE.jar -i rpL6.merged.mafft.faa -t AA -m BLOSUM30 -g 0.5 -of rpL6.merged.mafft.bmge.faa
+java -jar $DIR_BMGE/BMGE.jar -i rpL14.merged.mafft.faa -t AA -m BLOSUM30 -g 0.5 -of rpL14.merged.mafft.bmge.faa
+java -jar $DIR_BMGE/BMGE.jar -i rpL15.merged.mafft.faa -t AA -m BLOSUM30 -g 0.5 -of rpL15.merged.mafft.bmge.faa
+java -jar $DIR_BMGE/BMGE.jar -i rpL18.merged.mafft.faa -t AA -m BLOSUM30 -g 0.5 -of rpL18.merged.mafft.bmge.faa
+java -jar $DIR_BMGE/BMGE.jar -i rpL22.merged.mafft.faa -t AA -m BLOSUM30 -g 0.5 -of rpL22.merged.mafft.bmge.faa
+java -jar $DIR_BMGE/BMGE.jar -i rpL24.merged.mafft.faa -t AA -m BLOSUM30 -g 0.5 -of rpL24.merged.mafft.bmge.faa
+
+java -jar $DIR_BMGE/BMGE.jar -i rpS3.merged.mafft.faa -t AA -m BLOSUM30 -g 0.5 -of rpS3.merged.mafft.bmge.faa
+java -jar $DIR_BMGE/BMGE.jar -i rpS8.merged.mafft.faa -t AA -m BLOSUM30 -g 0.5 -of rpS8.merged.mafft.bmge.faa
+java -jar $DIR_BMGE/BMGE.jar -i rpS10.merged.mafft.faa -t AA -m BLOSUM30 -g 0.5 -of rpS10.merged.mafft.bmge.faa
+java -jar $DIR_BMGE/BMGE.jar -i rpS17.merged.mafft.faa -t AA -m BLOSUM30 -g 0.5 -of rpS17.merged.mafft.bmge.faa
+java -jar $DIR_BMGE/BMGE.jar -i rpS19.merged.mafft.faa -t AA -m BLOSUM30 -g 0.5 -of rpS19.merged.mafft.bmge.faa
+

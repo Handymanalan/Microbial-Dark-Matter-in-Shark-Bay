@@ -1,0 +1,1 @@
+iqtree-omp -st AA -bb 1000 -wbtl -s concat.faa -m TEST -nt 4

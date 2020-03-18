@@ -1,0 +1,3 @@
+for f in *faa; do
+interproscan.sh -appl Pfam,TIGRFAM -i $f -f tsv
+done
