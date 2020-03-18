@@ -1,1 +1,0 @@
-hmmscan --cpu 8 --domtblout MAG_1_dbcan.dm dbCAN-fam-HMMsV6.txt MAG_1.faa > MAG_1_dbcan.out
