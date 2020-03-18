@@ -1,0 +1,1 @@
+perl ConsensusDB.pl < MAG_1_dbcan.tsv > MAG_1_dbcan.hits.tsv
