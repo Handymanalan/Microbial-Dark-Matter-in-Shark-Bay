@@ -1,0 +1,42 @@
+Threading  Zmax  Znorm
+MUSTER     11.29 1.95
+dPPAS      21.54 2.32
+wdPPAS     29.20 3.14
+wMUSTER    15.11 2.61
+wPPAS      25.83 3.69
+dPPAS2     61.07 5.82
+PPAS       18.14 2.59
+Env-PPAS   21.11 2.64
+
+==================================================================
+|                  Estimated accuracy of your models             | 
+==================================================================
+                         Estimated        Clusters (N=20200)
+                  ---------------------   ------------------
+Model#  C-score    TM-score    RMSD (A)   #decoys    density
+------  -------   ----------   --------   -------    -------
+model1    1.12    0.87+-0.07   2.6+-1.9    20200      0.990
+
+
+C-score is a confidence score of the I-TASSER predictions which
+is typically in [-5,2]. TM-score and RMSD measure how close the
+model is to the native structure and both are estimated based 
+on the C-score. TM-score is in [0,1] with a value >0.5 implying 
+the model of correct topology. The TM-score and RMSD estimations 
+are made only for the first model because absolute values of 
+TM-score and RMSD for the lower-rank models do not strongly 
+correlate with the C-score. The models are ranked based on the 
+structure density of I-TASSER simulations.
+
+Please cite following articles when you use the I-TASSER Suite:
+
+   1. Y Zhang. I-TASSER server for protein 3D structure prediction.
+      BMC Bioinformatics, 9: 40 (2008).
+   2. A Roy, A Kucukural, Y Zhang. I-TASSER: a unified platform
+      for automated protein structure and function prediction.
+      Nature Protocols, 5: 725-738 (2010).
+   3. J Yang, A Roy, Y Zhang. Protein-ligand binding site recognition
+      using complementary binding-specific substructure comparison and
+      sequence profile alignment. Bioinformatics, 29:2588-2595 (2013).
+
+
