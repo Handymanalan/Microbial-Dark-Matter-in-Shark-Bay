@@ -1,4 +1,4 @@
-### Uncultured biosphere ‘filling the niche,’ in hypersaline microbial mats 
+### Microbial dark matter ‘filling the niche,’ in hypersaline microbial mats 
 
 Manuscript in prep. 
 
@@ -9,7 +9,7 @@ Journal Article is: Hon Lun Wong, Fraser I. MacLeod, Richard Allen White III, Br
 
 **Study**
 
-Reconstructing genomes of metagenomic assembled genomes from the rare biosphere (MDM) in Shark Bay microbial mats 
+Reconstructing genomes of metagenomic assembled genomes from the microbial dark matter (MDM) in Shark Bay microbial mats 
 
 **Analysis**
 
