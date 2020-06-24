@@ -1,0 +1,142 @@
+
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		% B-factor and local structure quality estimation %
+		%       in I-TASSER structure modeling            %
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+1. How was the local accuracy estimated?
+
+    The local accuracy was defined as the distance deviation (in Angstrom) between residue positions 
+    in the model and the native structure. It was estimated using support vector regression that makes 
+    use of the coverage of threading alignment, divergence of I-TASSER simulation decoys, and 
+    sequence-based secondary structure and solvent accessibility predictions. Large-scale benchmark 
+    tests show that the estimated local accuracy has an average error of 2.21 Angstrom and the
+    Pearson's correlation coefficient between estimated and actual error is 0.7. 
+
+    Based on these tests, the local accuracy estimations tend to be  more accurate for residues:
+	 1) that have higher threading alignment coverage
+	 2) that are located at alpha-helix and beta-strand regions
+	 3) that are buried (at 25% threshold)
+
+    The estimated local accuracy for each model is available at the columns 61-66 in the model's PDB file
+    and also at the bottom of this page (columns with label RSQ_*).
+
+2. What is normalized B-factor?
+
+    Normalized B-factor for a target protein is defined as z-score-based normalization of the 
+    raw B-factor values. The normalized B-factor (called B-factor profile, BFP) is predicted using a 
+    combination of both template-based assignment and profile-based prediction. Based on the distributions
+    and predictions of the BFP, residues with BFP values higher than 0 are less stable in experimental 
+    structures. The estimated normalized B-factor is shown at the bottom of this page.
+
+For more information about the local accuracy and normalized B-factor predictions, please refer to the 
+following article:
+
+J Yang, Y Wang, Y Zhang. ResQ: An approach to unified estimation of B-factor and residue-specific error 
+in protein structure prediction, Journal of Molecular Biology, 428: 693-701 (2016).
+#RES	SS	SA	COV	BFP	RSQ_1	
+1	C	E	0.80	2.04	5.87	
+2	C	E	0.85	1.11	3.43	
+3	S	E	0.85	0.21	1.82	
+4	S	B	0.88	-0.67	0.88	
+5	S	B	0.91	-0.90	0.81	
+6	S	B	0.92	-1.02	0.90	
+7	S	E	0.92	-0.95	0.99	
+8	S	B	0.91	-1.03	0.85	
+9	S	E	0.95	-0.78	0.69	
+10	S	B	0.95	-0.74	0.56	
+11	C	E	0.92	-0.45	1.28	
+12	C	B	0.92	-0.08	1.48	
+13	C	E	0.88	0.41	2.17	
+14	C	E	0.82	0.56	1.95	
+15	C	E	0.80	0.56	1.89	
+16	C	E	0.82	0.58	2.17	
+17	C	E	0.82	0.06	2.08	
+18	C	E	0.88	-0.12	1.74	
+19	H	B	0.94	-0.03	1.46	
+20	H	E	0.95	0.11	1.40	
+21	H	E	0.96	-0.02	1.24	
+22	H	B	0.96	-0.36	1.06	
+23	H	E	0.97	-0.35	1.17	
+24	H	E	0.97	-0.05	1.15	
+25	H	E	0.97	-0.15	1.15	
+26	H	B	0.96	-0.42	1.13	
+27	H	E	0.96	-0.03	1.22	
+28	H	E	0.96	0.33	1.72	
+29	H	E	0.91	0.24	2.29	
+30	C	B	0.75	0.27	3.13	
+31	C	E	0.78	0.45	2.56	
+32	C	E	0.89	0.63	2.87	
+33	C	E	0.91	0.33	2.56	
+34	C	B	0.87	-0.09	1.71	
+35	S	E	0.84	-0.15	1.35	
+36	S	B	0.85	-0.35	0.99	
+37	S	E	0.92	-0.19	1.07	
+38	S	E	0.94	-0.12	1.07	
+39	S	E	0.95	-0.21	1.03	
+40	S	E	0.97	-0.10	1.10	
+41	S	E	0.96	-0.08	1.01	
+42	S	E	0.92	-0.21	1.04	
+43	S	B	0.92	-0.40	1.13	
+44	S	B	0.90	-0.48	1.17	
+45	S	B	0.86	-0.40	1.54	
+46	C	E	0.83	-0.63	2.00	
+47	C	B	0.94	-0.13	1.70	
+48	S	B	0.90	-0.33	1.07	
+49	S	E	0.93	-0.42	0.94	
+50	S	E	0.94	-0.51	0.98	
+51	S	B	0.96	-0.80	0.56	
+52	S	E	0.98	-0.89	0.54	
+53	S	B	0.98	-1.01	0.64	
+54	S	E	0.98	-0.97	0.69	
+55	S	B	0.97	-0.98	0.66	
+56	S	B	0.95	-0.86	0.72	
+57	S	B	0.96	-0.62	0.78	
+58	S	E	0.95	-0.28	1.41	
+59	C	B	0.93	0.04	3.22	
+60	C	E	0.92	0.47	3.30	
+61	C	E	0.86	0.50	3.38	
+62	C	E	0.86	0.20	3.25	
+63	C	E	0.92	0.05	2.66	
+64	H	E	0.95	-0.08	2.31	
+65	H	E	0.98	0.14	2.04	
+66	H	E	0.98	0.00	1.51	
+67	H	B	0.98	-0.48	1.19	
+68	H	E	0.97	-0.38	1.58	
+69	H	E	0.98	-0.06	1.55	
+70	H	B	0.98	-0.12	1.27	
+71	H	B	0.98	-0.27	2.05	
+72	H	E	0.97	0.17	2.32	
+73	C	E	0.97	0.36	1.91	
+74	C	B	0.97	0.12	2.09	
+75	C	E	0.94	0.49	2.78	
+76	C	E	0.94	0.29	2.26	
+77	C	B	0.95	-0.22	1.84	
+78	C	E	0.94	-0.13	1.71	
+79	S	E	0.95	-0.29	1.00	
+80	S	B	0.95	-0.66	0.95	
+81	S	E	0.95	-0.63	1.09	
+82	S	E	0.95	-0.59	1.57	
+83	S	E	0.95	-0.44	2.55	
+84	S	E	0.93	-0.43	1.71	
+85	S	E	0.88	-0.45	1.40	
+86	S	E	0.85	-0.01	1.73	
+87	C	E	0.85	0.74	2.08	
+88	C	E	0.74	1.61	2.62	
+
+
+RES:   Residue number
+SS:    Predicted secondary structure: C - random coil; H - alpha-helix; S - beta-strand
+SA:    Predicted solvent accessibility at 25% cutoff: E - exposed; B - buried
+COV:   Threading alignment coverage defined as the number of threading alignments on the residue divided 
+       by the number of total threading programs
+BFP:   Predicted normalized B-factor 
+RSQ_*: Residue-Specific Quality of models defined as the estimated deviation of the residue on the model
+       from the native structure of the protein
+
+
+You are requested to cite the following article when you use the ResQ prediction results:
+
+     J Yang, Y Wang, Y Zhang. ResQ: An approach to unified estimation of B-factor and residue-specific 
+     error in protein structure prediction, Journal of Molecular Biology, 428: 693-701 (2016).
+
