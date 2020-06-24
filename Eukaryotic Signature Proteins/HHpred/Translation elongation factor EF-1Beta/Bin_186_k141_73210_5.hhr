@@ -1,0 +1,285 @@
+Query         k141_73210_5 # 4699 # 4971 # -1 # ID=12_5;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.344
+Match_columns 90
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 51802
+Date          Mon Jun 22 11:40:05 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -o ../results/Bin_186_k141_73210_5.hhr -oa3m ../results/Bin_186_k141_73210_5.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1GH8_A TRANSLATION ELONGATION   99.6 5.5E-15 1.1E-19   89.3   5.4   88    1-90      1-88  (89)
+  2 2YY3_B Elongation factor 1-bet  99.6 4.9E-15 9.5E-20   90.1   5.0   87    4-90      5-91  (91)
+  3 1B64_A ELONGATION FACTOR 1-BET  99.5 2.1E-14   4E-19   86.1   5.0   89    1-90      2-91  (91)
+  4 5O8W_B Elongation factor 1-alp  99.5 2.2E-14 4.2E-19   87.0   5.0   89    1-90      5-94  (94)
+  5 2N51_A Elongation factor 1-del  99.5 3.2E-14 6.1E-19   94.4   4.9   89    1-90     44-133 (133)
+  6 1VS3_B tRNA pseudouridine synt  50.9      13 0.00026   25.4   1.8   29   19-47     71-99  (249)
+  7 1DJ0_A PSEUDOURIDINE SYNTHASE   38.4      25 0.00049   24.5   1.7   29   19-47     73-101 (264)
+  8 4OE9_B COMM domain-containing   27.1      32 0.00062   22.9   0.7   19    9-27     87-105 (121)
+  9 1XNG_B NH(3)-dependent NAD(+)   26.9      71  0.0014   20.5   2.2   42   17-73      2-43  (268)
+ 10 4J37_A tRNA pseudouridine synt  24.4      56  0.0011   23.8   1.5   27   21-47     92-118 (336)
+ 11 5ZR0_A Maltose-binding peripla  22.1      66  0.0013   18.8   1.3   39    9-47     23-61  (142)
+ 12 2D74_B Translation initiation   21.6 1.3E+02  0.0025   20.4   2.8   45   13-57      1-47  (148)
+ 13 3CWO_X beta/alpha-barrel prote  21.1      94  0.0018   19.7   1.9   25    3-28    200-224 (237)
+ 14 3KZ5_A Protein sopB; partition  20.5      46 0.00088   20.6   0.4   26    4-29     22-49  (52)
+ 15 2LJP_A Ribonuclease P protein   20.3      80  0.0016   19.1   1.4   20   14-33     99-118 (119)
+
+No 1
+>1GH8_A TRANSLATION ELONGATION FACTOR 1BETA; ALPHA-BETA SANDWICH, GENE REGULATION, Structural; NMR {Methanothermobacter thermautotrophicus} SCOP: d.58.12.1
+Probab=99.57  E-value=5.5e-15  Score=89.26  Aligned_cols=88  Identities=38%  Similarity=0.638  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CchhHHHhcccChhhHhccHHHHHHHHhccChhhcceeeceeeeeecccceeEEEEEecccccCCCchHHHHHHchhhhe
+Q k141_73210_5      1 MAKKVVAQLKILPEDIETDLEELLKKIGKILPEDVGIYKYDIVPVAFGLKSLKLTIIMPEEKEGGTDSTVEAIQGLEEVQ   80 (90)
+Q Consensus         1 makkvvaqlkilpedietdleellkkigkilpedvgiykydivpvafglkslkltiimpeekeggtdstveaiqgleevq   80 (90)
+                      |+|-.+ .+++.|+|.++|++++.++|.+++++..-+.++.+.|+|||++.+++.++||++ +|++|.-.++|..++.||
+T Consensus         1 m~k~~v-~~~i~P~~~~~d~~~l~~~i~~~~~~~~~~~~~~~~piaFGl~~l~~~~~~~d~-~~~~d~le~~i~~i~~V~   78 (89)
+T 1GH8_A            1 MGDVVA-TIKVMPESPDVDLEALKKEIQERIPEGTELHKIDEEPIAFGLVALNVMVVVGDA-EGGTEAAEESLSGIEGVS   78 (89)
+T ss_dssp             CCCEEE-EEEEEESSSCCCHHHHHHHHHHHSCTTSEECCCCEEECSSSCEEEEEEEEESSS-CGGGGHHHHHHTTSCSSE
+T ss_pred             CceEEE-EEEEcCCCCCCCHHHHHHHHHHhCCCCceeccceEEEeecccceEEEEEEEcCC-CCCchHHHHHhhcCCCcc
+
+
+Q ss_pred             eeeeeeeecC
+Q k141_73210_5     81 RVEVGLVSLL   90 (90)
+Q Consensus        81 rvevglvsll   90 (90)
+                      .+++--++++
+T Consensus        79 svev~~~~~~   88 (89)
+T 1GH8_A           79 NIEVTDVRRL   88 (89)
+T ss_dssp             EEEEEEEEEC
+T ss_pred             eEEEEEEEec
+
+
+No 2
+>2YY3_B Elongation factor 1-beta; Elongation factor, Structural Genomics, NPPSFA; HET: MSE; 2.5A {Pyrococcus horikoshii}; Related PDB entries: 2YY3_C 2YY3_A
+Probab=99.57  E-value=4.9e-15  Score=90.08  Aligned_cols=87  Identities=32%  Similarity=0.568  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             hHHHhcccChhhHhccHHHHHHHHhccChhhcceeeceeeeeecccceeEEEEEecccccCCCchHHHHHHchhhheeee
+Q k141_73210_5      4 KVVAQLKILPEDIETDLEELLKKIGKILPEDVGIYKYDIVPVAFGLKSLKLTIIMPEEKEGGTDSTVEAIQGLEEVQRVE   83 (90)
+Q Consensus         4 kvvaqlkilpedietdleellkkigkilpedvgiykydivpvafglkslkltiimpeekeggtdstveaiqgleevqrve   83 (90)
+                      ++...+++.|++.++|++++.++|..++++...+-.+...|+|||++.+++.+++|++..|++|.--+++..++.||.+|
+T Consensus         5 ~v~i~~~V~P~~~e~d~~~l~~~i~~~~~~~~~~~~~~~~piafGl~~l~~~~~~~d~~~~~~d~le~~i~~i~~V~s~e   84 (91)
+T 2YY3_B            5 NLVGVIRVMPTDPDVNLDELEEKLKKVIPEKYGLAKVEREPIAFGLVALKFYVLGRDEEGYSFDEVAEKFEEVENVESAE   84 (91)
+T ss_dssp             CEEEEEEEEESSSSSCHHHHHHHHTTCSCSSSEEEEEEEEEEETTEEEEEEEEEECSSTTCCHHHHHHHHHHSTTEEEEE
+T ss_pred             eEEEEEEEecCCCCCCHHHHHHHHHHHCchhcccceeeEEEeecCeeeEEEEEEEccCCCCChHHHHHHhhcCCCeeEEE
+
+
+Q ss_pred             eeeeecC
+Q k141_73210_5     84 VGLVSLL   90 (90)
+Q Consensus        84 vglvsll   90 (90)
+                      +--++++
+T Consensus        85 v~~~~~~   91 (91)
+T 2YY3_B           85 VETVSRI   91 (91)
+T ss_dssp             EEEEEEC
+T ss_pred             EEEEecC
+
+
+No 3
+>1B64_A ELONGATION FACTOR 1-BETA; GUANINE NUCLEOTIDE EXCHANGE FACTOR, G-PROTEIN; NMR {Homo sapiens} SCOP: d.58.12.1
+Probab=99.52  E-value=2.1e-14  Score=86.11  Aligned_cols=89  Identities=28%  Similarity=0.438  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CchhHHHhcccChhhHhccHHHHHHHHhccChhhcceeeceeeeeecccceeEEEEEecccccCCCchHHHHHHchhh-h
+Q k141_73210_5      1 MAKKVVAQLKILPEDIETDLEELLKKIGKILPEDVGIYKYDIVPVAFGLKSLKLTIIMPEEKEGGTDSTVEAIQGLEE-V   79 (90)
+Q Consensus         1 makkvvaqlkilpedietdleellkkigkilpedvgiykydivpvafglkslkltiimpeekeggtdstveaiqglee-v   79 (90)
+                      |.-|+...+++.|++.++|++++.++|.+++|+...+.++.+.|+|||++.++..+++|++. +++|.-.+.|..++. |
+T Consensus         2 ~m~k~~v~~~i~P~~~e~d~~~l~~~i~~~~~~~~~~~~~~~~piafGl~~l~~~~~~~d~~-~~~~~~e~~i~~~~~~V   80 (91)
+T 1B64_A            2 LVAKSSILLDVKPWDDETDMAKLEECVRSIQADGLVWGSSKLVPVGYGIKKLQIQCVVEDDK-VGTDMLEEQITAFEDYV   80 (91)
+T ss_dssp             CSSCEEEEEEEEESSTTSCHHHHHHHHHHCCCTTCEEEEEEEEESSSSCEEEEEEEEECTTS-SCHHHHHHHHTTCTTTE
+T ss_pred             CceEEEEEEEEcCCCCCCCHHHHHHHHHHhCcCCCEEeeeeEeecccccceeEEEEEEcCCC-ccchHHHHHHhccCCce
+
+
+Q ss_pred             eeeeeeeeecC
+Q k141_73210_5     80 QRVEVGLVSLL   90 (90)
+Q Consensus        80 qrvevglvsll   90 (90)
+                      |.+|+--++.+
+T Consensus        81 ~~~e~~~~~~~   91 (91)
+T 1B64_A           81 QSMDVAAFNKI   91 (91)
+T ss_dssp             EEEEESCCBCC
+T ss_pred             eEEEEEEEEcC
+
+
+No 4
+>5O8W_B Elongation factor 1-alpha, Elongation factor; PROTEIN-PROTEIN COMPLEX, TRANSLATION, COVALENT MODIFICATION; HET: M3L, PGE, MSE, GLN, MLZ; 1.67A {Saccharomyces cerevisiae} SCOP: d.58.12.1; Related PDB entries: 2B7B_B 2B7C_B 1F60_B 1G7C_B 1IJE_B 1IJF_B
+Probab=99.52  E-value=2.2e-14  Score=87.05  Aligned_cols=89  Identities=27%  Similarity=0.423  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CchhHHHhcccChhhHhccHHHHHHHHhccChhhcceeeceeeeeecccceeEEEEEecccccCCCchHHHHHHchh-hh
+Q k141_73210_5      1 MAKKVVAQLKILPEDIETDLEELLKKIGKILPEDVGIYKYDIVPVAFGLKSLKLTIIMPEEKEGGTDSTVEAIQGLE-EV   79 (90)
+Q Consensus         1 makkvvaqlkilpedietdleellkkigkilpedvgiykydivpvafglkslkltiimpeekeggtdstveaiqgle-ev   79 (90)
+                      |..++...+++.|+|.++|++++.++|.+++|+....-++.+.|+|||++.+++.++||++. |++|...+++.+++ .|
+T Consensus         5 ~m~k~~i~~~I~P~~~e~d~~~l~~~i~~~~~~~~~~~~~~~~piafGlk~l~~~~~~~d~~-~~~d~~e~~~~~~~~~v   83 (94)
+T 5O8W_B            5 PAAKSIVTLDVKPWDDETNLEEMVANVKAIEMEGLTWGAHQFIPIGFGIKKLQINCVVEDDK-VSLDDLQQSIEEDEDHV   83 (94)
+T ss_dssp             CCCEEEEEEEEEESSTTSCHHHHHHHHHTCCCTTEEEEEEEEEEEETTEEEEEEEEEEETTT-CCHHHHHHHHTTCTTTE
+T ss_pred             CceEEEEEEEEcCCCCCCCHHHHHHHHHHHhhcCcEecceEEEEeecccceeEEEEEEcCCC-CChHHHHHHhhccccCe
+
+
+Q ss_pred             eeeeeeeeecC
+Q k141_73210_5     80 QRVEVGLVSLL   90 (90)
+Q Consensus        80 qrvevglvsll   90 (90)
+                      +.+|+--++.+
+T Consensus        84 ~s~e~~~~~r~   94 (94)
+T 5O8W_B           84 QSTDIAAMQKL   94 (94)
+T ss_dssp             EEEEEEEEEEC
+T ss_pred             eEEEEEEEecC
+
+
+No 5
+>2N51_A Elongation factor 1-delta; GUANINE NUCLEOTIDE EXCHANGE FACTOR, TRANSLATION; NMR {Homo sapiens}
+Probab=99.50  E-value=3.2e-14  Score=94.35  Aligned_cols=89  Identities=28%  Similarity=0.422  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CchhHHHhcccChhhHhccHHHHHHHHhccChhhcceeeceeeeeecccceeEEEEEecccccCCCchHHHHHHchhh-h
+Q k141_73210_5      1 MAKKVVAQLKILPEDIETDLEELLKKIGKILPEDVGIYKYDIVPVAFGLKSLKLTIIMPEEKEGGTDSTVEAIQGLEE-V   79 (90)
+Q Consensus         1 makkvvaqlkilpedietdleellkkigkilpedvgiykydivpvafglkslkltiimpeekeggtdstveaiqglee-v   79 (90)
+                      |..++...++|.|++.++|++++.++|.+++|+...+.++.+.|+|||++.|++.++||++. |++|...+.+..++. |
+T Consensus        44 ~mgkv~v~~kI~P~~~e~dl~~l~~~ik~~~~~~~~~~~~~~epiAFGLk~L~v~~~~~d~~-g~~d~lE~~l~~ie~~V  122 (133)
+T 2N51_A           44 LVAKSSILLDVKPWDDETDMAQLEACVRSIQLDGLVWGASKLVPVGYGIRKLQIQCVVEDDK-VGTDLLEEEITKFEEHV  122 (133)
+T ss_dssp             SCCEEEEEEEEEESSTTSCHHHHHHHHHTCCCTTEEEEEEEEEECSSSCEEEEEEEEEETTT-CCHHHHHHHHHHGGGTE
+T ss_pred             heeeeeEEEEECCCCCCCCHHHHHHHHHHcccCCcEEcceeeeeccccceEEEEEEEEcCCC-cchhHHHHHHhccCCcc
+
+
+Q ss_pred             eeeeeeeeecC
+Q k141_73210_5     80 QRVEVGLVSLL   90 (90)
+Q Consensus        80 qrvevglvsll   90 (90)
+                      +.+++--+|.+
+T Consensus       123 ~svev~~~~rl  133 (133)
+T 2N51_A          123 QSVDIAAFNKI  133 (133)
+T ss_dssp             EEEEEEEEEEC
+T ss_pred             ceEEEEEEecC
+
+
+No 6
+>1VS3_B tRNA pseudouridine synthase A (E.C.5.4.99.12); TruA, pseudouridine synthase, tRNA modification; 2.25A {Thermus thermophilus}; Related PDB entries: 1VS3_A; Related PDB entries: 1VS3_A 
+Probab=50.91  E-value=13  Score=25.43  Aligned_cols=29  Identities=24%  Similarity=0.458  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             cHHHHHHHHhccChhhcceeeceeeeeec
+Q k141_73210_5     19 DLEELLKKIGKILPEDVGIYKYDIVPVAF   47 (90)
+Q Consensus        19 dleellkkigkilpedvgiykydivpvaf   47 (90)
+                      +.+++.+.+.+.||+|+.++...-||-.|
+T Consensus        71 ~~~~~~~~lN~~Lp~dIrv~~~~~v~~~F   99 (249)
+T 1VS3_B           71 PVEKVPEALNRLLPEDLKVVGAREVAPDF   99 (249)
+T ss_dssp             CGGGHHHHHHHHSCTTEEEEEEEEECTTC
+T ss_pred             CHHHHHHHHHHhCCCCcEEEEEEECCCCC
+
+
+No 7
+>1DJ0_A PSEUDOURIDINE SYNTHASE I (E.C.4.2.1.70); ALPHA/BETA FOLD, RNA-BINDING MOTIF, RNA-MODIFYING; 1.5A {Escherichia coli} SCOP: d.265.1.1; Related PDB entries: 2NQP_A 2NQP_B 2NQP_D 2NQP_C 2NR0_A 2NR0_B 2NR0_D 2NR0_C 2NRE_A 1DJ0_B; Related PDB entries: 2NQP_C 2NQP_D 2NQP_B 2NQP_A 2NR0_C 2NR0_D 2NR0_B 2NR0_A 2NRE_A 1DJ0_B 
+Probab=38.44  E-value=25  Score=24.46  Aligned_cols=29  Identities=21%  Similarity=0.256  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             cHHHHHHHHhccChhhcceeeceeeeeec
+Q k141_73210_5     19 DLEELLKKIGKILPEDVGIYKYDIVPVAF   47 (90)
+Q Consensus        19 dleellkkigkilpedvgiykydivpvaf   47 (90)
+                      +.+.+.+.+...||+|+.|+.+.-||-.|
+T Consensus        73 ~~~~~~~~lN~~Lp~dI~i~~~~~v~~~F  101 (264)
+T 1DJ0_A           73 KDAAWTLGVNANLPGDIAVRWVKTVPDDF  101 (264)
+T ss_dssp             CHHCCCCCHHHTSCTTEEEEEEEECCTTC
+T ss_pred             ChHHHHHHHHhhCCCCEEEEEEEECCCCC
+
+
+No 8
+>4OE9_B COMM domain-containing protein 9; ALL ALPHA HELICAL, PROTEIN BINDING; HET: MSE, CIT; 1.55A {Homo sapiens}; Related PDB entries: 4NKN_D 4NKN_F 4NKN_B 4NKN_C 4NKN_E 4NKN_A 4OE9_A
+Probab=27.14  E-value=32  Score=22.88  Aligned_cols=19  Identities=42%  Similarity=0.821  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             cccChhhHhccHHHHHHHH
+Q k141_73210_5      9 LKILPEDIETDLEELLKKI   27 (90)
+Q Consensus         9 lkilpedietdleellkki   27 (90)
+                      ++++|+|...+|.+||-||
+T Consensus        87 ~~LFP~dfh~nLk~LLtki  105 (121)
+T 4OE9_B           87 LALFPENFHQNLKNLLTKI  105 (121)
+T ss_dssp             HTTSCTTSCHHHHHHHHHH
+T ss_pred             HHHCCcccCHHHHHHHHHH
+
+
+No 9
+>1XNG_B NH(3)-dependent NAD(+) synthetase (E.C.6.3.1.5); NH3-dependent NAD+ synthetase, Helicobacter pylori; HET: ATP, DND; 1.7A {Helicobacter pylori} SCOP: l.1.1.1, c.26.2.1; Related PDB entries: 1XNG_A 1XNH_A; Related PDB entries: 1XNG_A 1XNH_A; Related PDB entries: 1XNG_A 1XNH_A
+Probab=26.87  E-value=71  Score=20.51  Aligned_cols=42  Identities=24%  Similarity=0.404  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             hccHHHHHHHHhccChhhcceeeceeeeeecccceeEEEEEecccccCCCchHHHHH
+Q k141_73210_5     17 ETDLEELLKKIGKILPEDVGIYKYDIVPVAFGLKSLKLTIIMPEEKEGGTDSTVEAI   73 (90)
+Q Consensus        17 etdleellkkigkilpedvgiykydivpvafglkslkltiimpeekeggtdstveai   73 (90)
+                      ..+.+++..++.+.+-+-+.-.+.+-+.|+|               .||.||++-+.
+T Consensus         2 ~~~~~~~~~~~~~~l~~~~~~~~~~~v~v~l---------------SGG~DS~~~~~   43 (268)
+T 1XNG_B            2 QKDYQKLIVYLCDFLEKEVQKRGFKKVVYGL---------------SGGLDSAVVGV   43 (268)
+T ss_dssp             -CHHHHHHHHHHHHHHHHHHHTTCCCEEEEC---------------CSSHHHHHHHH
+T ss_pred             cccHHHHHHHHHHHHHHHHHHcCCCEEEEEC---------------CCCHHHHHHHH
+
+
+No 10
+>4J37_A tRNA pseudouridine synthase A, mitochondrial; beta sheet, pseudouridine synthase, RNA; HET: SO4, EDO; 1.75A {Homo sapiens}; Related PDB entries: 4ITS_A 4IQM_A 4NZ6_B 4NZ6_A 4NZ7_A; Related PDB entries: 4IQM_A 4ITS_A 4NZ6_A 4NZ6_B 4NZ7_A; Related PDB entries: 4IQM_A 4ITS_A 4NZ6_B 4NZ6_A 4NZ7_A
+Probab=24.42  E-value=56  Score=23.76  Aligned_cols=27  Identities=30%  Similarity=0.518  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHhccChhhcceeeceeeeeec
+Q k141_73210_5     21 EELLKKIGKILPEDVGIYKYDIVPVAF   47 (90)
+Q Consensus        21 eellkkigkilpedvgiykydivpvaf   47 (90)
+                      +++.+.|...||+|+.|+.+.-||-.|
+T Consensus        92 ~~l~~~lN~~Lp~dIrv~~~~~v~~~F  118 (336)
+T 4J37_A           92 DDILEKINSHLPSHIRILGLKRVTGGF  118 (336)
+T ss_dssp             TTHHHHHHHTSCTTEEEEEEEEECTTC
+T ss_pred             hHHHHHHHHhCCCCcEEEEEEECCCCc
+
+
+No 11
+>5ZR0_A Maltose-binding periplasmic protein,Trigger factor (E.C.5.2.1.8); Molecular Chaperone, Peptidyl-prolyl isomerases, CHAPERONE; NMR {Escherichia coli K-12}
+Probab=22.08  E-value=66  Score=18.78  Aligned_cols=39  Identities=13%  Similarity=0.032  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             cccChhhHhccHHHHHHHHhccChhhcceeeceeeeeec
+Q k141_73210_5      9 LKILPEDIETDLEELLKKIGKILPEDVGIYKYDIVPVAF   47 (90)
+Q Consensus         9 lkilpedietdleellkkigkilpedvgiykydivpvaf   47 (90)
+                      .++-.++++..++.+.++.++..+.+-.+-.-|.|-+-|
+T Consensus        23 ~~v~~~~v~~~i~~~~~~~~~~~~~~~~~~~gd~V~~~~   61 (142)
+T 5ZR0_A           23 SNIDTSKVGSGSGSGSGSQATWKEKDGAVEAEDRVTIDF   61 (142)
+T ss_dssp             SCTTTTCSSSCCCCCCCCCCCCCCCCSSBCSSCEEEEEE
+T ss_pred             cCCCHHHHHHHHhhhhhhccEEEeCCCCCCCCCEEEEEE
+
+
+No 12
+>2D74_B Translation initiation factor 2 gamma; PROTEIN COMPLEX, TRANSLATION; 2.8A {Pyrococcus furiosus} SCOP: g.59.1.0, d.241.1.0; Related PDB entries: 2DCU_B; Related PDB entries: 2DCU_B ; Related PDB entries: 2DCU_B 
+Probab=21.61  E-value=1.3e+02  Score=20.37  Aligned_cols=45  Identities=27%  Similarity=0.243  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             hhhHhccHHHHHHHHhccChhhcce--eeceeeeeecccceeEEEEE
+Q k141_73210_5     13 PEDIETDLEELLKKIGKILPEDVGI--YKYDIVPVAFGLKSLKLTII   57 (90)
+Q Consensus        13 pedietdleellkkigkilpedvgi--ykydivpvafglkslkltii   57 (90)
+                      |+.-..+.++||.++-+++|+...-  |+|.+-|.-.-...-|-.|.
+T Consensus         1 ~~~~~~~Y~~LL~r~~~~l~~~~~~~~~R~~~p~~~v~~~g~kT~i~   47 (148)
+T 2D74_B            1 MEIDYYDYEKLLEKAYQELPENVKHHKSRFEVPGALVTIEGNKTIIE   47 (148)
+T ss_dssp             --CCTTCHHHHHHTTTSSSCHHHHSSSCCCCCCCCCEEEETTEEEES
+T ss_pred             CCcccccHHHHHHHHHHHccccCCCCCcceecCceEEEEcCeEEEEe
+
+
+No 13
+>3CWO_X beta/alpha-barrel protein based on 1THF; XRAY, CHEY, HISF, HALF BARREL; 3.1A {Thermotoga maritima}; Related PDB entries: 2LLE_A ; Related PDB entries: 2LLE_A ; Related PDB entries: 2LLE_A 
+Probab=21.12  E-value=94  Score=19.72  Aligned_cols=25  Identities=28%  Similarity=0.401  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             hhHHHhcccChhhHhccHHHHHHHHh
+Q k141_73210_5      3 KKVVAQLKILPEDIETDLEELLKKIG   28 (90)
+Q Consensus         3 kkvvaqlkilpedietdleellkkig   28 (90)
+                      |.+..+|.|-|..+. .+..+++|+|
+T Consensus       200 ~eIa~~L~is~~Tv~-h~~~i~~KL~  224 (237)
+T 3CWO_X          200 ALAASVFHFREIDVR-ELKEYLKKHG  224 (237)
+T ss_dssp             EEESHHHHTTSSCHH-HHHHHHHTTT
+T ss_pred             HHHHHhhcCCcccHH-HHHHHHHHhC
+
+
+No 14
+>3KZ5_A Protein sopB; partition, segregation, F plasmid, DNA-binding; 1.58A {Escherichia coli}; Related PDB entries: 3KZ5_B 3KZ5_E; Related PDB entries: 3KZ5_E 3KZ5_B 
+Probab=20.48  E-value=46  Score=20.61  Aligned_cols=26  Identities=31%  Similarity=0.529  Sum_probs=0.0  Template_Neff=4.200
+
+Q ss_pred             hHHHhccc--ChhhHhccHHHHHHHHhc
+Q k141_73210_5      4 KVVAQLKI--LPEDIETDLEELLKKIGK   29 (90)
+Q Consensus         4 kvvaqlki--lpedietdleellkkigk   29 (90)
+                      +|.-+|.-  +|++.-..+|++|.+..+
+T Consensus        22 kV~~~Ld~~kip~~li~kIE~lL~~~~~   49 (52)
+T 3KZ5_A           22 KMVLNLDRSRVPTECIEKIEAILKELEK   49 (52)
+T ss_dssp             EEEEEECTTTSCHHHHHHHHHHHHGGGS
+T ss_pred             EEEEEeCcccCCHHHHHHHHHHHHHhcc
+
+
+No 15
+>2LJP_A Ribonuclease P protein component (E.C.3.1.26.5); RNaseP, C5, ribonuclease P, Ribozyme; NMR {Escherichia coli} SCOP: d.14.1.0
+Probab=20.31  E-value=80  Score=19.12  Aligned_cols=20  Identities=15%  Similarity=0.312  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             hhHhccHHHHHHHHhccChh
+Q k141_73210_5     14 EDIETDLEELLKKIGKILPE   33 (90)
+Q Consensus        14 edietdleellkkigkilpe   33 (90)
+                      ++++.++..++++++.+..+
+T Consensus        99 ~~l~~~l~~l~~~~~~~~~~  118 (119)
+T 2LJP_A           99 RALSEALEKLWRRHCRLARG  118 (119)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHC
+T ss_pred             HHHHHHHHHHHHHHHHHccC
+
+

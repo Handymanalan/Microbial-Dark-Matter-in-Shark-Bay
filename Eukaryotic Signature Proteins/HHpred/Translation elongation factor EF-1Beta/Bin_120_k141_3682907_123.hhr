@@ -1,0 +1,630 @@
+Query         k141_3682907_123 # 147161 # 147427 # -1 # ID=98_123;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.412
+Match_columns 88
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 51802
+Date          Mon Jun 22 11:39:31 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -o ../results/Bin_120_k141_3682907_123.hhr -oa3m ../results/Bin_120_k141_3682907_123.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2N51_A Elongation factor 1-del  99.5 6.7E-14 1.3E-18   92.5   5.3   88    1-88     45-133 (133)
+  2 1GH8_A TRANSLATION ELONGATION   99.5 7.6E-14 1.5E-18   84.0   4.9   88    1-88      1-88  (89)
+  3 5O8W_B Elongation factor 1-alp  99.4 2.5E-13 4.9E-18   82.1   4.5   88    1-88      6-94  (94)
+  4 1B64_A ELONGATION FACTOR 1-BET  99.4 3.4E-13 6.6E-18   80.6   5.0   88    1-88      3-91  (91)
+  5 2YY3_B Elongation factor 1-bet  99.4 4.1E-13 7.9E-18   81.4   4.9   85    4-88      6-91  (91)
+  6 1UJ6_A ribose-5-phosphate isom  84.1     3.9 7.5E-05   27.5   5.0   59   19-79    145-203 (227)
+  7 2F8M_B ribose 5-phosphate isom  83.0     2.5 4.9E-05   29.7   3.9   60   20-79    154-216 (244)
+  8 1XTZ_A Ribose-5-phosphate isom  75.6     7.6 0.00015   27.5   4.4   59   20-79    171-233 (264)
+  9 1O8B_A RIBOSE 5-PHOSPHATE ISOM  72.7       4 7.7E-05   27.5   2.3   28   51-79    167-194 (219)
+ 10 1M0S_B Ribose-5-Phosphate Isom  72.5       4 7.7E-05   27.4   2.3   28   51-79    168-195 (219)
+ 11 4NML_A Ribulose 5-phosphate is  71.3     4.4 8.4E-05   29.1   2.4   29   51-79    203-231 (275)
+ 12 4X84_C PsaeA.00944.a.B1 (E.C.5  71.2     4.9 9.5E-05   27.8   2.6   28   51-79    179-206 (231)
+ 13 6J1K_B Ribose-5-phosphate isom  68.3     5.3  0.0001   27.0   2.2   28   51-79    180-207 (232)
+ 14 6EEP_B Ribose-5-phosphate isom  67.8     5.8 0.00011   26.1   2.3   28   51-79    167-194 (218)
+ 15 1LK5_C D-Ribose-5-Phosphate Is  67.6     5.9 0.00011   27.1   2.3   28   51-79    178-205 (229)
+ 16 5UF2_A Ribose-5-phosphate isom  66.4     6.4 0.00012   27.3   2.4   28   51-79    176-203 (231)
+ 17 3UW1_A Ribose-5-phosphate isom  64.4     6.8 0.00013   26.8   2.2   28   51-79    184-211 (239)
+ 18 3L7O_A Ribose-5-phosphate isom  62.3     9.2 0.00018   25.7   2.5   28   51-79    172-199 (225)
+ 19 4IO1_A Ribose-5-phosphate isom  59.0      12 0.00023   25.0   2.6   28   51-79    173-200 (224)
+ 20 4GMK_B Ribose-5-phosphate isom  54.9      14 0.00027   25.0   2.3   28   51-79    176-203 (228)
+ 21 3HHE_A Ribose-5-phosphate isom  52.7      14 0.00028   25.7   2.2   28   51-79    200-227 (255)
+ 22 5WC3_X Stage III sporulation e  50.5     9.7 0.00019   27.6   1.1   18   64-81     51-68  (179)
+ 23 6HE6_B Cell division protein F  46.3      51 0.00099   20.2   3.8   58   17-80     58-115 (117)
+ 24 2DJW_J probable transcriptiona  45.9     6.9 0.00013   20.3  -0.2   37   51-87     40-76  (92)
+ 25 6MI3_B NEMO-EEAA; coiled coil,  44.2      20 0.00038   24.2   1.8   18   65-82     10-27  (124)
+ 26 2RU9_A Predicted transporter;   40.1      23 0.00044   20.7   1.4   28   53-80     11-38  (76)
+ 27 3IXQ_C Ribose-5-phosphate isom  39.3      29 0.00056   23.4   2.0   27   51-79    177-203 (226)
+ 28 1I1G_A TRANSCRIPTIONAL REGULAT  34.2      18 0.00034   20.0   0.3   37   51-87    102-138 (141)
+ 29 2CG4_B REGULATORY PROTEIN ASNC  32.2      16 0.00031   20.6  -0.1   37   51-87    107-143 (152)
+ 30 2GQQ_A Leucine-responsive regu  32.2      19 0.00037   20.8   0.2   37   51-87    114-150 (163)
+ 31 2CVI_A 75aa long hypothetical   31.6      19 0.00037   18.6   0.1   37   51-87     40-76  (83)
+ 32 4N8N_C Cell division protein F  31.3 1.1E+02   0.002   18.2   3.4   56   17-80     55-110 (115)
+ 33 2RP4_B Transcription factor p5  27.4      40 0.00078   22.7   1.2   20   68-87     32-51  (76)
+ 34 1CTF_A L7/L12 50 S RIBOSOMAL P  26.0 1.1E+02  0.0021   16.4   2.5   34   54-87      9-42  (74)
+ 35 4OYC_A Needle complex inner me  24.4      45 0.00087   20.9   0.9   18   63-80     18-35  (109)
+ 36 4K0J_D Heavy metal cation tric  23.6 1.2E+02  0.0022   23.4   3.1   68   14-81    102-174 (1045)
+ 37 2ZBC_D 83aa long hypothetical   20.7      39 0.00074   16.8   0.1   37   51-87     40-76  (83)
+ 38 6GW7_A DNA protecting protein   20.7 1.3E+02  0.0025   18.8   2.4   31   54-86      4-34  (59)
+
+No 1
+>2N51_A Elongation factor 1-delta; GUANINE NUCLEOTIDE EXCHANGE FACTOR, TRANSLATION; NMR {Homo sapiens}
+Probab=99.48  E-value=6.7e-14  Score=92.49  Aligned_cols=88  Identities=19%  Similarity=0.223  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CeeeEeeeeecCCCcccCHHHHHHHHHhhCCccccccccCCCCceeeeeEEEeeecCCchhCChhHHHHHHHHhhc-cch
+Q k141_3682907_1    1 MTMIVGTYKVLPEDPEIKPELLKERIVEKLPEDMKLKASGERPIAFGLVALVVDIHFPEEDGKQDELEEILSTIEG-VSE   79 (88)
+Q Consensus         1 mtmivgtykvlpedpeikpellkeriveklpedmklkasgerpiafglvalvvdihfpeedgkqdeleeilstieg-vse   79 (88)
+                      |.....+|+|.|++++...+-++++|...+|+..++..+...|+||||.+|.+.+.+|+.+|..|.+++.++.|+| |++
+T Consensus        45 mgkv~v~~kI~P~~~e~dl~~l~~~ik~~~~~~~~~~~~~~epiAFGLk~L~v~~~~~d~~g~~d~lE~~l~~ie~~V~s  124 (133)
+T 2N51_A           45 VAKSSILLDVKPWDDETDMAQLEACVRSIQLDGLVWGASKLVPVGYGIRKLQIQCVVEDDKVGTDLLEEEITKFEEHVQS  124 (133)
+T ss_dssp             CCEEEEEEEEEESSTTSCHHHHHHHHHTCCCTTEEEEEEEEEECSSSCEEEEEEEEEETTTCCHHHHHHHHHHGGGTEEE
+T ss_pred             eeeeeEEEEECCCCCCCCHHHHHHHHHHcccCCcEEcceeeeeccccceEEEEEEEEcCCCcchhHHHHHHhccCCccce
+
+
+Q ss_pred             hhhhhhhcC
+Q k141_3682907_1   80 VEALQLFRL   88 (88)
+Q Consensus        80 vealqlfrl   88 (88)
+                      +|....-|+
+T Consensus       125 vev~~~~rl  133 (133)
+T 2N51_A          125 VDIAAFNKI  133 (133)
+T ss_dssp             EEEEEEEEC
+T ss_pred             EEEEEEecC
+
+
+No 2
+>1GH8_A TRANSLATION ELONGATION FACTOR 1BETA; ALPHA-BETA SANDWICH, GENE REGULATION, Structural; NMR {Methanothermobacter thermautotrophicus} SCOP: d.58.12.1
+Probab=99.48  E-value=7.6e-14  Score=83.99  Aligned_cols=88  Identities=45%  Similarity=0.680  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CeeeEeeeeecCCCcccCHHHHHHHHHhhCCccccccccCCCCceeeeeEEEeeecCCchhCChhHHHHHHHHhhccchh
+Q k141_3682907_1    1 MTMIVGTYKVLPEDPEIKPELLKERIVEKLPEDMKLKASGERPIAFGLVALVVDIHFPEEDGKQDELEEILSTIEGVSEV   80 (88)
+Q Consensus         1 mtmivgtykvlpedpeikpellkeriveklpedmklkasgerpiafglvalvvdihfpeedgkqdeleeilstiegvsev   80 (88)
+                      |.-..-.|++.|+|++...+.+.++|.+.+++..+...+...|+|||+.++.+.+-+|++++..|.+|+.++.++||+++
+T Consensus         1 m~k~~v~~~i~P~~~~~d~~~l~~~i~~~~~~~~~~~~~~~~piaFGl~~l~~~~~~~d~~~~~d~le~~i~~i~~V~sv   80 (89)
+T 1GH8_A            1 MGDVVATIKVMPESPDVDLEALKKEIQERIPEGTELHKIDEEPIAFGLVALNVMVVVGDAEGGTEAAEESLSGIEGVSNI   80 (89)
+T ss_dssp             CCCEEEEEEEEESSSCCCHHHHHHHHHHHSCTTSEECCCCEEECSSSCEEEEEEEEESSSCGGGGHHHHHHTTSCSSEEE
+T ss_pred             CceEEEEEEEcCCCCCCCHHHHHHHHHHhCCCCceeccceEEEeecccceEEEEEEEcCCCCCchHHHHHhhcCCCcceE
+
+
+Q ss_pred             hhhhhhcC
+Q k141_3682907_1   81 EALQLFRL   88 (88)
+Q Consensus        81 ealqlfrl   88 (88)
+                      |....-|+
+T Consensus        81 ev~~~~~~   88 (89)
+T 1GH8_A           81 EVTDVRRL   88 (89)
+T ss_dssp             EEEEEEEC
+T ss_pred             EEEEEEec
+
+
+No 3
+>5O8W_B Elongation factor 1-alpha, Elongation factor; PROTEIN-PROTEIN COMPLEX, TRANSLATION, COVALENT MODIFICATION; HET: M3L, PGE, MSE, GLN, MLZ; 1.67A {Saccharomyces cerevisiae} SCOP: d.58.12.1; Related PDB entries: 2B7B_B 2B7C_B 1F60_B 1G7C_B 1IJE_B 1IJF_B
+Probab=99.42  E-value=2.5e-13  Score=82.11  Aligned_cols=88  Identities=20%  Similarity=0.240  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CeeeEeeeeecCCCcccCHHHHHHHHHhhCCccccccccCCCCceeeeeEEEeeecCCchhCChhHHHHHHHHhh-ccch
+Q k141_3682907_1    1 MTMIVGTYKVLPEDPEIKPELLKERIVEKLPEDMKLKASGERPIAFGLVALVVDIHFPEEDGKQDELEEILSTIE-GVSE   79 (88)
+Q Consensus         1 mtmivgtykvlpedpeikpellkeriveklpedmklkasgerpiafglvalvvdihfpeedgkqdeleeilstie-gvse   79 (88)
+                      |.-..-+|++.|+|++...+-+.++|...+++..++..+...|+|||+.+|.+.+-++++++..|.+++.++.++ ||++
+T Consensus         6 m~k~~i~~~I~P~~~e~d~~~l~~~i~~~~~~~~~~~~~~~~piafGlk~l~~~~~~~d~~~~~d~~e~~~~~~~~~v~s   85 (94)
+T 5O8W_B            6 AAKSIVTLDVKPWDDETNLEEMVANVKAIEMEGLTWGAHQFIPIGFGIKKLQINCVVEDDKVSLDDLQQSIEEDEDHVQS   85 (94)
+T ss_dssp             CCEEEEEEEEEESSTTSCHHHHHHHHHTCCCTTEEEEEEEEEEEETTEEEEEEEEEEETTTCCHHHHHHHHTTCTTTEEE
+T ss_pred             ceEEEEEEEEcCCCCCCCHHHHHHHHHHHhhcCcEecceEEEEeecccceeEEEEEEcCCCCChHHHHHHhhccccCeeE
+
+
+Q ss_pred             hhhhhhhcC
+Q k141_3682907_1   80 VEALQLFRL   88 (88)
+Q Consensus        80 vealqlfrl   88 (88)
+                      +|....-|+
+T Consensus        86 ~e~~~~~r~   94 (94)
+T 5O8W_B           86 TDIAAMQKL   94 (94)
+T ss_dssp             EEEEEEEEC
+T ss_pred             EEEEEEecC
+
+
+No 4
+>1B64_A ELONGATION FACTOR 1-BETA; GUANINE NUCLEOTIDE EXCHANGE FACTOR, G-PROTEIN; NMR {Homo sapiens} SCOP: d.58.12.1
+Probab=99.42  E-value=3.4e-13  Score=80.56  Aligned_cols=88  Identities=18%  Similarity=0.249  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CeeeEeeeeecCCCcccCHHHHHHHHHhhCCccccccccCCCCceeeeeEEEeeecCCchhCChhHHHHHHHHhhc-cch
+Q k141_3682907_1    1 MTMIVGTYKVLPEDPEIKPELLKERIVEKLPEDMKLKASGERPIAFGLVALVVDIHFPEEDGKQDELEEILSTIEG-VSE   79 (88)
+Q Consensus         1 mtmivgtykvlpedpeikpellkeriveklpedmklkasgerpiafglvalvvdihfpeedgkqdeleeilstieg-vse   79 (88)
+                      |.-..-+|++.|++++...+-+.++|...+|+..+...+...|+|||+.+|.+.+-+|++++..|.+++.++.++| |++
+T Consensus         3 m~k~~v~~~i~P~~~e~d~~~l~~~i~~~~~~~~~~~~~~~~piafGl~~l~~~~~~~d~~~~~~~~e~~i~~~~~~V~~   82 (91)
+T 1B64_A            3 VAKSSILLDVKPWDDETDMAKLEECVRSIQADGLVWGSSKLVPVGYGIKKLQIQCVVEDDKVGTDMLEEQITAFEDYVQS   82 (91)
+T ss_dssp             SSCEEEEEEEEESSTTSCHHHHHHHHHHCCCTTCEEEEEEEEESSSSCEEEEEEEEECTTSSCHHHHHHHHTTCTTTEEE
+T ss_pred             ceEEEEEEEEcCCCCCCCHHHHHHHHHHhCcCCCEEeeeeEeecccccceeEEEEEEcCCCccchHHHHHHhccCCceeE
+
+
+Q ss_pred             hhhhhhhcC
+Q k141_3682907_1   80 VEALQLFRL   88 (88)
+Q Consensus        80 vealqlfrl   88 (88)
+                      +|....=|+
+T Consensus        83 ~e~~~~~~~   91 (91)
+T 1B64_A           83 MDVAAFNKI   91 (91)
+T ss_dssp             EEESCCBCC
+T ss_pred             EEEEEEEcC
+
+
+No 5
+>2YY3_B Elongation factor 1-beta; Elongation factor, Structural Genomics, NPPSFA; HET: MSE; 2.5A {Pyrococcus horikoshii}; Related PDB entries: 2YY3_C 2YY3_A
+Probab=99.41  E-value=4.1e-13  Score=81.37  Aligned_cols=85  Identities=34%  Similarity=0.588  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             eEeeeeecCCCcccCHHHHHHHHHhhCCccccccccCCCCceeeeeEEEeeecCCchhC-ChhHHHHHHHHhhccchhhh
+Q k141_3682907_1    4 IVGTYKVLPEDPEIKPELLKERIVEKLPEDMKLKASGERPIAFGLVALVVDIHFPEEDG-KQDELEEILSTIEGVSEVEA   82 (88)
+Q Consensus         4 ivgtykvlpedpeikpellkeriveklpedmklkasgerpiafglvalvvdihfpeedg-kqdeleeilstiegvsevea   82 (88)
+                      ..-+|++.|++++...+.+.++|.+.+++.+.+......|+|||+.+|.+.+.+|++++ ..|.+|+.++.++||+++|.
+T Consensus         6 v~i~~~V~P~~~e~d~~~l~~~i~~~~~~~~~~~~~~~~piafGl~~l~~~~~~~d~~~~~~d~le~~i~~i~~V~s~ev   85 (91)
+T 2YY3_B            6 LVGVIRVMPTDPDVNLDELEEKLKKVIPEKYGLAKVEREPIAFGLVALKFYVLGRDEEGYSFDEVAEKFEEVENVESAEV   85 (91)
+T ss_dssp             EEEEEEEEESSSSSCHHHHHHHHTTCSCSSSEEEEEEEEEEETTEEEEEEEEEECSSTTCCHHHHHHHHHHSTTEEEEEE
+T ss_pred             EEEEEEEecCCCCCCHHHHHHHHHHHCchhcccceeeEEEeecCeeeEEEEEEEccCCCCChHHHHHHhhcCCCeeEEEE
+
+
+Q ss_pred             hhhhcC
+Q k141_3682907_1   83 LQLFRL   88 (88)
+Q Consensus        83 lqlfrl   88 (88)
+                      ...-|+
+T Consensus        86 ~~~~~~   91 (91)
+T 2YY3_B           86 ETVSRI   91 (91)
+T ss_dssp             EEEEEC
+T ss_pred             EEEecC
+
+
+No 6
+>1UJ6_A ribose-5-phosphate isomerase (E.C.5.3.1.6); enzyme-inhibitor complex, RIKEN Structural Genomics/Proteomics; HET: A5P, MSE; 1.74A {Thermus thermophilus} SCOP: d.58.40.1, c.124.1.4; Related PDB entries: 1UJ4_A 1UJ5_A ; Related PDB entries: 1UJ4_A 1UJ5_A ; Related PDB entries: 1UJ4_A 1UJ5_A 
+Probab=84.15  E-value=3.9  Score=27.46  Aligned_cols=59  Identities=24%  Similarity=0.219  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHHHhhCCccccccccCCCCceeeeeEEEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   19 PELLKERIVEKLPEDMKLKASGERPIAFGLVALVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        19 pellkeriveklpedmklkasgerpiafglvalvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      ++...+++.+ +-....++..+..|+..----+++|++|+ ......++++-|..|+||.+
+T Consensus       145 ~~~~~~~l~~-~g~~~~lr~~~~~p~~td~gn~i~D~~~~-~~~~~~~~~~~l~~i~GVv~  203 (227)
+T 1UJ6_A          145 YRATLKAIAD-LGGEPELRMDGDEFYFTDGGHLIADCRFG-PIGDPLGLHRALLEIPGVVE  203 (227)
+T ss_dssp             HHHHHHHHHT-TTCCEEECEETTEECCCTTSCEEEEECCC-SCSCHHHHHHHHHTSTTEEE
+T ss_pred             HHHHHHHHHH-cCCCceEecCCCCceecCCCcEEEEeecC-CCCCHHHHHHHHHcCCCchh
+
+
+No 7
+>2F8M_B ribose 5-phosphate isomerase; STRUCTURAL GENOMICS, PSI, PROTEIN STRUCTURE; HET: PO4; 2.087A {Plasmodium falciparum}; Related PDB entries: 2F8M_A ; Related PDB entries: 2F8M_A; Related PDB entries: 2F8M_A 
+Probab=83.02  E-value=2.5  Score=29.75  Aligned_cols=60  Identities=17%  Similarity=0.147  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             HHHHHHHHhhC---CccccccccCCCCceeeeeEEEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   20 ELLKERIVEKL---PEDMKLKASGERPIAFGLVALVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        20 ellkerivekl---pedmklkasgerpiafglvalvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      +..++++.+..   .....++-++..|.------+++|++|++.-....++++-|..|+||-|
+T Consensus       154 ~~~~~~l~~~~~~~g~~~~lR~~~~~p~vTdngn~I~D~~~~~~~~~~~~l~~~l~~i~GVve  216 (244)
+T 2F8M_B          154 EKIIENLLKIYTLKGCTYKIRKRNGEIFITDNKNYIVDFFFTEPIQDLLETCTRIKMTTGVVD  216 (244)
+T ss_dssp             HHHHHHHHTSTTTTTCEEEECEETTEECCCTTSCEEEEEECSSCCSSHHHHHHHHHTSTTEEE
+T ss_pred             HHHHHHHHHHhccCCCeEEEeeeCCcEEECCCCCEEEeeecCcccCCHHHHHHHHhcCCcEEE
+
+
+No 8
+>1XTZ_A Ribose-5-phosphate isomerase (E.C.5.3.1.6); D-ribose-5-phosphate isomerase, yeast, ISOMERASE; 2.1A {Saccharomyces cerevisiae}
+Probab=75.61  E-value=7.6  Score=27.48  Aligned_cols=59  Identities=20%  Similarity=0.384  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             HHHHHHHHhhCCc-cccccccC---CCCceeeeeEEEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   20 ELLKERIVEKLPE-DMKLKASG---ERPIAFGLVALVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        20 ellkeriveklpe-dmklkasg---erpiafglvalvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      ...++++.+.+.. ...++..+   ..|..-----+++|++|+ ......++++-|..|+||-|
+T Consensus       171 ~~~~~~l~~~~g~~~~~lR~~~~~~~~p~iTdngn~ilD~~~~-~~~~~~~~~~~l~~i~GVve  233 (264)
+T 1XTZ_A          171 VRVKNDLLEQLHAEKVDIRQGGSAKAGPVVTDNNNFIIDADFG-EISDPRKLHREIKLLVGVVE  233 (264)
+T ss_dssp             HHHHHHHHHTSCCSEEEECEETTTEEEECCCTTSCEEEEEECS-SBSCHHHHHHHHHTSTTEEE
+T ss_pred             HHHHHHHHHHcCCCccEEecCCCCcCCCcccCCCCEEEecccC-CCCCHHHHHHHHhcCCCEee
+
+
+No 9
+>1O8B_A RIBOSE 5-PHOSPHATE ISOMERASE (E.C.5.3.1.6); ISOMERASE, RIBOSE PHOSPHATE ISOMERASE, RPIA; HET: ABF, MSE; 1.25A {ESCHERICHIA COLI} SCOP: c.124.1.4, d.58.40.1; Related PDB entries: 1KS2_B 1KS2_A 1LKZ_B 1LKZ_A 1O8B_B 3ENQ_B 3ENQ_A 3ENV_B 3ENV_A 3ENW_B 3ENW_A
+Probab=72.68  E-value=4  Score=27.48  Aligned_cols=28  Identities=25%  Similarity=0.335  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      +++|++|+. -....++++-|..|+||-|
+T Consensus       167 ~i~D~~~~~-~~~~~~~~~~l~~i~GVve  194 (219)
+T 1O8B_A          167 VILDVHGME-ILDPIAMENAINAIPGVVT  194 (219)
+T ss_dssp             EEEEEESCC-BSCHHHHHHHHHTSTTEEE
+T ss_pred             EEEEEcccc-CCCHHHHHHHHhcCCeEEE
+
+
+No 10
+>1M0S_B Ribose-5-Phosphate Isomerase A (E.C.5.3.1.6); D-Ribose 5-phosphate Isomerase, NORTHEAST STRUCTURAL; HET: CIT; 1.9A {Haemophilus influenzae} SCOP: c.124.1.4, d.58.40.1; Related PDB entries: 1M0S_A 
+Probab=72.54  E-value=4  Score=27.38  Aligned_cols=28  Identities=25%  Similarity=0.367  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      +++|++|+... ...++++-|+.|+||-|
+T Consensus       168 ~i~D~~~~~~~-~~~~~~~~l~~i~GVv~  195 (219)
+T 1M0S_B          168 VILDVHNFSIL-NPVEIEKELNNVAGVVT  195 (219)
+T ss_dssp             EEEEEESCCCS-SHHHHHHHHHTSTTEEE
+T ss_pred             EEEEeeCCCCC-CHHHHHHHHhcCCcEEE
+
+
+No 11
+>4NML_A Ribulose 5-phosphate isomerase (E.C.5.3.1.6); Center for Structural Genomics of; HET: CME, MSE; 2.6A {Toxoplasma gondii}
+Probab=71.35  E-value=4.4  Score=29.14  Aligned_cols=29  Identities=34%  Similarity=0.535  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      +++|++|++.-....++++-|..|+||-|
+T Consensus       203 ~I~D~~~~~~i~~~~~l~~~l~~i~GVve  231 (275)
+T 4NML_A          203 YIVDLYFTETVPDLHEMDKELKSIPGVVE  231 (275)
+T ss_dssp             EEEEEECSSCBCCHHHHHHHHHTSTTEEE
+T ss_pred             EEEEEecCCCCCCHHHHHHHHhcCCCEEE
+
+
+No 12
+>4X84_C PsaeA.00944.a.B1 (E.C.5.3.1.6); SSGCID, Pseudomonas aeruginosa, Ribose-5-phosphate isomerase; HET: FLC; 1.25A {Pseudomonas aeruginosa}; Related PDB entries: 4X84_D 4X84_B 4X84_A
+Probab=71.24  E-value=4.9  Score=27.78  Aligned_cols=28  Identities=32%  Similarity=0.451  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      +++|++|+. -....++++-|..|+||-|
+T Consensus       179 ~i~D~~~~~-~~~~~~~~~~l~~i~GVve  206 (231)
+T 4X84_C          179 IILDVHNLR-IDSPVELEEKINAIVGVVT  206 (231)
+T ss_dssp             EEEEEESCC-CSCHHHHHHHHHTSTTEEE
+T ss_pred             EEEEEeccC-CCCHHHHHHHHHccccEEe
+
+
+No 13
+>6J1K_B Ribose-5-phosphate isomerase A; Ribose-5-phosphate isomerase A, Ochrobactrum sp.; 2.824A {Ochrobactrum sp.}; Related PDB entries: 6J1K_A 
+Probab=68.33  E-value=5.3  Score=27.02  Aligned_cols=28  Identities=32%  Similarity=0.421  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      +++|++|+ .-....++++-|+.|+||-|
+T Consensus       180 ~i~D~~~~-~~~~~~~~~~~l~~i~GVv~  207 (232)
+T 6J1K_B          180 YIVDASFG-RIPDPKTLSDALFAIPGVVE  207 (232)
+T ss_dssp             EEEEECCS-CBSCHHHHHHHHHTSTTEEE
+T ss_pred             eEEeeecc-CCCCHHHHHHHHhCCCCEEE
+
+
+No 14
+>6EEP_B Ribose-5-phosphate isomerase A (E.C.5.3.1.6); SSGCID, pentose phosphate pathway, ribose-5-phosphate; 1.85A {Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513)}; Related PDB entries: 6MC0_B 6MC0_A 6EEP_A; Related PDB entries: 6MC0_A 6MC0_B 6EEP_A ; Related PDB entries: 6MC0_B 6MC0_A 6EEP_A
+Probab=67.81  E-value=5.8  Score=26.15  Aligned_cols=28  Identities=29%  Similarity=0.388  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      +++|++|+ .-....++++-|+.|+||-+
+T Consensus       167 ~i~d~~~~-~~~~~~~~~~~l~~i~GVv~  194 (218)
+T 6EEP_B          167 IILDVFNL-SFSTPMALEDSLNVIPGVVE  194 (218)
+T ss_dssp             EEEEEESC-CCSSHHHHHHHHHTSTTEEE
+T ss_pred             EEEEecCC-CCCCHHHHHHHHhCCCcEEE
+
+
+No 15
+>1LK5_C D-Ribose-5-Phosphate Isomerase(E.C.5.3.1.6); ALPHA/BETA STRUCTURE, ISOMERASE; HET: CL; 1.75A {Pyrococcus horikoshii} SCOP: c.124.1.4, d.58.40.1; Related PDB entries: 1LK5_D 1LK5_B 1LK5_A 1LK7_C 1LK7_D 1LK7_B 1LK7_A
+Probab=67.62  E-value=5.9  Score=27.05  Aligned_cols=28  Identities=36%  Similarity=0.557  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      +++|++|+ .-....++++-|..|+||-|
+T Consensus       178 ~i~D~~~~-~~~~~~~~~~~l~~i~GVve  205 (229)
+T 1LK5_C          178 FIIDAKFP-RIDDPLDMEIELNTIPGVIE  205 (229)
+T ss_dssp             EEEEEECS-CBSCHHHHHHHHTTSTTEEE
+T ss_pred             EEEEeeCC-CCCCHHHHHHHHhcCCcEEE
+
+
+No 16
+>5UF2_A Ribose-5-phosphate isomerase A (E.C.5.3.1.6); SSGCID, Neisseria gonorrhoeae, ribose-5-phosphate, isomerase; HET: EDO, BTB; 1.4A {Neisseria gonorrhoeae (strain NCCP11945)}
+Probab=66.39  E-value=6.4  Score=27.29  Aligned_cols=28  Identities=29%  Similarity=0.373  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      +++|++|+ .-....++++-|+.|+||-|
+T Consensus       176 ~i~D~~~~-~~~~~~~l~~~l~~i~GVve  203 (231)
+T 5UF2_A          176 QIVDVHGL-NIDQPLTMEDEINKITGVLE  203 (231)
+T ss_dssp             EEEEEESC-CCSCHHHHHHHHHTSTTEEE
+T ss_pred             EEEeecCC-CCCChHHHHHHHHcCccEEE
+
+
+No 17
+>3UW1_A Ribose-5-phosphate isomerase A (E.C.5.3.1.6); SSGCID, SEATTLE STRUCTURAL GENOMICS CENTER; HET: R5P; 1.71A {Burkholderia thailandensis}; Related PDB entries: 3U7J_A; Related PDB entries: 3U7J_A; Related PDB entries: 3U7J_A
+Probab=64.38  E-value=6.8  Score=26.81  Aligned_cols=28  Identities=18%  Similarity=0.189  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      +++|++|+ .-....++++-|..|+||.|
+T Consensus       184 ~i~D~~~~-~~~~~~~~~~~l~~i~GVv~  211 (239)
+T 3UW1_A          184 EILDVKGL-RIDDPRALEAAINGWPGVVT  211 (239)
+T ss_dssp             EEEEEESC-CBSCHHHHHHHHHTSTTEEE
+T ss_pred             EEEeeeCc-ccCCHHHHHHHHccCCcEEE
+
+
+No 18
+>3L7O_A Ribose-5-phosphate isomerase A (E.C.5.3.1.6); Ribose-5-phosphate isomerase A, rpiA, Streptococcus; 1.7A {Streptococcus mutans}; Related PDB entries: 3L7O_B ; Related PDB entries: 3L7O_B
+Probab=62.28  E-value=9.2  Score=25.73  Aligned_cols=28  Identities=18%  Similarity=0.304  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      +++|+.|+. -..-.++++-|..|+||.|
+T Consensus       172 ~i~D~~~~~-~~~~~~~~~~l~~i~GVv~  199 (225)
+T 3L7O_A          172 FIIDLDLGS-IPDPIAFGNMLDHQVGVVE  199 (225)
+T ss_dssp             EEEEECCSC-CSCHHHHHHHHHTSTTEEE
+T ss_pred             EEEEEecCC-CCCHHHHHHHHhcCCcEEE
+
+
+No 19
+>4IO1_A Ribose-5-phosphate isomerase A (E.C.5.3.1.6); Structural Genomics, Center for Structural; HET: PO4, PG4; 1.65A {Francisella tularensis subsp. tularensis}; Related PDB entries: 4IO1_B 3KWM_C 3KWM_D 3KWM_B 3KWM_A 4M8L_C 4M8L_D 4M8L_B 4M8L_A
+Probab=59.01  E-value=12  Score=24.96  Aligned_cols=28  Identities=25%  Similarity=0.296  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      +++|++|+ .-....++++-|+.|+||-|
+T Consensus       173 ~i~d~~~~-~~~~~~~~~~~l~~i~GVv~  200 (224)
+T 4IO1_A          173 VILDVYNL-KIDNPLKLETELNQITGVVT  200 (224)
+T ss_dssp             EEEEEESC-CCSCHHHHHHHHHTSTTEEE
+T ss_pred             EEEEEecC-CCCCHHHHHHHHHcCCCEEe
+
+
+No 20
+>4GMK_B Ribose-5-phosphate isomerase A (E.C.5.3.1.6); D-ribose-5-phosphate isomerase family, Ribose 5-Phosphate; HET: PO4; 1.72A {Lactobacillus salivarius}; Related PDB entries: 4GMK_A 
+Probab=54.94  E-value=14  Score=25.04  Aligned_cols=28  Identities=29%  Similarity=0.464  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      .++|++| ..-..-.++++-|..|+||.|
+T Consensus       176 ~i~D~~~-~~~~~~~~~~~~l~~i~GVv~  203 (228)
+T 4GMK_B          176 YIIDLHL-GKIENPKELGDYLINQVGVVE  203 (228)
+T ss_dssp             EEEEECC-SCCSCHHHHHHHHHTSTTEEE
+T ss_pred             eEEEEeC-CCCCCHHHHHHHHhcCCCEEE
+
+
+No 21
+>3HHE_A Ribose-5-phosphate isomerase A (E.C.5.3.1.6); NIAID, SSGCID, deCODE, SBRI, UW; HET: 5RP; 2.3A {Bartonella henselae}; Related PDB entries: 3HHE_B ; Related PDB entries: 3HHE_B
+Probab=52.74  E-value=14  Score=25.74  Aligned_cols=28  Identities=29%  Similarity=0.332  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      +++|++|+. .....++++-|..|+||-|
+T Consensus       200 ~i~D~~~~~-~~~~~~~~~~l~~i~GVve  227 (255)
+T 3HHE_A          200 FIFDAFWGR-ILQPKLLSEALLAIPGVVE  227 (255)
+T ss_dssp             EEEEECCSC-CSCHHHHHHHHHTSTTEEE
+T ss_pred             EEEeccccc-cCCHHHHHHHHHCCCCEEE
+
+
+No 22
+>5WC3_X Stage III sporulation engulfment assemblyprotein; Secretion system, Sporulation channel, Ring; 3.5A {Bacillus subtilis BEST7613}; Related PDB entries: 5WC3_L 5WC3_N 5WC3_M 5WC3_0 5WC3_J 5WC3_Z 5WC3_H 5WC3_A 5WC3_2 5WC3_B 5WC3_G 5WC3_I 5WC3_T 5WC3_R 5WC3_O 5WC3_Y 5WC3_F 5WC3_C 5WC3_Q 5WC3_V 5WC3_K 5WC3_E 5WC3_1 5WC3_D 5WC3_3 5WC3_W 5WC3_S 5WC3_U 5WC3_P
+Probab=50.49  E-value=9.7  Score=27.63  Aligned_cols=18  Identities=50%  Similarity=0.800  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             hhHHHHHHHHhhccchhh
+Q k141_3682907_1   64 QDELEEILSTIEGVSEVE   81 (88)
+Q Consensus        64 qdeleeilstiegvseve   81 (88)
+                      +.+|++||+.|.|+.+|.
+T Consensus        51 E~kL~~iLs~I~GvG~V~   68 (179)
+T 5WC3_X           51 ENQLKEILETIIGVDDVS   68 (179)
+T ss_dssp             HHHHHHHHTTSSSCCCEE
+T ss_pred             HHHHHHHHHhCCCCCEEE
+
+
+No 23
+>6HE6_B Cell division protein FtsX; cell division, MEMBRANE PROTEIN, cell; HET: CAT; 2.0A {Streptococcus pneumoniae}; Related PDB entries: 6MK7_A 6HE6_A 6HEE_B 6HEE_A 6HFX_B 6HFX_A
+Probab=46.35  E-value=51  Score=20.21  Aligned_cols=58  Identities=22%  Similarity=0.253  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             cCHHHHHHHHHhhCCccccccccCCCCceeeeeEEEeeecCCchhCChhHHHHHHHHhhccchh
+Q k141_3682907_1   17 IKPELLKERIVEKLPEDMKLKASGERPIAFGLVALVVDIHFPEEDGKQDELEEILSTIEGVSEV   80 (88)
+Q Consensus        17 ikpellkeriveklpedmklkasgerpiafglvalvvdihfpeedgkqdeleeilstiegvsev   80 (88)
+                      +.++-..+++.+.++++-.+-..+..|+.-.+..-+-+      ...-+.+.+.|+.++||.+|
+T Consensus        58 ~s~~ea~~~~~~~~~~~~~~~~~~~nplp~s~~v~l~~------~~~~~~i~~~l~~~~gV~~V  115 (117)
+T 6HE6_B           58 SSKEEQYEKLTEIMGDNWKIFEGDANPLYDAYIVEANA------PNDVKTIAEDAKKIEGVSEV  115 (117)
+T ss_dssp             ECHHHHHHHHHHSSCTTSCTTTTSCCCCCCEEEEEESS------GGGHHHHHHHHHTSTTEEEE
+T ss_pred             ECHHHHHHHHHHHhccchhHhcCCCCCCCCcEEEEECC------HHHHHHHHHHHhcCCCcccc
+
+
+No 24
+>2DJW_J probable transcriptional regulator, AsnC family; structural genomics, Thermus thermophilus HB8; 2.4A {Thermus thermophilus}; Related PDB entries: 2DJW_F 2DJW_D 2DJW_E 2DJW_H 2DJW_G 2DJW_A 2DJW_I 2DJW_B 2DJW_C; Related PDB entries: 2DJW_D 2DJW_G 2DJW_F 2DJW_B 2DJW_C 2DJW_I 2DJW_E 2DJW_H 2DJW_A
+Probab=45.88  E-value=6.9  Score=20.29  Aligned_cols=37  Identities=27%  Similarity=0.434  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccchhhhhhhhc
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSEVEALQLFR   87 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvsevealqlfr   87 (88)
+                      +++.++++..+.-.+.+++.+..++|+...+.....+
+T Consensus        40 l~~~~~~~~~~~l~~~~~~~~~~~~~v~~~~~~~~~~   76 (92)
+T 2DJW_J           40 LVALVRLKDVEELDDVVTQGILSLEGVERTETLLAFR   76 (92)
+T ss_dssp             EEEEEECSSGGGHCCCCCCTTTTSTTEEEEEEEEEEE
+T ss_pred             EEEEEEECCHHHHHHHHHHhhhcCCCeEEEEEEEEEE
+
+
+No 25
+>6MI3_B NEMO-EEAA; coiled coil, scaffolding, NF-kB pathway; 1.783A {Homo sapiens}; Related PDB entries: 6MI3_A 6MI4_B 6MI4_A; Related PDB entries: 6MI3_A 6MI4_A 6MI4_B
+Probab=44.20  E-value=20  Score=24.23  Aligned_cols=18  Identities=39%  Similarity=0.427  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             hHHHHHHHHhhccchhhh
+Q k141_3682907_1   65 DELEEILSTIEGVSEVEA   82 (88)
+Q Consensus        65 deleeilstiegvsevea   82 (88)
+                      |-.|||||.|+.+...-|
+T Consensus        10 ~~~~~~~~~i~hi~~E~a   27 (124)
+T 6MI3_B           10 DKNEELLSEIAHLKNEVA   27 (124)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhcchHHHHH
+
+
+No 26
+>2RU9_A Predicted transporter; ferredoxin like, TRANSPORT PROTEIN; NMR {Escherichia coli}
+Probab=40.13  E-value=23  Score=20.72  Aligned_cols=28  Identities=32%  Similarity=0.474  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             eeecCCchhCChhHHHHHHHHhhccchh
+Q k141_3682907_1   53 VDIHFPEEDGKQDELEEILSTIEGVSEV   80 (88)
+Q Consensus        53 vdihfpeedgkqdeleeilstiegvsev   80 (88)
+                      .-++.++.......+.+.|..++||.|+
+T Consensus        11 ~~l~l~~~~~~~~~~~~~L~~~~GV~Ev   38 (76)
+T 2RU9_A           11 LRIEIPADIAANEALKVRLLETEGVKEV   38 (76)
+T ss_dssp             EEEECCSSSCSSHHHHHHHTTSTTEEEE
+T ss_pred             EEEECCcchHhhHHHHHHHHcCCCeeEE
+
+
+No 27
+>3IXQ_C Ribose-5-phosphate isomerase A (E.C.5.3.1.6); STRUCTURAL GENOMICS, ISOMERASE, PENTOSE PHOSPHATE; HET: PGO; 1.78A {Methanocaldococcus jannaschii}; Related PDB entries: 3IXQ_D 3IXQ_B 3IXQ_A
+Probab=39.31  E-value=29  Score=23.35  Aligned_cols=27  Identities=30%  Similarity=0.519  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccch
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSE   79 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvse   79 (88)
+                      .++|+.|  .-..-.++++-|..|+||-|
+T Consensus       177 ~i~D~~~--~~~~~~~~~~~l~~i~GVv~  203 (226)
+T 3IXQ_C          177 MIIDVFM--NIDDAIELEKEINNIPGVVE  203 (226)
+T ss_dssp             EEEEEEC--CCSCHHHHHHHHHTSTTEEE
+T ss_pred             eEEEEEe--ecCCHHHHHHHHhCCCCEEE
+
+
+No 28
+>1I1G_A TRANSCRIPTIONAL REGULATOR LRPA; helix-turn-helix, Lrp/AsnC family, Pyrococcus furiosus; 2.9A {Pyrococcus furiosus} SCOP: a.4.5.32, d.58.4.2; Related PDB entries: 1I1G_B ; Related PDB entries: 1I1G_B
+Probab=34.17  E-value=18  Score=19.95  Aligned_cols=37  Identities=16%  Similarity=0.294  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccchhhhhhhhc
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSEVEALQLFR   87 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvsevealqlfr   87 (88)
+                      +++.++++..+.-.+.+++.++.++||.+.+..-.++
+T Consensus       102 ~~~~~~~~~~~~~~~~~~~~l~~~~~i~~~~~~~~~~  138 (141)
+T 1I1G_A          102 IMAVIWAKDGEDLAEIISNKIGKIEGVTKVCPAIILE  138 (141)
+T ss_dssp             EEEEEEESSHHHHHHCCCCCCTTSTTEEEEEEEECSC
+T ss_pred             EEEEEEeCCHHHHHHHHHHhhhcCCCcceeEeeEEEE
+
+
+No 29
+>2CG4_B REGULATORY PROTEIN ASNC; ASNC, DNA BINDING, FFRP, LRP; HET: ASN; 2.4A {ESCHERICHIA COLI} SCOP: d.58.4.2, a.4.5.32; Related PDB entries: 2CG4_A 
+Probab=32.18  E-value=16  Score=20.58  Aligned_cols=37  Identities=19%  Similarity=0.317  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccchhhhhhhhc
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSEVEALQLFR   87 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvsevealqlfr   87 (88)
+                      +++.+.++..+.-.+.+.+.|..++||...+....++
+T Consensus       107 ~~~~~~~~~~~~~~~~~~~~l~~~~~v~~~~~~~~~~  143 (152)
+T 2CG4_B          107 IFIKVMCRSIDALQHVLINKIQTIDEIQSTETLIVLQ  143 (152)
+T ss_dssp             EEEEEEESSHHHHHHHCCCCCTTSTTEEEEEEEEEEE
+T ss_pred             EEEEEEECCHHHHHHHHHHHhhcCCceeeEEEEEEee
+
+
+No 30
+>2GQQ_A Leucine-responsive regulatory protein; helix-turn-helix, TRANSCRIPTION; 3.2A {Escherichia coli}; Related PDB entries: 2GQQ_B 2GQQ_D 2GQQ_C; Related PDB entries: 2GQQ_C 2GQQ_D 2GQQ_B 
+Probab=32.17  E-value=19  Score=20.83  Aligned_cols=37  Identities=16%  Similarity=0.341  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccchhhhhhhhc
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSEVEALQLFR   87 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvsevealqlfr   87 (88)
+                      +++.++++..+.-.+.+.+.+..++|+..++..-.++
+T Consensus       114 ~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~  150 (163)
+T 2GQQ_A          114 YLLKTRVPDMSAYRKLLGETLLRLPGVNDTRTYVVME  150 (163)
+T ss_dssp             EEEEEECSSHHHHHHHTTTSSTTSSSCSEEEEEEEEE
+T ss_pred             EEEEEEeCCHHHHHHHHHHHhhcCCCcceEEEEEEee
+
+
+No 31
+>2CVI_A 75aa long hypothetical regulatory protein; structural genomics, UNKNOWN FUNCTION; 1.5A {Pyrococcus horikoshii}; Related PDB entries: 2CVI_B 2Z4P_B 2Z4P_D 2Z4P_A 2Z4P_C 2E1A_B 2E1A_D 2E1A_A 2E1A_C; Related PDB entries: 2CVI_B 2E1A_A 2E1A_B 2E1A_D 2E1A_C 2Z4P_A 2Z4P_B 2Z4P_D 2Z4P_C; Related PDB entries: 2CVI_B 2E1A_C 2E1A_D 2E1A_B 2E1A_A 2Z4P_C 2Z4P_D 2Z4P_B 2Z4P_A
+Probab=31.55  E-value=19  Score=18.59  Aligned_cols=37  Identities=8%  Similarity=0.126  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccchhhhhhhhc
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSEVEALQLFR   87 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvsevealqlfr   87 (88)
+                      +++.+..+..+.-.+-+.+.++.++||..++....++
+T Consensus        40 ~~~~~~~~~~~~~~~~~~~~l~~~~~v~~~~~~~~~~   76 (83)
+T 2CVI_A           40 LIVKVETDTLKDLDQFITEKIRKMPEIQMTSTMIAIL   76 (83)
+T ss_dssp             EEEEEEESSHHHHHHCCCCCGGGCTTEEEEEEEEEEE
+T ss_pred             EEEEEEeCCHHHHHHHHHHHHhCCCCeEEEEEEEEee
+
+
+No 32
+>4N8N_C Cell division protein FtsX; Cell wall, MEMBRANE PROTEIN; 1.874A {Mycobacterium tuberculosis}; Related PDB entries: 4N8N_B 4N8N_D 4N8N_A 4N8O_B 4N8O_A; Related PDB entries: 4N8N_A 4N8N_B 4N8N_D 4N8O_A 4N8O_B; Related PDB entries: 4N8N_D 4N8N_B 4N8N_A 4N8O_B 4N8O_A
+Probab=31.26  E-value=1.1e+02  Score=18.17  Aligned_cols=56  Identities=11%  Similarity=0.303  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             cCHHHHHHHHHhhCCccccccccCCCCceeeeeEEEeeecCCchhCChhHHHHHHHHhhccchh
+Q k141_3682907_1   17 IKPELLKERIVEKLPEDMKLKASGERPIAFGLVALVVDIHFPEEDGKQDELEEILSTIEGVSEV   80 (88)
+Q Consensus        17 ikpellkeriveklpedmklkasgerpiafglvalvvdihfpeedgkqdeleeilstiegvsev   80 (88)
+                      +.++-..+++.+.+++...+  .+.-|+.-.+..-+-+      ......+.+.|+.++||.+|
+T Consensus        55 ~s~~ea~~~~~~~~~~~~~~--~~~nplp~~~~v~~~~------~~~~~~~~~~l~~~pgV~~V  110 (115)
+T 4N8N_C           55 LNRQQAYDDAIRKFPQFKDV--AGKDSFPASFIVKLEN------PEQHKDFDTAMKGQPGVLDV  110 (115)
+T ss_dssp             ECHHHHHHHHHHHCGGGGGT--CCGGGSCCEEEEEESS------TTCCHHHHHHHHTSTTEEEE
+T ss_pred             eCHHHHHHHHHHHCcchhhh--cCcCcCCCcEEEEECC------HHHHHHHHHHhcCCCCeeec
+
+
+No 33
+>2RP4_B Transcription factor p53; Dmp53, p53, oligomerization domain, tetramerizaiton; NMR {Drosophila melanogaster}; Related PDB entries: 2RP4_C 2RP4_D 2RP4_A
+Probab=27.44  E-value=40  Score=22.69  Aligned_cols=20  Identities=35%  Similarity=0.543  Sum_probs=0.0  Template_Neff=3.100
+
+Q ss_pred             HHHHHHhhccchhhhhhhhc
+Q k141_3682907_1   68 EEILSTIEGVSEVEALQLFR   87 (88)
+Q Consensus        68 eeilstiegvsevealqlfr   87 (88)
+                      |=.|..|||+.+.-|+.+||
+T Consensus        32 elllq~IEgmi~~aA~~ilr   51 (76)
+T 2RP4_B           32 EWLLQSIEGMIKEAAAEVLR   51 (76)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHh
+
+
+No 34
+>1CTF_A L7/L12 50 S RIBOSOMAL PROTEIN; RIBOSOMAL PROTEIN; 1.7A {Escherichia coli} SCOP: d.45.1.1; Related PDB entries: 1RQS_A 3J9Y_7 2BCW_B; Related PDB entries: 1RQS_A 3J9Y_7 2BCW_B; Related PDB entries: 1RQS_A 3J9Y_7 2BCW_B
+Probab=26.04  E-value=1.1e+02  Score=16.38  Aligned_cols=34  Identities=15%  Similarity=0.195  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             eecCCchhCChhHHHHHHHHhhccchhhhhhhhc
+Q k141_3682907_1   54 DIHFPEEDGKQDELEEILSTIEGVSEVEALQLFR   87 (88)
+Q Consensus        54 dihfpeedgkqdeleeilstiegvsevealqlfr   87 (88)
+                      ++.+........++-+.|..+.|.|..+|.++++
+T Consensus         9 ~v~l~~~g~~k~~~~~~l~~~~gl~~~~a~~l~~   42 (74)
+T 1CTF_A            9 DVILKAAGANKVAVIKAVRGATGLGLKEAKDLVE   42 (74)
+T ss_dssp             EEEEEECGGGHHHHHHHHHHHHCCCHHHHHHHHH
+T ss_pred             EEEEEecCcCHHHHHHHHHHHhCCCHHHHHHHHH
+
+
+No 35
+>4OYC_A Needle complex inner membrane lipoprotein; T3SS, macromolecular assembly, inner-membrane, Protein; 2.6A {Salmonella typhimurium}; Related PDB entries: 4OYC_B
+Probab=24.42  E-value=45  Score=20.87  Aligned_cols=18  Identities=39%  Similarity=0.545  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             ChhHHHHHHHHhhccchh
+Q k141_3682907_1   63 KQDELEEILSTIEGVSEV   80 (88)
+Q Consensus        63 kqdeleeilstiegvsev   80 (88)
+                      ++.+|+..|+.++||...
+T Consensus        18 ~e~eL~~~I~~~~gV~~A   35 (109)
+T 4OYC_A           18 IEQRLEQSLQTMEGVLSA   35 (109)
+T ss_dssp             HHHHHHHHHTTSTTEEEE
+T ss_pred             HHHHHHHHHhcCCCcccc
+
+
+No 36
+>4K0J_D Heavy metal cation tricomponent efflux; Structural Genomics, PSI-Biology, Center for; 3.0A {Cupriavidus metallidurans}; Related PDB entries: 4K0E_C 4K0E_B 4K0E_A 4K0J_F 4K0J_B 4K0J_C 4K0J_E 4K0J_A
+Probab=23.59  E-value=1.2e+02  Score=23.36  Aligned_cols=68  Identities=15%  Similarity=0.089  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CcccCHHHHHHHHHhh-CCccccccccCCCCceeeeeEEEeeecCCchhCChh----HHHHHHHHhhccchhh
+Q k141_3682907_1   14 DPEIKPELLKERIVEK-LPEDMKLKASGERPIAFGLVALVVDIHFPEEDGKQD----ELEEILSTIEGVSEVE   81 (88)
+Q Consensus        14 dpeikpellkerivek-lpedmklkasgerpiafglvalvvdihfpeedgkqd----eleeilstiegvseve   81 (88)
+                      |.+.....+++++-+. +|.+++........-........+-.+.++.+.-++    ++.+.|..++||++|+
+T Consensus       102 ~~~~~~~~i~~~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~l~~i~gv~~v~  174 (1045)
+T 4K0J_D          102 EDYWSRQRLQERINGVSLPYGAQPSLDPLTSPIGEIYRYTLVSKTRDLRELSELQFWKVIPRLKQVAGVVDVA  174 (1045)
+T ss_dssp             CHHHHHHHHHHHHSSCCCTTSCCCEECCSEEEEEEEEEEEEECSSCCHHHHHHHCCCCCHHHHHTSTTEEEEE
+T ss_pred             CHHHHHHHHHHHHhcCCCCCCCCCCCCCCCCCCcceEEEEEecCCCCHHHHHHHHHHhhHHHHhcCCCEEEEE
+
+
+No 37
+>2ZBC_D 83aa long hypothetical transcriptional regulator; SARD, TRANSCRIPTION; HET: MSE, ILE; 1.9A {Sulfolobus tokodaii}; Related PDB entries: 2ZBC_G 2ZBC_F 2ZBC_B 2ZBC_C 2ZBC_E 2ZBC_H 2ZBC_A
+Probab=20.74  E-value=39  Score=16.81  Aligned_cols=37  Identities=14%  Similarity=0.217  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             EEeeecCCchhCChhHHHHHHHHhhccchhhhhhhhc
+Q k141_3682907_1   51 LVVDIHFPEEDGKQDELEEILSTIEGVSEVEALQLFR   87 (88)
+Q Consensus        51 lvvdihfpeedgkqdeleeilstiegvsevealqlfr   87 (88)
+                      +++.+.++..+.-..-+.+.++.++|+...+..-.++
+T Consensus        40 l~~~~~~~~~~~~~~~~~~~~~~~~~v~~~~~~~~~~   76 (83)
+T 2ZBC_D           40 IVVKVEADSMDKLKDFVTNTIRKLPKVRSTLTMIIVE   76 (83)
+T ss_dssp             EEEEEECSSHHHHHHHHHHTGGGSTTEEEEEEEECCT
+T ss_pred             EEEEEEeCCHHHHHHHHHHHHhcCCCeeeEEEEEEEe
+
+
+No 38
+>6GW7_A DNA protecting protein DprA; Winged Helix, DNA BINDING PROTEIN; NMR {Helicobacter pylori}
+Probab=20.65  E-value=1.3e+02  Score=18.81  Aligned_cols=31  Identities=32%  Similarity=0.276  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             eecCCchhCChhHHHHHHHHhhccchhhhhhhh
+Q k141_3682907_1   54 DIHFPEEDGKQDELEEILSTIEGVSEVEALQLF   86 (88)
+Q Consensus        54 dihfpeedgkqdeleeilstiegvsevealqlf   86 (88)
+                      |.|..+....+|++-+.+++-|  +-.||+..|
+T Consensus         4 ~~~~~~~~~~~De~Lefck~~P--s~eEAl~kf   34 (59)
+T 6GW7_A            4 DYHLKEMPEMEDEFLEYCAKNP--SYEEAYLKF   34 (59)
+T ss_dssp             CCSCCCCSCCCHHHHHHTTCCS--CHHHHHHTT
+T ss_pred             ccccccCcchhHHHHHHHHHCC--CHHHHHHHH
+
+

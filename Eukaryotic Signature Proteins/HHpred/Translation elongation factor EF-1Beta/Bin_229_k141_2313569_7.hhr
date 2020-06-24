@@ -1,0 +1,804 @@
+Query         k141_2313569_7 # 4707 # 4973 # 1 # ID=230_7;partial=00;start_type=ATG;rbs_motif=AAAAA;rbs_spacer=14bp;gc_cont=0.371
+Match_columns 88
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 51802
+Date          Mon Jun 22 11:40:10 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -o ../results/Bin_229_k141_2313569_7.hhr -oa3m ../results/Bin_229_k141_2313569_7.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1GH8_A TRANSLATION ELONGATION   99.6 5.3E-16   1E-20   93.4   5.9   88    1-88      1-88  (89)
+  2 5O8W_B Elongation factor 1-alp  99.6 4.7E-15 9.1E-20   89.7   5.7   88    1-88      6-94  (94)
+  3 1B64_A ELONGATION FACTOR 1-BET  99.5 1.5E-14 2.8E-19   86.5   5.9   88    1-88      3-91  (91)
+  4 2N51_A Elongation factor 1-del  99.5 2.4E-14 4.7E-19   94.6   6.2   88    1-88     45-133 (133)
+  5 2YY3_B Elongation factor 1-bet  99.5 7.5E-14 1.5E-18   84.6   5.5   87    2-88      4-91  (91)
+  6 4N8N_C Cell division protein F  66.4      12 0.00024   22.3   3.3   57   20-87     58-114 (115)
+  7 4RV0_D Transitional endoplasmi  63.9     7.7 0.00015   21.3   2.0   41   44-86      3-48  (81)
+  8 6HIX_At ?; mitoribosome, trans  39.9     8.5 0.00016   29.0  -0.5   11   52-62    132-142 (154)
+  9 3IBW_A GTP pyrophosphokinase (  38.1      58  0.0011   15.9   6.0   75    1-83      1-75  (88)
+ 10 3L7H_D RE64145p; LC7, Km23, Ro  37.2      60  0.0012   17.1   2.7   22   64-85      2-23  (97)
+ 11 1O51_A Hypothetical protein TM  35.9      96  0.0019   19.1   3.8   40   48-88     13-52  (114)
+ 12 3KZ5_A Protein sopB; partition  34.9      47 0.00091   20.5   2.3   30    2-31     20-52  (52)
+ 13 2OV7_A 50S ribosomal protein L  34.6      51 0.00098   20.7   2.5   31    5-35     84-114 (137)
+ 14 2Y3Y_D PUTATIVE NICKEL-RESPONS  34.1      61  0.0012   19.6   2.7   25   62-86     58-82  (91)
+ 15 2FTC_A MITOCHONDRIAL RIBOSOME,  32.1      64  0.0012   20.8   2.7   34    5-38    135-172 (189)
+ 16 6HE6_B Cell division protein F  32.0      68  0.0013   19.7   2.7   53   20-83     61-115 (117)
+ 17 3DWB_A Endothelin-converting e  31.6      17 0.00032   25.9  -0.1   63   13-75    362-424 (670)
+ 18 4BHQ_B COMPETENCE PROTEIN PILN  30.8 1.3E+02  0.0025   17.7   4.6   70   18-88     52-138 (163)
+ 19 6NU2_A4 39S ribosomal protein   30.1      46 0.00089   23.6   1.9   29   10-38      3-31  (474)
+ 20 2K24_A Putative uncharacterize  29.9      18 0.00034   25.5  -0.2   31    4-43     30-60  (110)
+ 21 4KDL_B Transitional endoplasmi  29.5      68  0.0013   18.3   2.3   33   43-75     10-47  (90)
+ 22 5IFS_A Tether containing UBX d  29.2      69  0.0013   22.4   2.6   79    8-86     22-116 (237)
+ 23 4V68_BC PROTEIN/RNA Complex; c  28.8      66  0.0013   20.8   2.3   29    5-33    142-170 (191)
+ 24 2DYK_A GTP-binding protein; GT  27.9      71  0.0014   15.7   1.9   15   17-31    147-161 (161)
+ 25 1M5Q_D small nuclear ribonucle  26.7 1.2E+02  0.0023   19.4   3.2   33    2-36     56-88  (130)
+ 26 2R5X_B Uncharacterized conserv  26.4      51 0.00098   21.8   1.5   29   11-39     97-125 (129)
+ 27 6QZP_Lz 60S ribosomal protein   25.8      79  0.0015   20.4   2.3   29    5-33    169-197 (217)
+ 28 2HZA_A Nickel-responsive regul  25.8      95  0.0018   19.5   2.6   25   62-86    103-127 (133)
+ 29 6MI3_B NEMO-EEAA; coiled coil,  25.2      50 0.00096   22.3   1.3   14   65-78     10-23  (124)
+ 30 2R00_B Aspartate-semialdehyde   25.2 1.1E+02  0.0021   20.8   2.9   33   45-77    146-178 (336)
+ 31 2YV3_B Aspartate-semialdehyde   24.7      92  0.0018   21.3   2.5   33   45-77    140-172 (331)
+ 32 6MVM_B Transcriptional regulat  24.1      47  0.0009   18.5   0.9   46    2-47    117-162 (162)
+ 33 5W7B_C Acyloxyacyl hydrolase (  22.6   1E+02  0.0019   22.0   2.5   35   12-46    236-270 (422)
+ 34 6NEQ_o 28S ribosomal protein S  22.5      73  0.0014   23.8   1.8   29   10-38     58-86  (575)
+ 35 6OA9_G Cell division control p  22.4      90  0.0017   25.7   2.5   35   53-87      3-46  (580)
+ 36 4UJE_Cu 76-MER; RIBOSOME, TRAN  22.4 1.1E+02  0.0021   19.7   2.4   29    5-33    163-191 (210)
+ 37 4V6U_BA PROTEIN/RNA Complex; a  21.9   1E+02   0.002   19.9   2.3   29    5-33    167-195 (216)
+ 38 3V1Y_A Glyceraldehyde-3-phosph  21.9 1.2E+02  0.0023   19.7   2.5   30   49-78    308-337 (337)
+ 39 4V7E_Cz Ribosome; eukaryotic r  21.7 1.2E+02  0.0023   19.4   2.5   31    5-35    168-198 (216)
+ 40 6SUK_A Neprilysin (E.C.3.4.24.  21.6      31  0.0006   24.7  -0.2   63   13-75    387-450 (699)
+ 41 2LFW_B PhyR sigma-like domain,  21.3      48 0.00093   20.4   0.6   21    9-29     38-58  (62)
+ 42 6TB3_BT 40S ribosomal protein   20.9 1.2E+02  0.0023   19.4   2.4   29    5-33    157-185 (204)
+ 43 2YO0_A GENERAL CONTROL PROTEIN  20.9      54   0.001   22.3   0.8   14   65-78      6-19  (322)
+ 44 1Q5Y_A Nickel responsive regul  20.7 2.2E+02  0.0042   16.8   5.6   78    2-86      2-79  (85)
+ 45 3QOY_A 50S ribosomal protein L  20.6 1.2E+02  0.0024   20.5   2.5   29    5-33    179-207 (242)
+ 46 6HA8_8 50S ribosomal protein L  20.2 1.1E+02  0.0021   20.5   2.2   31    5-35    175-205 (232)
+ 47 1TU1_A hypothetical protein PA  20.1      58  0.0011   17.2   0.7    9   53-61     11-19  (148)
+
+No 1
+>1GH8_A TRANSLATION ELONGATION FACTOR 1BETA; ALPHA-BETA SANDWICH, GENE REGULATION, Structural; NMR {Methanothermobacter thermautotrophicus} SCOP: d.58.12.1
+Probab=99.64  E-value=5.3e-16  Score=93.37  Aligned_cols=88  Identities=32%  Similarity=0.544  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CCcceeeeecChhhHhhcHHHHHHHHHhhCcccceecccchhchhhcceEEEEEEeCchHhCCchHHHHHHHHhhccCcc
+Q k141_2313569_7    1 MGDFVALIDVIPEDIETNFEDLVEKLAKTLPENAKIAHHEIMPVAFGLKKVRLRVRYPEEWGGTDKIEELFSQVSGLQGI   80 (88)
+Q Consensus         1 mgdfvalidvipedietnfedlveklaktlpenakiahheimpvafglkkvrlrvrypeewggtdkieelfsqvsglqgi   80 (88)
+                      ||....++++.|++.+++++++.+++.+.++++.+...+++.|+|||++++++.+..|++.|++|++|+.++++.|.|.+
+T Consensus         1 m~k~~v~~~i~P~~~~~d~~~l~~~i~~~~~~~~~~~~~~~~piaFGl~~l~~~~~~~d~~~~~d~le~~i~~i~~V~sv   80 (89)
+T 1GH8_A            1 MGDVVATIKVMPESPDVDLEALKKEIQERIPEGTELHKIDEEPIAFGLVALNVMVVVGDAEGGTEAAEESLSGIEGVSNI   80 (89)
+T ss_dssp             CCCEEEEEEEEESSSCCCHHHHHHHHHHHSCTTSEECCCCEEECSSSCEEEEEEEEESSSCGGGGHHHHHHTTSCSSEEE
+T ss_pred             CceEEEEEEEcCCCCCCCHHHHHHHHHHhCCCCceeccceEEEeecccceEEEEEEEcCCCCCchHHHHHhhcCCCcceE
+
+
+Q ss_pred             eeEeeccC
+Q k141_2313569_7   81 EGIAFSKA   88 (88)
+Q Consensus        81 egiafska   88 (88)
+                      +-.++++.
+T Consensus        81 ev~~~~~~   88 (89)
+T 1GH8_A           81 EVTDVRRL   88 (89)
+T ss_dssp             EEEEEEEC
+T ss_pred             EEEEEEec
+
+
+No 2
+>5O8W_B Elongation factor 1-alpha, Elongation factor; PROTEIN-PROTEIN COMPLEX, TRANSLATION, COVALENT MODIFICATION; HET: M3L, PGE, MSE, GLN, MLZ; 1.67A {Saccharomyces cerevisiae} SCOP: d.58.12.1; Related PDB entries: 2B7B_B 2B7C_B 1F60_B 1G7C_B 1IJE_B 1IJF_B
+Probab=99.58  E-value=4.7e-15  Score=89.67  Aligned_cols=88  Identities=23%  Similarity=0.362  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CCcceeeeecChhhHhhcHHHHHHHHHhhCcccceecccchhchhhcceEEEEEEeCchHhCCchHHHHHHHHhh-ccCc
+Q k141_2313569_7    1 MGDFVALIDVIPEDIETNFEDLVEKLAKTLPENAKIAHHEIMPVAFGLKKVRLRVRYPEEWGGTDKIEELFSQVS-GLQG   79 (88)
+Q Consensus         1 mgdfvalidvipedietnfedlveklaktlpenakiahheimpvafglkkvrlrvrypeewggtdkieelfsqvs-glqg   79 (88)
+                      ||....++++.|++.+++++.+.+++.+.++++.+..-.++-|+|||++.+++.+.+|++.|++|++|+.++.+. +.|.
+T Consensus         6 m~k~~i~~~I~P~~~e~d~~~l~~~i~~~~~~~~~~~~~~~~piafGlk~l~~~~~~~d~~~~~d~~e~~~~~~~~~v~s   85 (94)
+T 5O8W_B            6 AAKSIVTLDVKPWDDETNLEEMVANVKAIEMEGLTWGAHQFIPIGFGIKKLQINCVVEDDKVSLDDLQQSIEEDEDHVQS   85 (94)
+T ss_dssp             CCEEEEEEEEEESSTTSCHHHHHHHHHTCCCTTEEEEEEEEEEEETTEEEEEEEEEEETTTCCHHHHHHHHTTCTTTEEE
+T ss_pred             ceEEEEEEEEcCCCCCCCHHHHHHHHHHHhhcCcEecceEEEEeecccceeEEEEEEcCCCCChHHHHHHhhccccCeeE
+
+
+Q ss_pred             ceeEeeccC
+Q k141_2313569_7   80 IEGIAFSKA   88 (88)
+Q Consensus        80 iegiafska   88 (88)
+                      +|-..+++.
+T Consensus        86 ~e~~~~~r~   94 (94)
+T 5O8W_B           86 TDIAAMQKL   94 (94)
+T ss_dssp             EEEEEEEEC
+T ss_pred             EEEEEEecC
+
+
+No 3
+>1B64_A ELONGATION FACTOR 1-BETA; GUANINE NUCLEOTIDE EXCHANGE FACTOR, G-PROTEIN; NMR {Homo sapiens} SCOP: d.58.12.1
+Probab=99.55  E-value=1.5e-14  Score=86.47  Aligned_cols=88  Identities=26%  Similarity=0.414  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCcceeeeecChhhHhhcHHHHHHHHHhhCcccceecccchhchhhcceEEEEEEeCchHhCCchHHHHHHHHhhc-cCc
+Q k141_2313569_7    1 MGDFVALIDVIPEDIETNFEDLVEKLAKTLPENAKIAHHEIMPVAFGLKKVRLRVRYPEEWGGTDKIEELFSQVSG-LQG   79 (88)
+Q Consensus         1 mgdfvalidvipedietnfedlveklaktlpenakiahheimpvafglkkvrlrvrypeewggtdkieelfsqvsg-lqg   79 (88)
+                      ||....++++.|++.+++.+.+.+++.+.++++.+..-.++-|+|||++.+.+.+..|++.|++|++++.++++.| .|.
+T Consensus         3 m~k~~v~~~i~P~~~e~d~~~l~~~i~~~~~~~~~~~~~~~~piafGl~~l~~~~~~~d~~~~~~~~e~~i~~~~~~V~~   82 (91)
+T 1B64_A            3 VAKSSILLDVKPWDDETDMAKLEECVRSIQADGLVWGSSKLVPVGYGIKKLQIQCVVEDDKVGTDMLEEQITAFEDYVQS   82 (91)
+T ss_dssp             SSCEEEEEEEEESSTTSCHHHHHHHHHHCCCTTCEEEEEEEEESSSSCEEEEEEEEECTTSSCHHHHHHHHTTCTTTEEE
+T ss_pred             ceEEEEEEEEcCCCCCCCHHHHHHHHHHhCcCCCEEeeeeEeecccccceeEEEEEEcCCCccchHHHHHHhccCCceeE
+
+
+Q ss_pred             ceeEeeccC
+Q k141_2313569_7   80 IEGIAFSKA   88 (88)
+Q Consensus        80 iegiafska   88 (88)
+                      +|-..+++.
+T Consensus        83 ~e~~~~~~~   91 (91)
+T 1B64_A           83 MDVAAFNKI   91 (91)
+T ss_dssp             EEESCCBCC
+T ss_pred             EEEEEEEcC
+
+
+No 4
+>2N51_A Elongation factor 1-delta; GUANINE NUCLEOTIDE EXCHANGE FACTOR, TRANSLATION; NMR {Homo sapiens}
+Probab=99.53  E-value=2.4e-14  Score=94.59  Aligned_cols=88  Identities=24%  Similarity=0.382  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CCcceeeeecChhhHhhcHHHHHHHHHhhCcccceecccchhchhhcceEEEEEEeCchHhCCchHHHHHHHHhhc-cCc
+Q k141_2313569_7    1 MGDFVALIDVIPEDIETNFEDLVEKLAKTLPENAKIAHHEIMPVAFGLKKVRLRVRYPEEWGGTDKIEELFSQVSG-LQG   79 (88)
+Q Consensus         1 mgdfvalidvipedietnfedlveklaktlpenakiahheimpvafglkkvrlrvrypeewggtdkieelfsqvsg-lqg   79 (88)
+                      ||.....+.+.|++.+++++.+.+++.+.+|++.++.-+++-|+||||+.+.+.+.+|++.|++|.+|+.++.+.| .|.
+T Consensus        45 mgkv~v~~kI~P~~~e~dl~~l~~~ik~~~~~~~~~~~~~~epiAFGLk~L~v~~~~~d~~g~~d~lE~~l~~ie~~V~s  124 (133)
+T 2N51_A           45 VAKSSILLDVKPWDDETDMAQLEACVRSIQLDGLVWGASKLVPVGYGIRKLQIQCVVEDDKVGTDLLEEEITKFEEHVQS  124 (133)
+T ss_dssp             CCEEEEEEEEEESSTTSCHHHHHHHHHTCCCTTEEEEEEEEEECSSSCEEEEEEEEEETTTCCHHHHHHHHHHGGGTEEE
+T ss_pred             eeeeeEEEEECCCCCCCCHHHHHHHHHHcccCCcEEcceeeeeccccceEEEEEEEEcCCCcchhHHHHHHhccCCccce
+
+
+Q ss_pred             ceeEeeccC
+Q k141_2313569_7   80 IEGIAFSKA   88 (88)
+Q Consensus        80 iegiafska   88 (88)
+                      ++-+.+|+.
+T Consensus       125 vev~~~~rl  133 (133)
+T 2N51_A          125 VDIAAFNKI  133 (133)
+T ss_dssp             EEEEEEEEC
+T ss_pred             EEEEEEecC
+
+
+No 5
+>2YY3_B Elongation factor 1-beta; Elongation factor, Structural Genomics, NPPSFA; HET: MSE; 2.5A {Pyrococcus horikoshii}; Related PDB entries: 2YY3_C 2YY3_A
+Probab=99.49  E-value=7.5e-14  Score=84.58  Aligned_cols=87  Identities=33%  Similarity=0.512  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             CcceeeeecChhhHhhcHHHHHHHHHhhCcccceecccchhchhhcceEEEEEEeCchHhC-CchHHHHHHHHhhccCcc
+Q k141_2313569_7    2 GDFVALIDVIPEDIETNFEDLVEKLAKTLPENAKIAHHEIMPVAFGLKKVRLRVRYPEEWG-GTDKIEELFSQVSGLQGI   80 (88)
+Q Consensus         2 gdfvalidvipedietnfedlveklaktlpenakiahheimpvafglkkvrlrvrypeewg-gtdkieelfsqvsglqgi   80 (88)
+                      +....++++.|++.+++.+++.+++...++++....-++.-|+|||++++++.+..|++.| ++|.+|+.++++.|.|.+
+T Consensus         4 ~~v~i~~~V~P~~~e~d~~~l~~~i~~~~~~~~~~~~~~~~piafGl~~l~~~~~~~d~~~~~~d~le~~i~~i~~V~s~   83 (91)
+T 2YY3_B            4 FNLVGVIRVMPTDPDVNLDELEEKLKKVIPEKYGLAKVEREPIAFGLVALKFYVLGRDEEGYSFDEVAEKFEEVENVESA   83 (91)
+T ss_dssp             CCEEEEEEEEESSSSSCHHHHHHHHTTCSCSSSEEEEEEEEEEETTEEEEEEEEEECSSTTCCHHHHHHHHHHSTTEEEE
+T ss_pred             eeEEEEEEEecCCCCCCHHHHHHHHHHHCchhcccceeeEEEeecCeeeEEEEEEEccCCCCChHHHHHHhhcCCCeeEE
+
+
+Q ss_pred             eeEeeccC
+Q k141_2313569_7   81 EGIAFSKA   88 (88)
+Q Consensus        81 egiafska   88 (88)
+                      |-.++|+.
+T Consensus        84 ev~~~~~~   91 (91)
+T 2YY3_B           84 EVETVSRI   91 (91)
+T ss_dssp             EEEEEEEC
+T ss_pred             EEEEEecC
+
+
+No 6
+>4N8N_C Cell division protein FtsX; Cell wall, MEMBRANE PROTEIN; 1.874A {Mycobacterium tuberculosis}; Related PDB entries: 4N8N_B 4N8N_D 4N8N_A 4N8O_B 4N8O_A; Related PDB entries: 4N8N_A 4N8N_B 4N8N_D 4N8O_A 4N8O_B; Related PDB entries: 4N8N_D 4N8N_B 4N8N_A 4N8O_B 4N8O_A
+Probab=66.37  E-value=12  Score=22.26  Aligned_cols=57  Identities=14%  Similarity=0.311  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             HHHHHHHHhhCcccceecccchhchhhcceEEEEEEeCchHhCCchHHHHHHHHhhccCcceeEeecc
+Q k141_2313569_7   20 EDLVEKLAKTLPENAKIAHHEIMPVAFGLKKVRLRVRYPEEWGGTDKIEELFSQVSGLQGIEGIAFSK   87 (88)
+Q Consensus        20 edlveklaktlpenakiahheimpvafglkkvrlrvrypeewggtdkieelfsqvsglqgiegiafsk   87 (88)
+                      ++..+++.+.++++..+....-+|-.|-+.--.           .+.+..+-+++.++.|++.+.+.+
+T Consensus        58 ~ea~~~~~~~~~~~~~~~~~nplp~~~~v~~~~-----------~~~~~~~~~~l~~~pgV~~V~~~~  114 (115)
+T 4N8N_C           58 QQAYDDAIRKFPQFKDVAGKDSFPASFIVKLEN-----------PEQHKDFDTAMKGQPGVLDVLNQK  114 (115)
+T ss_dssp             HHHHHHHHHHCGGGGGTCCGGGSCCEEEEEESS-----------TTCCHHHHHHHHTSTTEEEECC--
+T ss_pred             HHHHHHHHHHCcchhhhcCcCcCCCcEEEEECC-----------HHHHHHHHHHhcCCCCeeeccccC
+
+
+No 7
+>4RV0_D Transitional endoplasmic reticulum ATPase TER94; Ter94/p97, Npl4, AAA ATPase, PROTEIN; HET: SO4, MSE; 1.998A {Drosophila melanogaster}; Related PDB entries: 4RV0_F 4RV0_B 4RV0_H
+Probab=63.91  E-value=7.7  Score=21.25  Aligned_cols=41  Identities=20%  Similarity=0.388  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             hhhcceEEEEEEeCch-----HhCCchHHHHHHHHhhccCcceeEeec
+Q k141_2313569_7   44 VAFGLKKVRLRVRYPE-----EWGGTDKIEELFSQVSGLQGIEGIAFS   86 (88)
+Q Consensus        44 vafglkkvrlrvrype-----ewggtdkieelfsqvsglqgiegiafs   86 (88)
+                      ..+.....++|||.|+     +...++.+.+|..+++...++.  .|+
+T Consensus         3 ~~~~~~~m~lrvr~~~g~~~~~~~~~~t~~~l~~~i~~~~~~~--~~~   48 (81)
+T 4RV0_D            3 MEMPNDKILIRVQSAEGIKRIEISPKSNLKHLYDSVQNALKVD--GFG   48 (81)
+T ss_dssp             -----CCEEEEEEETTEEEEEEECTTSBHHHHHHHHHHHSCCS--SCE
+T ss_pred             CCCCCCcEEEEEecCCCeeEEEeCCCCCHHHHHHHHHHHhCCC--cEE
+
+
+No 8
+>6HIX_At ?; mitoribosome, translation, Trypanosoma, large ribosomal; HET: NAD; 3.39A {Trypanosoma brucei brucei}; Related PDB entries: 6HIV_At ; Related PDB entries: 6HIV_At; Related PDB entries: 6HIV_At
+Probab=39.92  E-value=8.5  Score=28.96  Aligned_cols=11  Identities=73%  Similarity=1.507  Sum_probs=0.0  Template_Neff=2.300
+
+Q ss_pred             EEEEeCchHhC
+Q k141_2313569_7   52 RLRVRYPEEWG   62 (88)
+Q Consensus        52 rlrvrypeewg   62 (88)
+                      |||-||||.|.
+T Consensus       132 RLrPRYPESWd  142 (154)
+T 6HIX_At         132 RLRPRYPESWD  142 (154)
+T ss_dssp             SCCCCCCCSSS
+T ss_pred             ccCCCCCCccC
+
+
+No 9
+>3IBW_A GTP pyrophosphokinase (E.C.2.7.6.5); GTP pyrophosphokinase, ACT domain, kinase; HET: MSE; 1.93A {Chlorobaculum tepidum}; Related PDB entries: 3IBW_B 2KO1_B 2KO1_A
+Probab=38.11  E-value=58  Score=15.88  Aligned_cols=75  Identities=20%  Similarity=0.283  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CCcceeeeecChhhHhhcHHHHHHHHHhhCcccceecccchhchhhcceEEEEEEeCchHhCCchHHHHHHHHhhccCcc
+Q k141_2313569_7    1 MGDFVALIDVIPEDIETNFEDLVEKLAKTLPENAKIAHHEIMPVAFGLKKVRLRVRYPEEWGGTDKIEELFSQVSGLQGI   80 (88)
+Q Consensus         1 mgdfvalidvipedietnfedlveklaktlpenakiahheimpvafglkkvrlrvrypeewggtdkieelfsqvsglqgi   80 (88)
+                      |+.|..-+.+...+-...+.++.+.+.   ..+..+..-.+-+ .-+...+.+.++.+..    ..++++...+..+.++
+T Consensus         1 ~~~~~~~l~i~~~~~~~~~~~i~~~l~---~~~~~i~~~~~~~-~~~~~~~~~~~~~~~~----~~~~~~~~~l~~~~~v   72 (88)
+T 3IBW_A            1 MTDFLAGIRIVGEDKNGMTNQITGVIS---KFDTNIRTIVLNA-KDGIFTCNLMIFVKNT----DKLTTLMDKLRKVQGV   72 (88)
+T ss_dssp             -CCEEEEEEEEEECCTTHHHHHHHHHH---HSSSEEEEEEEEE-ETTEEEEEEEEEESCH----HHHHHHHHHHHTSTTE
+T ss_pred             CCceeEEEEEEEeCCCCHHHHHHHHHH---hcCCeEEEEEEEe-cCCEEEEEEEEEeCCH----HHHHHHHHHHhcCCCe
+
+
+Q ss_pred             eeE
+Q k141_2313569_7   81 EGI   83 (88)
+Q Consensus        81 egi   83 (88)
+                      ..+
+T Consensus        73 ~~v   75 (88)
+T 3IBW_A           73 FTV   75 (88)
+T ss_dssp             EEE
+T ss_pred             EEE
+
+
+No 10
+>3L7H_D RE64145p; LC7, Km23, Roadblock, Dynein, Light; 1.95A {Drosophila melanogaster} SCOP: d.110.7.1; Related PDB entries: 2B95_B 2B95_A 2HZ5_B 2HZ5_A 1Y4O_B 1Y4O_A 2E8J_B 2E8J_A 3L7H_C 3L7H_B 3L7H_A 3L9K_D 3L9K_B 3L9K_C 3L9K_A 6F1T_l 6F1T_s 6F1T_k 6F1T_t 6F1Z_t 6F1Z_s 6F38_l 6F38_s 6F38_k 6F38_t 6F3A_k 6F3A_l 6RLB_H 6RLB_G 6SC2_H 6SC2_G 1Z09_B 1Z09_A
+Probab=37.18  E-value=60  Score=17.07  Aligned_cols=22  Identities=18%  Similarity=0.495  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             chHHHHHHHHhhccCcceeEee
+Q k141_2313569_7   64 TDKIEELFSQVSGLQGIEGIAF   85 (88)
+Q Consensus        64 tdkieelfsqvsglqgiegiaf   85 (88)
+                      .+++++++++.....|++|..+
+T Consensus         2 ~~~~~~~l~~l~~~~gv~~~~l   23 (97)
+T 3L7H_D            2 SQEVEETLKRIQSHKGVVGTIV   23 (97)
+T ss_dssp             ---CHHHHHHHHTSTTEEEEEE
+T ss_pred             cHHHHHHHHHHHcCCCEEEEEE
+
+
+No 11
+>1O51_A Hypothetical protein TM0021; Ferredoxin-like fold, structural genomics, Joint; HET: SO4, MSE, ADP; 2.5A {Thermotoga maritima} SCOP: d.58.5.4, l.1.1.1
+Probab=35.89  E-value=96  Score=19.13  Aligned_cols=40  Identities=18%  Similarity=0.379  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             ceEEEEEEeCchHhCCchHHHHHHHHhhccCcceeEeeccC
+Q k141_2313569_7   48 LKKVRLRVRYPEEWGGTDKIEELFSQVSGLQGIEGIAFSKA   88 (88)
+Q Consensus        48 lkkvrlrvrypeewggtdkieelfsqvsglqgiegiafska   88 (88)
+                      +||+|+-+.-...|++....+.+....... |+.|....++
+T Consensus        13 ~~~~~iy~~e~~~~~~~~l~~~I~~~l~~~-Gi~G~Tv~~~   52 (114)
+T 1O51_A           13 MKLLKIYLGEKDKHSGKPLFEYLVKRAYEL-GMKGVTVYRG   52 (114)
+T ss_dssp             EEEEEEEEETTCEETTEEHHHHHHHHHHHT-TCSCCEEEEC
+T ss_pred             cceEEEEEccccccCCccHHHHHHHHHHHC-CCCEEEEecc
+
+
+No 12
+>3KZ5_A Protein sopB; partition, segregation, F plasmid, DNA-binding; 1.58A {Escherichia coli}; Related PDB entries: 3KZ5_B 3KZ5_E; Related PDB entries: 3KZ5_E 3KZ5_B 
+Probab=34.93  E-value=47  Score=20.48  Aligned_cols=30  Identities=30%  Similarity=0.605  Sum_probs=0.0  Template_Neff=4.200
+
+Q ss_pred             Ccceee-eec--ChhhHhhcHHHHHHHHHhhCc
+Q k141_2313569_7    2 GDFVAL-IDV--IPEDIETNFEDLVEKLAKTLP   31 (88)
+Q Consensus         2 gdfval-idv--ipedietnfedlveklaktlp   31 (88)
+                      ||.|.+ +|-  +|++.-..+|.+++++.+.-+
+T Consensus        20 g~kV~~~Ld~~kip~~li~kIE~lL~~~~~~~~   52 (52)
+T 3KZ5_A           20 GDKMVLNLDRSRVPTECIEKIEAILKELEKPAP   52 (52)
+T ss_dssp             TTEEEEEECTTTSCHHHHHHHHHHHHGGGSCC-
+T ss_pred             CCEEEEEeCcccCCHHHHHHHHHHHHHhcccCC
+
+
+No 13
+>2OV7_A 50S ribosomal protein L1; ribosomal protein L1, Thermus thermophilus; 2.3A {Thermus thermophilus}; Related PDB entries: 2OUM_A 2OV7_C 2OV7_B 2VPL_C 2VPL_A
+Probab=34.63  E-value=51  Score=20.68  Aligned_cols=31  Identities=29%  Similarity=0.452  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             eeeeecChhhHhhcHHHHHHHHHhhCcccce
+Q k141_2313569_7    5 VALIDVIPEDIETNFEDLVEKLAKTLPENAK   35 (88)
+Q Consensus         5 validvipedietnfedlveklaktlpenak   35 (88)
+                      ++-++.-++++..|+..+++.+.+.+|...+
+T Consensus        84 iG~~~~~~~~l~eNi~~~~~~v~~~~~~~~~  114 (137)
+T 2OV7_A           84 VGKASFPPEKLADNIRAFIRALEAHKPEGAK  114 (137)
+T ss_dssp             EEETTSCHHHHHHHHHHHHHHHHTTSCSSCC
+T ss_pred             EEecCCCHHHHHHHHHHHHHHHHHcCCcccC
+
+
+No 14
+>2Y3Y_D PUTATIVE NICKEL-RESPONSIVE REGULATOR, UNDECAPEPTIDE-GSSSGSASGAG; TRANSCRIPTION, METAL BINDING; HET: PEG, EPE; 2.39A {UNIDENTIFIED} SCOP: d.58.18.0; Related PDB entries: 2Y3Y_C 2Y3Y_B 2Y3Y_A 3QSI_D 3QSI_G 3QSI_B 3QSI_F 3QSI_I 3QSI_C 3QSI_J 3QSI_E 3QSI_H 3QSI_A
+Probab=34.07  E-value=61  Score=19.57  Aligned_cols=25  Identities=24%  Similarity=0.480  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             CCchHHHHHHHHhhccCcceeEeec
+Q k141_2313569_7   62 GGTDKIEELFSQVSGLQGIEGIAFS   86 (88)
+Q Consensus        62 ggtdkieelfsqvsglqgiegiafs   86 (88)
+                      |..++|.++..++.++.|+.-+.|+
+T Consensus        58 G~~~~I~~l~~~l~~~kgv~~v~~~   82 (91)
+T 2Y3Y_D           58 GNSFEIQRLQLEIGGLRGVKFAKLT   82 (91)
+T ss_dssp             ECHHHHHHHHHHHHTSTTEEEEEEE
+T ss_pred             eCHHHHHHHHHHHhCCCCeeEEEEE
+
+
+No 15
+>2FTC_A MITOCHONDRIAL RIBOSOME, LARGE SUBUNIT; MITOCHONDRIAL RIBOSOME, LARGE RIBOSOMAL SUBUNIT; 12.1A {Bos taurus}
+Probab=32.08  E-value=64  Score=20.81  Aligned_cols=34  Identities=18%  Similarity=0.385  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             eeeeecChhhHhhcHHHHHHHHHhhCc----ccceecc
+Q k141_2313569_7    5 VALIDVIPEDIETNFEDLVEKLAKTLP----ENAKIAH   38 (88)
+Q Consensus         5 validvipedietnfedlveklaktlp----enakiah   38 (88)
+                      ++-.+.-++++..|+..+++.+.+.+|    .|.+-.|
+T Consensus       135 iG~~~~~~~~l~eNi~~~~~~i~~~~p~~~~~~i~~i~  172 (189)
+T 2FTC_A          135 IATLDMSSDQIAANLQAVINEVCRHRPLNLGPFVVRAF  172 (189)
+T ss_pred             EeeCCCCHHHHHHHHHHHHHHHHHhCCcccccCEEEEE
+
+
+No 16
+>6HE6_B Cell division protein FtsX; cell division, MEMBRANE PROTEIN, cell; HET: CAT; 2.0A {Streptococcus pneumoniae}; Related PDB entries: 6MK7_A 6HE6_A 6HEE_B 6HEE_A 6HFX_B 6HFX_A
+Probab=32.05  E-value=68  Score=19.66  Aligned_cols=53  Identities=17%  Similarity=0.294  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHhhCcccceecc--cchhchhhcceEEEEEEeCchHhCCchHHHHHHHHhhccCcceeE
+Q k141_2313569_7   20 EDLVEKLAKTLPENAKIAH--HEIMPVAFGLKKVRLRVRYPEEWGGTDKIEELFSQVSGLQGIEGI   83 (88)
+Q Consensus        20 edlveklaktlpenakiah--heimpvafglkkvrlrvrypeewggtdkieelfsqvsglqgiegi   83 (88)
+                      ++..+++.+.++++....-  ...+|-.|-++--.           .+.++.+-+++.++.|++.+
+T Consensus        61 ~ea~~~~~~~~~~~~~~~~~~~nplp~s~~v~l~~-----------~~~~~~i~~~l~~~~gV~~V  115 (117)
+T 6HE6_B           61 EEQYEKLTEIMGDNWKIFEGDANPLYDAYIVEANA-----------PNDVKTIAEDAKKIEGVSEV  115 (117)
+T ss_dssp             HHHHHHHHHSSCTTSCTTTTSCCCCCCEEEEEESS-----------GGGHHHHHHHHHTSTTEEEE
+T ss_pred             HHHHHHHHHHhccchhHhcCCCCCCCCcEEEEECC-----------HHHHHHHHHHHhcCCCcccc
+
+
+No 17
+>3DWB_A Endothelin-converting enzyme 1 (E.C.3.4.24.71); protein, Disease mutation, Glycoprotein, Hirschsprung; HET: RDF, 5HD; 2.38A {Homo sapiens} SCOP: d.92.1.0
+Probab=31.58  E-value=17  Score=25.89  Aligned_cols=63  Identities=6%  Similarity=0.087  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             hhHhhcHHHHHHHHHhhCcccceecccchhchhhcceEEEEEEeCchHhCCchHHHHHHHHhh
+Q k141_2313569_7   13 EDIETNFEDLVEKLAKTLPENAKIAHHEIMPVAFGLKKVRLRVRYPEEWGGTDKIEELFSQVS   75 (88)
+Q Consensus        13 edietnfedlveklaktlpenakiahheimpvafglkkvrlrvrypeewggtdkieelfsqvs   75 (88)
+                      +.+..-|+++.+.+.+.+..+..+....-.-+.--|+++++++-||+.+.....+++.++.+.
+T Consensus       362 ~~v~~~~~~i~~~~~~~i~~~~w~~~~~k~~~~~kL~~~~~~~g~p~~~~~~~~l~~~y~~~~  424 (670)
+T 3DWB_A          362 SIATEIILEIKKAFEESLSTLKWMDEETRKSAKEKADAIYNMIGYPNFIMDPKELDKVFNDYT  424 (670)
+T ss_dssp             HHHHHHHHHHHHHHHHHHTTCTTSCHHHHHHHHHHHHHCEEEEESCGGGGSHHHHHHHHTTCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHcCCCCCHHHHHHHHHHHHHHHHhcCCchhhCCHHHHHHHHhcCc
+
+
+No 18
+>4BHQ_B COMPETENCE PROTEIN PILN; CELL ADHESION, SECRETION; 2.05A {THERMUS THERMOPHILUS}; Related PDB entries: 4BHQ_A ; Related PDB entries: 4BHQ_A; Related PDB entries: 4BHQ_A 
+Probab=30.84  E-value=1.3e+02  Score=17.73  Aligned_cols=70  Identities=9%  Similarity=0.151  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             cHHHHHHHHHhhCcc-----cceecccchhc------------hhhcceEEEEEEeCchHhCCchHHHHHHHHhhccCcc
+Q k141_2313569_7   18 NFEDLVEKLAKTLPE-----NAKIAHHEIMP------------VAFGLKKVRLRVRYPEEWGGTDKIEELFSQVSGLQGI   80 (88)
+Q Consensus        18 nfedlveklaktlpe-----nakiahheimp------------vafglkkvrlrvrypeewggtdkieelfsqvsglqgi   80 (88)
+                      .+-++...|.+.+|+     +..+..-++.+            ..+.-..+..++..--.-...+.+.++...+.....+
+T Consensus        52 ~~~~~l~~l~~~~p~~~~~~~v~l~~l~~~~~~~~~~~~~~~~~~~~~~~v~~~~~l~G~a~~~~~v~~~~~~L~~~~~f  131 (163)
+T 4BHQ_B           52 PWSQYLAAFINQIPRAGGRLEVALRSVSARALSEEEAARLAQEGTYDGKRIRVEFALQGEALSREALVRFIRAFETSPRF  131 (163)
+T ss_dssp             CHHHHHHHHHHHSCC----CCEEEEEEEEEECCHHHHHHHHHTTGGGGCCEEEEEEEEEEESSHHHHHHHHHHTTSCTTE
+T ss_pred             CHHHHHHHHHHhCCCCCCccceEEEEEEEEeccHHHHHHhhcCCCcCCcceEEEEEEEEeeCCHHHHHHHHHHHhcChhh
+
+
+Q ss_pred             eeEeeccC
+Q k141_2313569_7   81 EGIAFSKA   88 (88)
+Q Consensus        81 egiafska   88 (88)
+                      .. .+...
+T Consensus       132 ~~-~l~~~  138 (163)
+T 4BHQ_B          132 GI-EFQGA  138 (163)
+T ss_dssp             EE-EEEEE
+T ss_pred             ee-cceee
+
+
+No 19
+>6NU2_A4 39S ribosomal protein L2, mitochondrial; mitochondrial ribosome recycling Factor, mtRRF; HET: MG; 3.9A {Homo sapiens}; Related PDB entries: 6NU3_A4 ; Related PDB entries: 6NU3_A4 ; Related PDB entries: 6NU3_A4 
+Probab=30.09  E-value=46  Score=23.58  Aligned_cols=29  Identities=21%  Similarity=0.278  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             cChhhHhhcHHHHHHHHHhhCcccceecc
+Q k141_2313569_7   10 VIPEDIETNFEDLVEKLAKTLPENAKIAH   38 (88)
+Q Consensus        10 vipedietnfedlveklaktlpenakiah   38 (88)
+                      +||.-|+..=.|+++.|+.|.+......|
+T Consensus         3 ~ip~~i~r~~t~il~al~~tv~~d~t~~~   31 (474)
+T 6NU2_A4           3 VIPKKKTWDKVAVLQALASTVNRDTTAVP   31 (474)
+T ss_dssp             CCCEEECSCCSCHHHHHHHHSCCCSSCCC
+T ss_pred             CCCCCCcCChHHHHHHHHhcCCCCCCCCC
+
+
+No 20
+>2K24_A Putative uncharacterized protein Ta0956; AUTOMATION, FAPSY, MOAD, MOLYBDOPTERIN, UNKNOWN; NMR {Thermoplasma acidophilum}; Related PDB entries: 2JMK_A; Related PDB entries: 2JMK_A; Related PDB entries: 2JMK_A
+Probab=29.93  E-value=18  Score=25.48  Aligned_cols=31  Identities=39%  Similarity=0.666  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             ceeeeecChhhHhhcHHHHHHHHHhhCcccceecccchhc
+Q k141_2313569_7    4 FVALIDVIPEDIETNFEDLVEKLAKTLPENAKIAHHEIMP   43 (88)
+Q Consensus         4 fvalidvipedietnfedlveklaktlpenakiahheimp   43 (88)
+                      +-.|++++-.+.+...++++++.|+|         .||||
+T Consensus        30 L~~L~~~l~s~~~e~l~efI~~yaRt---------deImp   60 (110)
+T 2K24_A           30 FSELYDIIDENDTDVMMDFISRFART---------DEIMP   60 (110)
+T ss_dssp             HHHHHHHTTCCCHHHHHHHHHHHCCC---------CCCCT
+T ss_pred             HHHHHHhcCCCChHHHHHHHHHhhcc---------ccCCC
+
+
+No 21
+>4KDL_B Transitional endoplasmic reticulum ATPase (E.C.3.6.4.6); AAA ATPase, UBX-like domain, PROTEIN; 1.81A {Homo sapiens}; Related PDB entries: 4KDI_D 4KDI_C ; Related PDB entries: 4KDI_D 4KDI_C ; Related PDB entries: 4KDI_C 4KDI_D 
+Probab=29.48  E-value=68  Score=18.34  Aligned_cols=33  Identities=12%  Similarity=0.255  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             chhhcceEEEEEEeCch-----HhCCchHHHHHHHHhh
+Q k141_2313569_7   43 PVAFGLKKVRLRVRYPE-----EWGGTDKIEELFSQVS   75 (88)
+Q Consensus        43 pvafglkkvrlrvrype-----ewggtdkieelfsqvs   75 (88)
+                      ........+++||++|.     ++..++.+.+++..+.
+T Consensus        10 ~~~~~~~~~~i~v~~~~g~~~~~v~~~~tv~~L~~~i~   47 (90)
+T 4KDL_B           10 GQQMGRGSMKLKVTGAGINQVVTLKQDATLNDLIEHIN   47 (90)
+T ss_dssp             -------CEEEEEEETTEEEEEEECTTCBHHHHHHHCS
+T ss_pred             ccccCCCcEEEEEEcCCcceEEEeCCCCcHHHHHHHHh
+
+
+No 22
+>5IFS_A Tether containing UBX domain for; ASPL, p97, disassembly, eUBX, signaling; HET: ADP, EDO; 2.46A {Homo sapiens}; Related PDB entries: 5IFS_C ; Related PDB entries: 5IFS_C ; Related PDB entries: 5IFS_C
+Probab=29.16  E-value=69  Score=22.36  Aligned_cols=79  Identities=23%  Similarity=0.346  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             eecChhhHhhcHHHHHHHHHhhCcccceecccchhchhh----------cceEEEEEEeCc------hHhCCchHHHHHH
+Q k141_2313569_7    8 IDVIPEDIETNFEDLVEKLAKTLPENAKIAHHEIMPVAF----------GLKKVRLRVRYP------EEWGGTDKIEELF   71 (88)
+Q Consensus         8 idvipedietnfedlveklaktlpenakiahheimpvaf----------glkkvrlrvryp------eewggtdkieelf   71 (88)
+                      .++-.++.|-..+|+-...+..-.++......++|.-+.          ...++++|||+|      ..+..++.+..++
+T Consensus        22 ~~~~d~ffe~T~~d~r~~~~~l~~~~~~l~~~~l~tk~~re~~~~~k~~~~~~~~IrirfPDg~~lq~~F~~~etv~~L~  101 (237)
+T 5IFS_A           22 AELPDEFFELTVDDVRRRLAQLKSERKRLEEAPLVTKAFREAQIKEKLERYPKVALRVLFPDRYVLQGFFRPSETVGDLR  101 (237)
+T ss_dssp             CCCCGGGGSCCHHHHHHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHCCCEEEEEECTTSCEEEEEECTTSBHHHHH
+T ss_pred             cCCChHHhcCCHHHHHHHHHHHHHHHHHHHhccchhHHHHHHHHHHHHhhCCcEEEEEEcCCCcEEEEEECCCCcHHHHH
+
+
+Q ss_pred             HHhhccCcceeEeec
+Q k141_2313569_7   72 SQVSGLQGIEGIAFS   86 (88)
+Q Consensus        72 sqvsglqgiegiafs   86 (88)
+                      .-|...-......|.
+T Consensus       102 ~fV~~~l~~~~~~F~  116 (237)
+T 5IFS_A          102 DFVRSHLGNPELSFY  116 (237)
+T ss_dssp             HHHHHTBSSTTSCCE
+T ss_pred             HHHHHhcCCCCCCEE
+
+
+No 23
+>4V68_BC PROTEIN/RNA Complex; cryo-electron microscopy/elongation factor/GTPase/ribosome/translation, Ribonucleoprotein, Ribosomal; HET: PSU, 5MC, 5MU, 1MA, GDP, 7MG, YG, PHA, OMC, MAU, OMG, 2MG, M2G; 6.4A {Thermus thermophilus}
+Probab=28.81  E-value=66  Score=20.79  Aligned_cols=29  Identities=24%  Similarity=0.418  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             eeeeecChhhHhhcHHHHHHHHHhhCccc
+Q k141_2313569_7    5 VALIDVIPEDIETNFEDLVEKLAKTLPEN   33 (88)
+Q Consensus         5 validvipedietnfedlveklaktlpen   33 (88)
+                      ++-.+.-++++..|+..+++.+.+.+|..
+T Consensus       142 iG~~~~~~~~l~eNi~~~~~~i~~~~p~~  170 (191)
+T 4V68_BC         142 VGKASFPPEKLADNIRAFIRALEAHKPEG  170 (191)
+T ss_dssp             CCCCCCSCCSTTSTTTCCCCCTTTTSCCS
+T ss_pred             EecCCCCHHHHHHHHHHHHHHHHHcCCcc
+
+
+No 24
+>2DYK_A GTP-binding protein; GTPase, ribosome-binding protein, Structural Genomics; HET: GDP; 1.96A {Thermus thermophilus} SCOP: c.37.1.0; Related PDB entries: 2DYK_B; Related PDB entries: 2DYK_B ; Related PDB entries: 2DYK_B
+Probab=27.93  E-value=71  Score=15.72  Aligned_cols=15  Identities=33%  Similarity=0.651  Sum_probs=0.0  Template_Neff=13.800
+
+Q ss_pred             hcHHHHHHHHHhhCc
+Q k141_2313569_7   17 TNFEDLVEKLAKTLP   31 (88)
+Q Consensus        17 tnfedlveklaktlp   31 (88)
+                      .+.+++++.+++.+|
+T Consensus       147 ~~v~~~~~~l~~~lp  161 (161)
+T 2DYK_A          147 RGLEELLEAIWERLP  161 (161)
+T ss_dssp             BSHHHHHHHHHHHCC
+T ss_pred             cCHHHHHHHHHHhCC
+
+
+No 25
+>1M5Q_D small nuclear ribonucleoprotein homolog; OB-like fold, b-sheet toroid, 14-mer; HET: CD, MSE, GOL, ACY; 2.0A {Pyrobaculum aerophilum} SCOP: b.38.1.1; Related PDB entries: 1M5Q_L 1M5Q_N 1M5Q_M 1M5Q_2 1M5Q_J 1M5Q_X 1M5Q_Z 1M5Q_H 1M5Q_A 1M5Q_B 1M5Q_G 1M5Q_I 1M5Q_T 1M5Q_R 1M5Q_O 1M5Q_Y 1M5Q_F 1M5Q_C 1M5Q_Q 1M5Q_V 1M5Q_K 1M5Q_E 1M5Q_1 1M5Q_W 1M5Q_S 1M5Q_U 1M5Q_P
+Probab=26.72  E-value=1.2e+02  Score=19.38  Aligned_cols=33  Identities=15%  Similarity=0.310  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             CcceeeeecChhhHhhcHHHHHHHHHhhCccccee
+Q k141_2313569_7    2 GDFVALIDVIPEDIETNFEDLVEKLAKTLPENAKI   36 (88)
+Q Consensus         2 gdfvalidvipedietnfedlveklaktlpenaki   36 (88)
+                      |+.+..|.+..+.  -+.+.|.+.+.+.+|...|+
+T Consensus        56 G~~I~~i~~~~~~--~d~~~l~~~l~~~~~~~vk~   88 (130)
+T 1M5Q_D           56 YRYIVHIDSTERR--IDMREFAKQAEKIFPGMVKY   88 (130)
+T ss_dssp             GGGEEEEEECCCC--CCHHHHHHHHHHHSTTCEEE
+T ss_pred             cCeEEEEecCCCc--CCHHHHHHHHHHHCCCccee
+
+
+No 26
+>2R5X_B Uncharacterized conserved protein; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI-2; 2.04A {Geobacillus kaustophilus} SCOP: l.1.1.1, d.129.11.0; Related PDB entries: 2R5X_A; Related PDB entries: 2R5X_A 
+Probab=26.42  E-value=51  Score=21.85  Aligned_cols=29  Identities=14%  Similarity=0.398  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             ChhhHhhcHHHHHHHHHhhCcccceeccc
+Q k141_2313569_7   11 IPEDIETNFEDLVEKLAKTLPENAKIAHH   39 (88)
+Q Consensus        11 ipedietnfedlveklaktlpenakiahh   39 (88)
+                      ||..+-..|++.+..+++.|.....-.||
+T Consensus        97 iP~~i~~q~~~kL~ei~~~L~~~~~~~~~  125 (129)
+T 2R5X_B           97 FPSSLVSQCQNVLAQVKSELEKIKEEGHH  125 (129)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHC---
+T ss_pred             CCHHHHHHHHHHHHHHHHHHhhhhhcCCC
+
+
+No 27
+>6QZP_Lz 60S ribosomal protein L8, 60S; Human 80S ribosome, rRNA, rRNA; HET: 6MZ, 2MG, JMH, OMG, PSU, HYG, MG, UR3, MLZ, 4AC, HMT, OMU, 5MC, OMC, 5MU, M7A, 1MA, A2M, B8N, MA6, B8T, B8H; 2.9A {Homo sapiens}; Related PDB entries: 5AJ0_Au 6D90_K 6D9J_K 6EK0_Lz 6GZ3_Au 6GZ4_Au 6GZ5_Au 6HCF_u3 6HCJ_w3 6HCM_u3 6HCQ_w3 6IP5_2l 3J7R_z 5LKS_Lz 6OLG_Au 6P5I_AK 6P5J_AK 6P5K_AK 6P5N_AK 6SGC_B 5T2C_l 4UG0_Lz 4V6X_Cz 6MTB_u 6MTC_u 6MTD_u 4V6W_Cz; Related PDB entries: 5AJ0_Au 6D90_K 6D9J_K 6EK0_Lz 6GZ3_Au 6GZ4_Au 6GZ5_Au 6HCF_u3 6HCJ_w3 6HCM_u3 6HCQ_w3 6IP5_2l 3J7R_z 5LKS_Lz 6OLG_Au 6P5I_AK 6P5J_AK 6P5K_AK 6P5N_AK 6SGC_B 5T2C_l 4UG0_Lz 4V6X_Cz 6MTB_u 6MTC_u 6MTD_u 4V6W_Cz
+Probab=25.77  E-value=79  Score=20.40  Aligned_cols=29  Identities=21%  Similarity=0.261  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             eeeeecChhhHhhcHHHHHHHHHhhCccc
+Q k141_2313569_7    5 VALIDVIPEDIETNFEDLVEKLAKTLPEN   33 (88)
+Q Consensus         5 validvipedietnfedlveklaktlpen   33 (88)
+                      ++..+.-.+++..|+..+++.+.+.+|.+
+T Consensus       169 iG~~~~~~~~l~eNi~~~~~~~~~~~~~~  197 (217)
+T 6QZP_Lz         169 VGHVKMTDDELVYNIHLAVNFLVSLLKKN  197 (217)
+T ss_dssp             CCCCCSCSTTTTTTCCCTTTTTTTSCSSS
+T ss_pred             EecCCCCHHHHHHHHHHHHHHHHHHcccc
+
+
+No 28
+>2HZA_A Nickel-responsive regulator; nickel-binding, ribbon-helix-helix, transcription factor, METAL; HET: MSE, 3CM; 2.1A {Escherichia coli} SCOP: a.43.1.3, d.58.18.4; Related PDB entries: 2HZA_B 2HZV_D 2HZV_G 2HZV_F 2HZV_B 2HZV_C 2HZV_E 2HZV_H 2HZV_A 3OD2_B 3OD2_A 1Q5V_C 1Q5V_D 1Q5V_B 1Q5V_A
+Probab=25.77  E-value=95  Score=19.49  Aligned_cols=25  Identities=12%  Similarity=0.276  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CCchHHHHHHHHhhccCcceeEeec
+Q k141_2313569_7   62 GGTDKIEELFSQVSGLQGIEGIAFS   86 (88)
+Q Consensus        62 ggtdkieelfsqvsglqgiegiafs   86 (88)
+                      |..++|.++.+++.++.|+..+.|+
+T Consensus       103 G~~~~i~~l~~~l~~~~gv~~~~~~  127 (133)
+T 2HZA_A          103 GDMGDVQHFADDVIAQRGVRHGHLQ  127 (133)
+T ss_dssp             EEHHHHHHHHHHHHHSTTEEEEEEE
+T ss_pred             eCHHHHHHHHHHHHcCCCeEEEEEE
+
+
+No 29
+>6MI3_B NEMO-EEAA; coiled coil, scaffolding, NF-kB pathway; 1.783A {Homo sapiens}; Related PDB entries: 6MI3_A 6MI4_B 6MI4_A; Related PDB entries: 6MI3_A 6MI4_A 6MI4_B
+Probab=25.20  E-value=50  Score=22.27  Aligned_cols=14  Identities=50%  Similarity=0.726  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             hHHHHHHHHhhccC
+Q k141_2313569_7   65 DKIEELFSQVSGLQ   78 (88)
+Q Consensus        65 dkieelfsqvsglq   78 (88)
+                      |||||++|.+..+.
+T Consensus        10 ~~~~~~~~~i~hi~   23 (124)
+T 6MI3_B           10 DKNEELLSEIAHLK   23 (124)
+T ss_dssp             HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhcchH
+
+
+No 30
+>2R00_B Aspartate-semialdehyde dehydrogenase (E.C.1.2.1.11); aspartate semialdehyde dehydrogenase, conformational change; HET: HTI; 2.03A {Vibrio cholerae}; Related PDB entries: 2QZ9_C 2QZ9_B 2QZ9_A 2R00_C 2R00_A
+Probab=25.19  E-value=1.1e+02  Score=20.77  Aligned_cols=33  Identities=24%  Similarity=0.374  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             hhcceEEEEEEeCchHhCCchHHHHHHHHhhcc
+Q k141_2313569_7   45 AFGLKKVRLRVRYPEEWGGTDKIEELFSQVSGL   77 (88)
+Q Consensus        45 afglkkvrlrvrypeewggtdkieelfsqvsgl   77 (88)
+                      .++++++.+.+..|-...|...++||.+|...+
+T Consensus       146 ~~~i~~~~~t~~~~~S~~g~~~~~~l~~qt~~l  178 (336)
+T 2R00_B          146 AVGIERINVTTYQSVSGAGKAGIDELAGQTAKL  178 (336)
+T ss_dssp             HHCEEEEEEEEEEEC------------------
+T ss_pred             HhCccEEEEEEEechhHccHHHHHHHHHHHHHH
+
+
+No 31
+>2YV3_B Aspartate-semialdehyde dehydrogenase (E.C.1.2.1.11); DEHYDROGENASE, ASPARTATE PATHWAY, Structural Genomics; 2.7A {Thermus thermophilus}; Related PDB entries: 2YV3_A 
+Probab=24.72  E-value=92  Score=21.34  Aligned_cols=33  Identities=24%  Similarity=0.363  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             hhcceEEEEEEeCchHhCCchHHHHHHHHhhcc
+Q k141_2313569_7   45 AFGLKKVRLRVRYPEEWGGTDKIEELFSQVSGL   77 (88)
+Q Consensus        45 afglkkvrlrvrypeewggtdkieelfsqvsgl   77 (88)
+                      .+++.++.+.+..|-...|...+++|..|...+
+T Consensus       140 ~~~i~~~~vt~~~~~S~~G~~~~~~l~~qt~~~  172 (331)
+T 2YV3_B          140 AFQAKRVIVATYQAASGAGAKAMEELLTETHRF  172 (331)
+T ss_dssp             TTCEEECCEEEEBCGGGTCSHHHHHHHHHHHHH
+T ss_pred             HhCCcEEEEEEEecCccccHHHHHHHHHHHHHH
+
+
+No 32
+>6MVM_B Transcriptional regulator LasR; transcriptional activator protein, 3-Oxo-N-(2-oxooxolan-3-yl)tetradecanamide, TRANSCRIPTION; HET: K4G; 1.895A {Pseudomonas aeruginosa (strain UCBPP-PA14)}; Related PDB entries: 6MVM_A; Related PDB entries: 6MVM_A 
+Probab=24.12  E-value=47  Score=18.49  Aligned_cols=46  Identities=20%  Similarity=0.136  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CcceeeeecChhhHhhcHHHHHHHHHhhCcccceecccchhchhhc
+Q k141_2313569_7    2 GDFVALIDVIPEDIETNFEDLVEKLAKTLPENAKIAHHEIMPVAFG   47 (88)
+Q Consensus         2 gdfvalidvipedietnfedlveklaktlpenakiahheimpvafg   47 (88)
+                      |.+..+.=..+.+....+++++++....|---+..+|..+|.++++
+T Consensus       117 g~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~l~~~~~~~~~~~~~~  162 (162)
+T 6MVM_B          117 GELGALSFSVEAENRAEANRFMESVLPTLWMLKDYALQSGAGLAFE  162 (162)
+T ss_dssp             CCEEEEEEEECCSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             CCEEEEEEecChhcHHHHHHHHHHHHHHHHHHHHHHHHHhhhcccC
+
+
+No 33
+>5W7B_C Acyloxyacyl hydrolase (E.C.3.1.1.77); lipopolysaccharide, LPS, GDSL esterase, saposin; HET: PA1, MES, PEG, SO4, PGE, KDO, MYR, PO4, FUC, NAG, GCS, FTT, 1PE; 1.9A {Oryctolagus cuniculus}; Related PDB entries: 5W7A_B 5W7B_D 5W78_B 5W7C_C 5W7C_D
+Probab=22.60  E-value=1e+02  Score=22.03  Aligned_cols=35  Identities=26%  Similarity=0.418  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             hhhHhhcHHHHHHHHHhhCcccceecccchhchhh
+Q k141_2313569_7   12 PEDIETNFEDLVEKLAKTLPENAKIAHHEIMPVAF   46 (88)
+Q Consensus        12 pedietnfedlveklaktlpenakiahheimpvaf   46 (88)
+                      +++...++..+++.|.+.+|.++++.-..+.+...
+T Consensus       236 ~~~~~~~l~~~l~~l~~~~p~g~~Vvl~~~~~~~~  270 (422)
+T 5W7B_C          236 PEQLYANVLKMLEALNSHLPTGSHVILYGLAHGAF  270 (422)
+T ss_dssp             HHHHHHHHHHHHHHHHTTSCTTEEEEEECCCCTHH
+T ss_pred             HHHHHHHHHHHHHHHHHhCCCCCEEEEEcCCChHH
+
+
+No 34
+>6NEQ_o 28S ribosomal protein S24, mitochondrial; Human mitochondrial translation Initiation Factor; 3.32A {Bos taurus}; Related PDB entries: 6NF8_o 3JD5_o 3J9M_A4; Related PDB entries: 3J9M_A4 3JD5_o 6NF8_o; Related PDB entries: 3J9M_A4 3JD5_o 6NF8_o
+Probab=22.53  E-value=73  Score=23.78  Aligned_cols=29  Identities=24%  Similarity=0.302  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             cChhhHhhcHHHHHHHHHhhCcccceecc
+Q k141_2313569_7   10 VIPEDIETNFEDLVEKLAKTLPENAKIAH   38 (88)
+Q Consensus        10 vipedietnfedlveklaktlpenakiah   38 (88)
+                      +||.-|+.+=.|+++.|+.|.......+|
+T Consensus        58 ~ip~~~~r~~t~il~al~~tv~~d~ta~~   86 (575)
+T 6NEQ_o           58 VIPKKKTWDKVAVLQALASTVHRDTTAAP   86 (575)
+T ss_dssp             CCCBCCCCCSCCHHHHHHHHSCCCTTCCC
+T ss_pred             cCCCCceeCHHHHHHHHHhcCCCCCCCCC
+
+
+No 35
+>6OA9_G Cell division control protein 48; ATPase, ATPase complex, ubiquitin, quality; HET: ATP, ADP; 3.9A {Saccharomyces cerevisiae}; Related PDB entries: 6OAA_G ; Related PDB entries: 6OAA_G ; Related PDB entries: 6OAA_G 
+Probab=22.42  E-value=90  Score=25.75  Aligned_cols=35  Identities=11%  Similarity=0.182  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             EEEeCch-----HhCCchHHHHHHHHhhccCcce----eEeecc
+Q k141_2313569_7   53 LRVRYPE-----EWGGTDKIEELFSQVSGLQGIE----GIAFSK   87 (88)
+Q Consensus        53 lrvrype-----ewggtdkieelfsqvsglqgie----giafsk   87 (88)
+                      +|||-|+     ++..+|.+..|++++...-++.    ++++++
+T Consensus         3 IRVrSpdG~~RIev~~~dt~~~L~~kI~~~~~~~~~~~~~~L~~   46 (580)
+T 6OA9_G            3 IRFRSKNGTHRVSCQENDLFGTVIEKLVGNLDPNADVDTFTVCE   46 (580)
+T ss_dssp             --------------------------------------------
+T ss_pred             EEEECCCCcEEEEcCCCCcHHHHHHHHHHhcCCCCCcccEEEEe
+
+
+No 36
+>4UJE_Cu 76-MER; RIBOSOME, TRANSLATION, MAMMALIAN 80S RIBOSOME; HET: MIA; 6.9A {ORYCTOLAGUS CUNICULUS}; Related PDB entries: 4UJD_Au 4V5Z_B5 4D67_u 4UJC_Bu 4D5Y_u; Related PDB entries: 4V5Z_B5 4D5Y_u 4D67_u 4UJC_Bu 4UJD_Au ; Related PDB entries: 4V5Z_B5 4D5Y_u 4D67_u 4UJC_Bu 4UJD_Au 
+Probab=22.39  E-value=1.1e+02  Score=19.75  Aligned_cols=29  Identities=24%  Similarity=0.401  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             eeeeecChhhHhhcHHHHHHHHHhhCccc
+Q k141_2313569_7    5 VALIDVIPEDIETNFEDLVEKLAKTLPEN   33 (88)
+Q Consensus         5 validvipedietnfedlveklaktlpen   33 (88)
+                      ++-.+.-++++..|+..+++.+.+.+|.+
+T Consensus       163 iG~~~~~~~~l~eNi~~~~~~l~~~~~~~  191 (210)
+T 4UJE_Cu         163 VGAEDMSAENIADNIDVILRRLHADLEKG  191 (210)
+T ss_dssp             EEETTSCHHHHHHHHHHHHHCCCCCCCCC
+T ss_pred             EEecCCCHHHHHHHHHHHHHHHHHhcccC
+
+
+No 37
+>4V6U_BA PROTEIN/RNA Complex; archaea, archaeal, ribosomal, 70S, kink-turn; 6.6A {Pyrococcus furiosus}; Related PDB entries: 4V4N_AA ; Related PDB entries: 4V4N_AA; Related PDB entries: 4V4N_AA
+Probab=21.94  E-value=1e+02  Score=19.91  Aligned_cols=29  Identities=21%  Similarity=0.314  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             eeeeecChhhHhhcHHHHHHHHHhhCccc
+Q k141_2313569_7    5 VALIDVIPEDIETNFEDLVEKLAKTLPEN   33 (88)
+Q Consensus         5 validvipedietnfedlveklaktlpen   33 (88)
+                      ++-++.-++++..|+..+++.+.+.+|.+
+T Consensus       167 iG~~~~~~~~l~eNi~~v~~~i~~~~p~~  195 (216)
+T 4V6U_BA         167 VGTEKMSDEEIAENIEAVLNAIIGKLERG  195 (216)
+T ss_dssp             CEESSSCHHHHHHHHHHHHHHHHHSCCCS
+T ss_pred             EecCCCCHHHHHHHHHHHHHHHHHhcccc
+
+
+No 38
+>3V1Y_A Glyceraldehyde-3-phosphate dehydrogenase, cytosolic (E.C.1.2.1.12); Rossmann Fold, glyceraldehyde-3-phosphate dehydrogenase (NAD+); HET: NAD; 1.86A {Oryza sativa Japonica Group}; Related PDB entries: 3E5R_O 3E5R_C 3E5R_B 3E5R_A 3V1Y_O 3V1Y_C 3V1Y_B 3E6A_O 3E6A_C 3E6A_B 3E6A_A 6QUN_O 6QUN_R 6QUQ_O 6QUQ_R 4Z0H_O 4Z0H_R
+Probab=21.86  E-value=1.2e+02  Score=19.73  Aligned_cols=30  Identities=27%  Similarity=0.567  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             eEEEEEEeCchHhCCchHHHHHHHHhhccC
+Q k141_2313569_7   49 KKVRLRVRYPEEWGGTDKIEELFSQVSGLQ   78 (88)
+Q Consensus        49 kkvrlrvrypeewggtdkieelfsqvsglq   78 (88)
+                      +.+++...|..|||-...+-++...+.+.+
+T Consensus       308 ~~~~~~~~~Dne~g~~~~~~~~~~~~~~~~  337 (337)
+T 3V1Y_A          308 NFVKLVAWYDNEWGYSNRVIDLIRHMAKTQ  337 (337)
+T ss_dssp             TEEEEEEEECTTHHHHHHHHHHHHHHHHCC
+T ss_pred             cEEEEEEEecCCCcHHHHHHHHHHHHhhcC
+
+
+No 39
+>4V7E_Cz Ribosome; eukaryotic ribosome, homology modeling, de; 5.5A {Triticum aestivum}; Related PDB entries: 4V3P_LA ; Related PDB entries: 4V3P_LA; Related PDB entries: 4V3P_LA
+Probab=21.74  E-value=1.2e+02  Score=19.39  Aligned_cols=31  Identities=23%  Similarity=0.227  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             eeeeecChhhHhhcHHHHHHHHHhhCcccce
+Q k141_2313569_7    5 VALIDVIPEDIETNFEDLVEKLAKTLPENAK   35 (88)
+Q Consensus         5 validvipedietnfedlveklaktlpenak   35 (88)
+                      +.-++.-++++..|+..+++.+.+.+|.+.+
+T Consensus       168 iG~~~~~~~~l~eN~~~~~~~i~~~~p~~~~  198 (216)
+T 4V7E_Cz         168 VGNLSMDEKQIQQNIQMSVNFLVSLLKKNWQ  198 (216)
+T ss_dssp             ETTSCHHHHHHHHHHHHHHHHHHCCSSCCSC
+T ss_pred             EEecCCCHHHHHHHHHHHHHHHHHHcccccc
+
+
+No 40
+>6SUK_A Neprilysin (E.C.3.4.24.11); metallopeptidase, Neural endopeptidase, Omapatrilat, HYDROLASE; HET: FT8, NAG, PEG, EDO; 1.75A {Homo sapiens}; Related PDB entries: 4CTH_A 6SVY_A 6XVP_A 5JMY_B 5JMY_A 1DMT_A 6GID_A 2QPJ_A 1R1H_A 1R1I_A 1R1J_A 6SH1_AAA 6SH1_CCC 6SH2_AAA 6THP_B 6THP_A 5V48_B 5V48_A 4XBH_B 4XBH_A 1Y8J_A 2YB9_A 4ZR5_B 4ZR5_A
+Probab=21.59  E-value=31  Score=24.71  Aligned_cols=63  Identities=13%  Similarity=0.215  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             hhHhhcHHHHHHHHHhhCcccceecccchhchhhcceEEEEEEeCchHhC-CchHHHHHHHHhh
+Q k141_2313569_7   13 EDIETNFEDLVEKLAKTLPENAKIAHHEIMPVAFGLKKVRLRVRYPEEWG-GTDKIEELFSQVS   75 (88)
+Q Consensus        13 edietnfedlveklaktlpenakiahheimpvafglkkvrlrvrypeewg-gtdkieelfsqvs   75 (88)
+                      +.+..-++++-+.+.+.+..+..+....-.-..--++++++++-||+.+. ..+++++.++.+.
+T Consensus       387 ~~v~~~~~~ik~~~~~~i~~~~w~~~~~k~~~~~kl~~~~~~ig~p~~~~~~~~~l~~~y~~~~  450 (699)
+T 6SUK_A          387 HVVEDLIAQIREVFIQTLDDLTWMDAETKKRAEEKALAIKERIGYPDDIVSNDNKLNNEYLELN  450 (699)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHCTTSCHHHHHHHHHHHHHCEEEEECCTHHHHCHHHHHHHTTTCC
+T ss_pred             HHHHHHHHHHHHHHHHHHhhCCCCCHHHHHHHHHHHHHHHHhcCCCHHHcCCHHHHHHHhhccc
+
+
+No 41
+>2LFW_B PhyR sigma-like domain, NepR anti; signal transduction, response regulator, sigma; NMR {Sphingomonas sp. Fr1}
+Probab=21.25  E-value=48  Score=20.40  Aligned_cols=21  Identities=33%  Similarity=0.471  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             ecChhhHhhcHHHHHHHHHhh
+Q k141_2313569_7    9 DVIPEDIETNFEDLVEKLAKT   29 (88)
+Q Consensus         9 dvipedietnfedlveklakt   29 (88)
+                      +++-|.+-..|-+|+++|...
+T Consensus        38 ~v~~EpvPd~~~~LL~kL~~~   58 (62)
+T 2LFW_B           38 KTIEEQVPDEMLDLLNKLALE   58 (62)
+T ss_dssp             TTTSSCCCCTTGGGSTTTTSC
+T ss_pred             HHHhCCCCHHHHHHHHHHHhh
+
+
+No 42
+>6TB3_BT 40S ribosomal protein S0-A, 40S; Not5, CCR4-NOT complex, translation control; HET: 1MA, T6A, 1MG, 2MG, 5MC, SPD, MG, H2U, 7MG, M2G; 2.8A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}; Related PDB entries: 5FL8_I 5IT7_qq 3J6X_L1 3J6Y_L1 3J77_L1 3J78_L1 5JCS_I 5JUO_E 5JUP_E 5JUS_E 5JUT_E 5JUU_E 6UZ7_Bq 4V4B_BA 4V6I_BA 4V7F_A 4V7R_BA 4V7R_DA 4V91_t 3J0L_B 3J0O_B 3J0P_B 3J0Q_B 2NOQ_G 4V7H_BA 6GQB_BA 6GQV_BA 6R84_L 6R86_L 6R87_L ; Related PDB entries: 5FL8_I 5IT7_qq 3J6X_L1 3J6Y_L1 3J77_L1 3J78_L1 5JCS_I 5JUO_E 5JUP_E 5JUS_E 5JUT_E 5JUU_E 6UZ7_Bq 4V4B_BA 4V6I_BA 4V7F_A 4V7R_BA 4V7R_DA 4V91_t 3J0L_B 3J0O_B 3J0P_B 3J0Q_B 2NOQ_G 4V7H_BA 6GQB_BA 6GQV_BA 6R84_L 6R86_L 6R87_L 
+Probab=20.86  E-value=1.2e+02  Score=19.36  Aligned_cols=29  Identities=14%  Similarity=0.122  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             eeeeecChhhHhhcHHHHHHHHHhhCccc
+Q k141_2313569_7    5 VALIDVIPEDIETNFEDLVEKLAKTLPEN   33 (88)
+Q Consensus         5 validvipedietnfedlveklaktlpen   33 (88)
+                      ++-.+.-.+++..|+..+++.+.+.+|.+
+T Consensus       157 iG~~~~~~~~l~eN~~~~~~~i~~~~~~~  185 (204)
+T 6TB3_BT         157 VGNVEMEEDVLVNQILMSVNFFVSLLKKN  185 (204)
+T ss_dssp             BTTSCTTSTTTSHHHHSSCGGGTCCTTSC
+T ss_pred             EeecCCCHHHHHHHHHHHHHHHHHHcccc
+
+
+No 43
+>2YO0_A GENERAL CONTROL PROTEIN GCN4, PUTATIVE; HANS MOTIF, YADA-LIKE HEAD, YLHEAD; 2.8A {SACCHAROMYCES CEREVISIAE}; Related PDB entries: 2YO1_B 2YO1_A 2YO1_C; Related PDB entries: 2YO1_A 2YO1_B 2YO1_C; Related PDB entries: 2YO1_C 2YO1_B 2YO1_A
+Probab=20.85  E-value=54  Score=22.29  Aligned_cols=14  Identities=43%  Similarity=0.759  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             hHHHHHHHHhhccC
+Q k141_2313569_7   65 DKIEELFSQVSGLQ   78 (88)
+Q Consensus        65 dkieelfsqvsglq   78 (88)
+                      ||++|+.||+.++.
+T Consensus         6 ~~~~~~~~~~~~~~   19 (322)
+T 2YO0_A            6 DKIEEILSKIYHIE   19 (322)
+T ss_dssp             --------------
+T ss_pred             HHHHHHHHHHHHHH
+
+
+No 44
+>1Q5Y_A Nickel responsive regulator, ETHYLENE GLYCOL; Nickel binding, regulatory domain, beta; HET: EDO; 1.4A {Escherichia coli} SCOP: d.58.18.4; Related PDB entries: 3BKF_A 3BKT_C 3BKT_D 3BKT_B 3BKT_A 3BKU_C 3BKU_D 3BKU_B 3BKU_A 1Q5Y_C 1Q5Y_D 1Q5Y_B 
+Probab=20.74  E-value=2.2e+02  Score=16.84  Aligned_cols=78  Identities=10%  Similarity=0.101  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             CcceeeeecChhhHhhcHHHHHHHHHhhCcccceecccchhchhhcceEEEEEEeCchHhCCchHHHHHHHHhhccCcce
+Q k141_2313569_7    2 GDFVALIDVIPEDIETNFEDLVEKLAKTLPENAKIAHHEIMPVAFGLKKVRLRVRYPEEWGGTDKIEELFSQVSGLQGIE   81 (88)
+Q Consensus         2 gdfvalidvipedietnfedlveklaktlpenakiahheimpvafglkkvrlrvrypeewggtdkieelfsqvsglqgie   81 (88)
+                      |+.++.+-++-+.-..+..+-+..+.....+..+...|--+.-..-+.-+-++       |..++|.++.+++.++.|+.
+T Consensus         2 ~~~~gvi~~vy~~~~~~~~~~l~~i~h~~~~~I~s~~h~hl~~~~clev~vv~-------G~~~~i~~l~~~l~~~kgv~   74 (85)
+T 1Q5Y_A            2 TQGFAVLSYVYEHEKRDLASRIVSTQHHHHDLSVATLHVHINHDDCLEIAVLK-------GDMGDVQHFADDVIAQRGVR   74 (85)
+T ss_dssp             CEEEEEEEEEEETTCHHHHHHHHHHHHHTGGGEEEEEEEECSSSEEEEEEEEE-------EEHHHHHHHHHHHHTSTTCE
+T ss_pred             CeEEEEEEEEEeCCcccHHHhhHHHhHhcccceEEEEEEEeCCCcEEEEEEEE-------ECHHHHHHHHHHHHhcCCee
+
+
+Q ss_pred             eEeec
+Q k141_2313569_7   82 GIAFS   86 (88)
+Q Consensus        82 giafs   86 (88)
+                      -+.++
+T Consensus        75 ~v~~~   79 (85)
+T 1Q5Y_A           75 HGHLQ   79 (85)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 45
+>3QOY_A 50S ribosomal protein L1; Beta-Alpha-Beta, structural constituent of ribosome; HET: SO4; 2.1A {Aquifex aeolicus}
+Probab=20.56  E-value=1.2e+02  Score=20.45  Aligned_cols=29  Identities=17%  Similarity=0.288  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             eeeeecChhhHhhcHHHHHHHHHhhCccc
+Q k141_2313569_7    5 VALIDVIPEDIETNFEDLVEKLAKTLPEN   33 (88)
+Q Consensus         5 validvipedietnfedlveklaktlpen   33 (88)
+                      ++-.+.-++++..|+..+++.+.+.+|.+
+T Consensus       179 iG~~~m~~e~L~eNi~a~~~~l~~~~p~~  207 (242)
+T 3QOY_A          179 VGKISFEKEKLIDNLYAAIDAVVRAKPPG  207 (242)
+T ss_dssp             EEETTSCHHHHHHHHHHHHHHHHHTCCTT
+T ss_pred             EEecCCCHHHHHHHHHHHHHHHHHhCCCC
+
+
+No 46
+>6HA8_8 50S ribosomal protein L2, chloroplastic; single particle cryo-EM, ABCF, ATPase; HET: ATP, TEL; 3.5A {Bacillus subtilis (strain 168)}; Related PDB entries: 3J3W_5 3J3V_5; Related PDB entries: 3J3V_5 3J3W_5; Related PDB entries: 3J3V_5 3J3W_5
+Probab=20.18  E-value=1.1e+02  Score=20.45  Aligned_cols=31  Identities=23%  Similarity=0.411  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             eeeeecChhhHhhcHHHHHHHHHhhCcccce
+Q k141_2313569_7    5 VALIDVIPEDIETNFEDLVEKLAKTLPENAK   35 (88)
+Q Consensus         5 validvipedietnfedlveklaktlpenak   35 (88)
+                      ++-.+.-++++..|+..+++.+.+.+|.+..
+T Consensus       175 iG~~~~~~e~L~eNi~~~~~~~~~~~p~~~~  205 (232)
+T 6HA8_8          175 IGKVSFEDEKLVENFTTMYDTILKAKPAAAK  205 (232)
+T ss_dssp             EEESSSCTTHHHHHHHHHHHHHHHTCCSSCC
+T ss_pred             EecCCCCcHHHHHHHHHHHHHHHHhCChHHc
+
+
+No 47
+>1TU1_A hypothetical protein PA0094; structural genomics, hypothetical protein, PA0094; HET: PEG, EDO; 1.95A {Pseudomonas aeruginosa} SCOP: d.107.1.3, l.1.1.1; Related PDB entries: 1TU1_B; Related PDB entries: 1TU1_B ; Related PDB entries: 1TU1_B
+Probab=20.13  E-value=58  Score=17.23  Aligned_cols=9  Identities=22%  Similarity=0.907  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             EEEeCchHh
+Q k141_2313569_7   53 LRVRYPEEW   61 (88)
+Q Consensus        53 lrvrypeew   61 (88)
+                      +++.+|+.|
+T Consensus        11 ~s~~~P~~W   19 (148)
+T 1TU1_A           11 ADLEIPDAW   19 (148)
+T ss_dssp             EEEEEETTS
+T ss_pred             EEEECCCCc
+
+
