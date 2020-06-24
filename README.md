@@ -5,7 +5,7 @@ Manuscript in prep.
 This is the code and analysis for this article. 
 
 Journal Article is: Hon Lun Wong, Fraser I. MacLeod, Richard Allen White III, Brendan P. Burns. <br />
-**Uncultured biosphere ‘filling the niche,’ in hypersaline microbial mats** 
+**Microbial dark matter ‘filling the niche,’ in hypersaline microbial mats** 
 
 **Study**
 
