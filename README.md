@@ -1,15 +1,15 @@
-### Microbial dark matter ‘filling the niche,’ in hypersaline microbial mats 
+### Microbial dark matter filling the niche in hypersaline microbial mats 
 
 Manuscript in prep. 
 
 This is the code and analysis for this article. 
 
 Journal Article is: Hon Lun Wong, Fraser I. MacLeod, Richard Allen White III, Pieter T. Visscher, Brendan P. Burns. <br />
-**Microbial dark matter ‘filling the niche,’ in hypersaline microbial mats** 
+**Microbial dark matter filling the niche in hypersaline microbial mats** 
 
 **Study**
 
-Reconstructing genomes of metagenomic assembled genomes from the microbial dark matter (MDM) in Shark Bay microbial mats 
+Reconstructing genomes of metagenomic assembled genomes classified as microbial dark matter (MDM) in Shark Bay microbial mats 
 
 **Analysis**
 
