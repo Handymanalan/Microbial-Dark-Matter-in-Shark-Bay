@@ -1,0 +1,46 @@
+Threading  Zmax  Znorm
+MUSTER     9.18 1.58
+dPPAS      15.59 1.68
+wdPPAS     31.17 3.35
+wMUSTER    11.93 2.06
+wPPAS      32.46 4.64
+dPPAS2     40.13 3.82
+PPAS       20.39 2.91
+Env-PPAS   26.89 3.36
+
+==================================================================
+|                  Estimated accuracy of your models             | 
+==================================================================
+                         Estimated        Clusters (N=20200)
+                  ---------------------   ------------------
+Model#  C-score    TM-score    RMSD (A)   #decoys    density
+------  -------   ----------   --------   -------    -------
+model1   -0.47    0.65+-0.13   7.7+-4.3    14123      0.213
+model2   -2.88                               683      0.019
+model3   -3.31                               648      0.013
+model4   -2.95                              1254      0.018
+model5   -3.20                               488      0.014
+
+
+C-score is a confidence score of the I-TASSER predictions which
+is typically in [-5,2]. TM-score and RMSD measure how close the
+model is to the native structure and both are estimated based 
+on the C-score. TM-score is in [0,1] with a value >0.5 implying 
+the model of correct topology. The TM-score and RMSD estimations 
+are made only for the first model because absolute values of 
+TM-score and RMSD for the lower-rank models do not strongly 
+correlate with the C-score. The models are ranked based on the 
+structure density of I-TASSER simulations.
+
+Please cite following articles when you use the I-TASSER Suite:
+
+   1. Y Zhang. I-TASSER server for protein 3D structure prediction.
+      BMC Bioinformatics, 9: 40 (2008).
+   2. A Roy, A Kucukural, Y Zhang. I-TASSER: a unified platform
+      for automated protein structure and function prediction.
+      Nature Protocols, 5: 725-738 (2010).
+   3. J Yang, A Roy, Y Zhang. Protein-ligand binding site recognition
+      using complementary binding-specific substructure comparison and
+      sequence profile alignment. Bioinformatics, 29:2588-2595 (2013).
+
+
